@@ -13,4 +13,4 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/m
 3. Works in all backdoored games
 
 #
-We logging the account name and account ID and the backdoor games. If u want disable logs add `_G.LALOL_Hub_Backdoor_Logs_Disabled=true` string before loadstring
+We logging the account name and account ID and the backdoor games. If u want disable logs add `_G.LALOL_Hub_Backdoor_Logs_Disabled=true` before loadstring
