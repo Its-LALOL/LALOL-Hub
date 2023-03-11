@@ -7,7 +7,7 @@ Backdoor scanner (and executor) for roblox games
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/main/Backdoor-Scanner/script'))()
 ```
 
-![](https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/main/Backdoor-Scanner/image.png)
+![](https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/main/Backdoor-Scanner/screenshot.png)
 
 # Features
 1. Fast 
