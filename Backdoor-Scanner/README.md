@@ -1,4 +1,4 @@
-# LALOL Hub Backdoor
+# [LALOL Hub](https://github.com/Its-LALOL/LALOL-Hub) Backdoor
 Backdoor scanner (and executor) for roblox games
 
 ```lua
