@@ -1,5 +1,5 @@
 # LALOL-Hub
-Tools for Roblox exploits
+Roblox "tools"
 
 - [Discord](https://discord.gg/XXqzxT7E5z)
 #
