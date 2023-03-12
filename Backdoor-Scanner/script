@@ -1452,6 +1452,9 @@ local script = G2L["20"];
 	GUI.Visible=true
 	
 	function findRemote()
+		
+		local timee=os.clock()
+		
 		local remotes={}
 		
 		for i,remote in game:GetDescendants() do
@@ -1502,13 +1505,15 @@ local script = G2L["20"];
 		
 		-- Backdoor Checker
 		
-		for i=1,50 do
+		for i=1,100 do
 		
 			for i,remote in remotes do	
 				local code=i
 					
 				if workspace:FindFirstChild(code) then
-	
+					
+					notify('Backdoor found! '..os.clock()-timee..'s')
+					
 					backdoor=remote
 					debug(remote:GetFullName(), 3)
 					GUI.Scanner.Visible=false
@@ -1536,7 +1541,7 @@ local script = G2L["20"];
 				debug('"'..remote:GetFullName()..'" seems like not backdoor', 1)
 			end
 			
-			wait(0.1)
+			wait()--.1)
 			
 		end
 	
@@ -1569,6 +1574,13 @@ local script = G2L["20"];
 				GUI.Scanner.Button.Text='No backdoor :('
 				searching=false
 			end
+		end
+	end)
+	
+	game:GetService('UserInputService').InputBegan:Connect(function(input, processed)
+		if (input.KeyCode == Enum.KeyCode.LeftAlt and not processed) then
+			if GUI.Visible then GUI.Visible=false
+			else GUI.Visible=true end
 		end
 	end)
 end;
