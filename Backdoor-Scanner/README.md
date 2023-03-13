@@ -18,4 +18,4 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/m
 [Join our discord to get scripts and backdoored games!](https://discord.gg/XXqzxT7E5z)
 
 #
-We logging the account name and account ID and the backdoor games. If u want disable logs add `_G.LALOL_Hub_Backdoor_Logs_Disabled=true` before loadstring
+We logging the account name, account ID and backdoored games. If u want disable logs add `_G.LALOL_Hub_Backdoor_Logs_Disabled=true` before loadstring
