@@ -1,5 +1,5 @@
 # LALOL-Hub
-Roblox "tools"
+Roblox scripts
 
 - [Discord](https://discord.gg/XXqzxT7E5z)
 #
