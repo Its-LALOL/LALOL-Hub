@@ -14,6 +14,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/m
 2. Nice UI and UX
 3. Works in all backdoored games
 4. Highlight
+5. Backdoor Protection (Others scripts cant remove backdoor, Anti-Logger)
 
 [Join our discord to get scripts and backdoored games!](https://discord.gg/XXqzxT7E5z)
 
