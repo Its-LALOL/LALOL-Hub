@@ -1578,7 +1578,7 @@ local script = G2L["20"];
 	
 					return true
 				end
-				debug('"'..remote:GetFullName()..'" seems like not backdoor', 1)
+--				debug('"'..remote:GetFullName()..'" seems like not backdoor', 1)
 			end
 			
 			wait()--.1)
