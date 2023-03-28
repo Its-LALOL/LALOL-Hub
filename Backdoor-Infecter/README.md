@@ -1,7 +1,7 @@
 # [LALOL Hub](https://github.com/Its-LALOL/LALOL-Hub) Infecter
 Roblox plugin that can easily infect game/script/model with backdoor
 
-![](https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/main/Backdoor-Infecter/screenshot.png)
+![](https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/main/Backdoor-Infecter/screenshot2.png)
 
 ⚠ Backdoor will work only with [LALOL Hub Backdoor](https://github.com/Its-LALOL/LALOL-Hub/blob/main/Backdoor-Scanner/README.md) Scanner ⚠
 
@@ -12,4 +12,4 @@ Roblox plugin that can easily infect game/script/model with backdoor
 4. Go to "Plugins" tab
 5. LALOL Hub Infecter installed, enjoy
 
-![](https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/main/Backdoor-Infecter/screenshot2.png)
+![](https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/main/Backdoor-Infecter/screenshot.png)
