@@ -1,5 +1,5 @@
 # [LALOL Hub](https://github.com/Its-LALOL/LALOL-Hub) Infecter
-Roblox plugin that can easily infect game/script/model with backdoor
+Roblox plugin that can easily infect games/scripts/models with backdoor
 
 ![](https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/main/Backdoor-Infecter/screenshot2.png)
 
