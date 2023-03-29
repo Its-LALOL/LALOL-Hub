@@ -13,3 +13,5 @@ Roblox plugin that can easily infect games/scripts/models with backdoor
 5. LALOL Hub Infecter installed, enjoy
 
 ![](https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/main/Backdoor-Infecter/screenshot.png)
+
+[Join our discord to get scripts and backdoored games!](https://discord.gg/XXqzxT7E5z)
