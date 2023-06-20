@@ -1,0 +1,1393 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Folder" referent="RBX99AF52AEDB12421DA7AC182C2FF5498D">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="Name">LALOL Hub Infecter</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+		</Properties>
+		<Item class="ScreenGui" referent="RBX0A79024D77414BB9A74DB8E68A7D9DE8">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<bool name="AutoLocalize">true</bool>
+				<bool name="ClipToDeviceSafeArea">true</bool>
+				<int name="DisplayOrder">0</int>
+				<bool name="Enabled">false</bool>
+				<string name="Name">GUI</string>
+				<bool name="ResetOnSpawn">true</bool>
+				<Ref name="RootLocalizationTable">null</Ref>
+				<token name="SafeAreaCompatibility">1</token>
+				<token name="ScreenInsets">2</token>
+				<token name="SelectionBehaviorDown">0</token>
+				<token name="SelectionBehaviorLeft">0</token>
+				<token name="SelectionBehaviorRight">0</token>
+				<token name="SelectionBehaviorUp">0</token>
+				<bool name="SelectionGroup">false</bool>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<token name="ZIndexBehavior">1</token>
+			</Properties>
+			<Item class="Frame" referent="RBXF16F2844BA774B6381302E12528536B6">
+				<Properties>
+					<bool name="Active">false</bool>
+					<Vector2 name="AnchorPoint">
+						<X>0.5</X>
+						<Y>0.5</Y>
+					</Vector2>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<bool name="AutoLocalize">true</bool>
+					<token name="AutomaticSize">0</token>
+					<Color3 name="BackgroundColor3">
+						<R>0</R>
+						<G>0</G>
+						<B>0</B>
+					</Color3>
+					<float name="BackgroundTransparency">0</float>
+					<Color3 name="BorderColor3">
+						<R>0.105882362</R>
+						<G>0.164705887</G>
+						<B>0.207843155</B>
+					</Color3>
+					<token name="BorderMode">0</token>
+					<int name="BorderSizePixel">1</int>
+					<bool name="ClipsDescendants">false</bool>
+					<bool name="Draggable">false</bool>
+					<int name="LayoutOrder">0</int>
+					<string name="Name">Frame</string>
+					<Ref name="NextSelectionDown">null</Ref>
+					<Ref name="NextSelectionLeft">null</Ref>
+					<Ref name="NextSelectionRight">null</Ref>
+					<Ref name="NextSelectionUp">null</Ref>
+					<UDim2 name="Position">
+						<XS>0.49959445</XS>
+						<XO>0</XO>
+						<YS>0.55933547</YS>
+						<YO>0</YO>
+					</UDim2>
+					<Ref name="RootLocalizationTable">null</Ref>
+					<float name="Rotation">0</float>
+					<bool name="Selectable">false</bool>
+					<token name="SelectionBehaviorDown">0</token>
+					<token name="SelectionBehaviorLeft">0</token>
+					<token name="SelectionBehaviorRight">0</token>
+					<token name="SelectionBehaviorUp">0</token>
+					<bool name="SelectionGroup">false</bool>
+					<Ref name="SelectionImageObject">null</Ref>
+					<int name="SelectionOrder">0</int>
+					<UDim2 name="Size">
+						<XS>0</XS>
+						<XO>499</XO>
+						<YS>0</YS>
+						<YO>388</YO>
+					</UDim2>
+					<token name="SizeConstraint">0</token>
+					<int64 name="SourceAssetId">-1</int64>
+					<token name="Style">0</token>
+					<BinaryString name="Tags"></BinaryString>
+					<bool name="Visible">true</bool>
+					<int name="ZIndex">1</int>
+				</Properties>
+				<Item class="TextLabel" referent="RBXD979D3971A2442FB9A5F269C4D8A4EB1">
+					<Properties>
+						<bool name="Active">false</bool>
+						<Vector2 name="AnchorPoint">
+							<X>0</X>
+							<Y>0</Y>
+						</Vector2>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<bool name="AutoLocalize">true</bool>
+						<token name="AutomaticSize">0</token>
+						<Color3 name="BackgroundColor3">
+							<R>1</R>
+							<G>1</G>
+							<B>1</B>
+						</Color3>
+						<float name="BackgroundTransparency">1</float>
+						<Color3 name="BorderColor3">
+							<R>0.105882362</R>
+							<G>0.164705887</G>
+							<B>0.207843155</B>
+						</Color3>
+						<token name="BorderMode">0</token>
+						<int name="BorderSizePixel">1</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<Font name="FontFace">
+							<Family><url>rbxasset://fonts/families/GothamSSm.json</url></Family>
+							<Weight>700</Weight>
+							<Style>Normal</Style>
+						</Font>
+						<int name="LayoutOrder">0</int>
+						<float name="LineHeight">1</float>
+						<int name="MaxVisibleGraphemes">-1</int>
+						<string name="Name">TextLabel</string>
+						<Ref name="NextSelectionDown">null</Ref>
+						<Ref name="NextSelectionLeft">null</Ref>
+						<Ref name="NextSelectionRight">null</Ref>
+						<Ref name="NextSelectionUp">null</Ref>
+						<UDim2 name="Position">
+							<XS>0</XS>
+							<XO>0</XO>
+							<YS>0</YS>
+							<YO>0</YO>
+						</UDim2>
+						<bool name="RichText">false</bool>
+						<Ref name="RootLocalizationTable">null</Ref>
+						<float name="Rotation">0</float>
+						<bool name="Selectable">false</bool>
+						<token name="SelectionBehaviorDown">0</token>
+						<token name="SelectionBehaviorLeft">0</token>
+						<token name="SelectionBehaviorRight">0</token>
+						<token name="SelectionBehaviorUp">0</token>
+						<bool name="SelectionGroup">false</bool>
+						<Ref name="SelectionImageObject">null</Ref>
+						<int name="SelectionOrder">0</int>
+						<UDim2 name="Size">
+							<XS>0</XS>
+							<XO>498</XO>
+							<YS>0</YS>
+							<YO>71</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+						<string name="Text">LALOL Hub Infecter</string>
+						<Color3 name="TextColor3">
+							<R>1</R>
+							<G>1</G>
+							<B>1</B>
+						</Color3>
+						<bool name="TextScaled">false</bool>
+						<float name="TextSize">46</float>
+						<Color3 name="TextStrokeColor3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<float name="TextStrokeTransparency">1</float>
+						<float name="TextTransparency">0</float>
+						<token name="TextTruncate">0</token>
+						<bool name="TextWrapped">false</bool>
+						<token name="TextXAlignment">2</token>
+						<token name="TextYAlignment">1</token>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+					</Properties>
+					<Item class="UIGradient" referent="RBX61B97CC770B04D9AB6B99666672771BA">
+						<Properties>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<ColorSequence name="Color">0 0.411765 1 0.0431373 0 1 0 0.984314 1 0 </ColorSequence>
+							<bool name="Enabled">true</bool>
+							<string name="Name">UIGradient</string>
+							<Vector2 name="Offset">
+								<X>0</X>
+								<Y>0</Y>
+							</Vector2>
+							<float name="Rotation">0</float>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Frame" referent="RBX32DD06C69EF7426FA15B9AC78A24B32B">
+					<Properties>
+						<bool name="Active">false</bool>
+						<Vector2 name="AnchorPoint">
+							<X>0</X>
+							<Y>0</Y>
+						</Vector2>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<bool name="AutoLocalize">true</bool>
+						<token name="AutomaticSize">0</token>
+						<Color3 name="BackgroundColor3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<float name="BackgroundTransparency">0</float>
+						<Color3 name="BorderColor3">
+							<R>0.105882362</R>
+							<G>0.164705887</G>
+							<B>0.207843155</B>
+						</Color3>
+						<token name="BorderMode">0</token>
+						<int name="BorderSizePixel">1</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<int name="LayoutOrder">0</int>
+						<string name="Name">Game</string>
+						<Ref name="NextSelectionDown">null</Ref>
+						<Ref name="NextSelectionLeft">null</Ref>
+						<Ref name="NextSelectionRight">null</Ref>
+						<Ref name="NextSelectionUp">null</Ref>
+						<UDim2 name="Position">
+							<XS>0</XS>
+							<XO>37</XO>
+							<YS>0</YS>
+							<YO>77</YO>
+						</UDim2>
+						<Ref name="RootLocalizationTable">null</Ref>
+						<float name="Rotation">0</float>
+						<bool name="Selectable">false</bool>
+						<token name="SelectionBehaviorDown">0</token>
+						<token name="SelectionBehaviorLeft">0</token>
+						<token name="SelectionBehaviorRight">0</token>
+						<token name="SelectionBehaviorUp">0</token>
+						<bool name="SelectionGroup">false</bool>
+						<Ref name="SelectionImageObject">null</Ref>
+						<int name="SelectionOrder">0</int>
+						<UDim2 name="Size">
+							<XS>0</XS>
+							<XO>408</XO>
+							<YS>0</YS>
+							<YO>76</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<int64 name="SourceAssetId">-1</int64>
+						<token name="Style">0</token>
+						<BinaryString name="Tags"></BinaryString>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+					</Properties>
+					<Item class="UIStroke" referent="RBXC051576755CB4C629D4076546C22A475">
+						<Properties>
+							<token name="ApplyStrokeMode">0</token>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<Color3 name="Color">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<bool name="Enabled">true</bool>
+							<token name="LineJoinMode">0</token>
+							<string name="Name">UIStroke</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Thickness">1</float>
+							<float name="Transparency">0</float>
+						</Properties>
+						<Item class="UIGradient" referent="RBX8B804B56FDB7454A8CAC0EE4634E6659">
+							<Properties>
+								<BinaryString name="AttributesSerialize"></BinaryString>
+								<ColorSequence name="Color">0 0.411765 1 0.0431373 0 1 0 0.984314 1 0 </ColorSequence>
+								<bool name="Enabled">true</bool>
+								<string name="Name">UIGradient</string>
+								<Vector2 name="Offset">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<float name="Rotation">0</float>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags"></BinaryString>
+								<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+							</Properties>
+						</Item>
+					</Item>
+					<Item class="UICorner" referent="RBXE1C9270353B44A38BBDE1348CB2E6877">
+						<Properties>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<UDim name="CornerRadius">
+								<S>0</S>
+								<O>8</O>
+							</UDim>
+							<string name="Name">UICorner</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+						</Properties>
+					</Item>
+					<Item class="TextButton" referent="RBX14C20E92ABA645A180EEE56278233BA3">
+						<Properties>
+							<bool name="Active">true</bool>
+							<Vector2 name="AnchorPoint">
+								<X>0</X>
+								<Y>0</Y>
+							</Vector2>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<bool name="AutoButtonColor">true</bool>
+							<bool name="AutoLocalize">true</bool>
+							<token name="AutomaticSize">0</token>
+							<Color3 name="BackgroundColor3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<float name="BackgroundTransparency">1</float>
+							<Color3 name="BorderColor3">
+								<R>0.105882362</R>
+								<G>0.164705887</G>
+								<B>0.207843155</B>
+							</Color3>
+							<token name="BorderMode">0</token>
+							<int name="BorderSizePixel">0</int>
+							<bool name="ClipsDescendants">false</bool>
+							<bool name="Draggable">false</bool>
+							<Font name="FontFace">
+								<Family><url>rbxasset://fonts/families/SourceSansPro.json</url></Family>
+								<Weight>400</Weight>
+								<Style>Normal</Style>
+								<CachedFaceId><url>rbxasset://fonts/SourceSansPro-Regular.ttf</url></CachedFaceId>
+							</Font>
+							<int name="LayoutOrder">0</int>
+							<float name="LineHeight">1</float>
+							<int name="MaxVisibleGraphemes">-1</int>
+							<bool name="Modal">false</bool>
+							<string name="Name">Button</string>
+							<Ref name="NextSelectionDown">null</Ref>
+							<Ref name="NextSelectionLeft">null</Ref>
+							<Ref name="NextSelectionRight">null</Ref>
+							<Ref name="NextSelectionUp">null</Ref>
+							<UDim2 name="Position">
+								<XS>0</XS>
+								<XO>0</XO>
+								<YS>0</YS>
+								<YO>0</YO>
+							</UDim2>
+							<bool name="RichText">false</bool>
+							<Ref name="RootLocalizationTable">null</Ref>
+							<float name="Rotation">0</float>
+							<bool name="Selectable">true</bool>
+							<bool name="Selected">false</bool>
+							<token name="SelectionBehaviorDown">0</token>
+							<token name="SelectionBehaviorLeft">0</token>
+							<token name="SelectionBehaviorRight">0</token>
+							<token name="SelectionBehaviorUp">0</token>
+							<bool name="SelectionGroup">false</bool>
+							<Ref name="SelectionImageObject">null</Ref>
+							<int name="SelectionOrder">0</int>
+							<UDim2 name="Size">
+								<XS>1</XS>
+								<XO>0</XO>
+								<YS>1</YS>
+								<YO>0</YO>
+							</UDim2>
+							<token name="SizeConstraint">0</token>
+							<int64 name="SourceAssetId">-1</int64>
+							<token name="Style">0</token>
+							<BinaryString name="Tags"></BinaryString>
+							<string name="Text"></string>
+							<Color3 name="TextColor3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<bool name="TextScaled">false</bool>
+							<float name="TextSize">14</float>
+							<Color3 name="TextStrokeColor3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<float name="TextStrokeTransparency">1</float>
+							<float name="TextTransparency">0</float>
+							<token name="TextTruncate">0</token>
+							<bool name="TextWrapped">false</bool>
+							<token name="TextXAlignment">2</token>
+							<token name="TextYAlignment">1</token>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">1</int>
+						</Properties>
+					</Item>
+					<Item class="TextLabel" referent="RBX15B051E1F4B147A28B5D3FC3E644B5BD">
+						<Properties>
+							<bool name="Active">false</bool>
+							<Vector2 name="AnchorPoint">
+								<X>0</X>
+								<Y>0</Y>
+							</Vector2>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<bool name="AutoLocalize">true</bool>
+							<token name="AutomaticSize">0</token>
+							<Color3 name="BackgroundColor3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<float name="BackgroundTransparency">1</float>
+							<Color3 name="BorderColor3">
+								<R>0.105882362</R>
+								<G>0.164705887</G>
+								<B>0.207843155</B>
+							</Color3>
+							<token name="BorderMode">0</token>
+							<int name="BorderSizePixel">1</int>
+							<bool name="ClipsDescendants">false</bool>
+							<bool name="Draggable">false</bool>
+							<Font name="FontFace">
+								<Family><url>rbxasset://fonts/families/GothamSSm.json</url></Family>
+								<Weight>700</Weight>
+								<Style>Normal</Style>
+							</Font>
+							<int name="LayoutOrder">0</int>
+							<float name="LineHeight">1</float>
+							<int name="MaxVisibleGraphemes">-1</int>
+							<string name="Name">TextLabel</string>
+							<Ref name="NextSelectionDown">null</Ref>
+							<Ref name="NextSelectionLeft">null</Ref>
+							<Ref name="NextSelectionRight">null</Ref>
+							<Ref name="NextSelectionUp">null</Ref>
+							<UDim2 name="Position">
+								<XS>0</XS>
+								<XO>0</XO>
+								<YS>0</YS>
+								<YO>0</YO>
+							</UDim2>
+							<bool name="RichText">false</bool>
+							<Ref name="RootLocalizationTable">null</Ref>
+							<float name="Rotation">0</float>
+							<bool name="Selectable">false</bool>
+							<token name="SelectionBehaviorDown">0</token>
+							<token name="SelectionBehaviorLeft">0</token>
+							<token name="SelectionBehaviorRight">0</token>
+							<token name="SelectionBehaviorUp">0</token>
+							<bool name="SelectionGroup">false</bool>
+							<Ref name="SelectionImageObject">null</Ref>
+							<int name="SelectionOrder">0</int>
+							<UDim2 name="Size">
+								<XS>1</XS>
+								<XO>0</XO>
+								<YS>1</YS>
+								<YO>0</YO>
+							</UDim2>
+							<token name="SizeConstraint">0</token>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<string name="Text">Backdoor Game</string>
+							<Color3 name="TextColor3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<bool name="TextScaled">false</bool>
+							<float name="TextSize">38</float>
+							<Color3 name="TextStrokeColor3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<float name="TextStrokeTransparency">1</float>
+							<float name="TextTransparency">0</float>
+							<token name="TextTruncate">0</token>
+							<bool name="TextWrapped">false</bool>
+							<token name="TextXAlignment">2</token>
+							<token name="TextYAlignment">1</token>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">1</int>
+						</Properties>
+						<Item class="UIGradient" referent="RBXAB23A4F33BF6408DBA3DFD3B6E17035A">
+							<Properties>
+								<BinaryString name="AttributesSerialize"></BinaryString>
+								<ColorSequence name="Color">0 0.411765 1 0.0431373 0 1 0 0.984314 1 0 </ColorSequence>
+								<bool name="Enabled">true</bool>
+								<string name="Name">UIGradient</string>
+								<Vector2 name="Offset">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<float name="Rotation">0</float>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags"></BinaryString>
+								<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+							</Properties>
+						</Item>
+					</Item>
+				</Item>
+				<Item class="UIStroke" referent="RBX0031748C5601442183B20A7E965AD9EE">
+					<Properties>
+						<token name="ApplyStrokeMode">0</token>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Color3 name="Color">
+							<R>1</R>
+							<G>1</G>
+							<B>1</B>
+						</Color3>
+						<bool name="Enabled">true</bool>
+						<token name="LineJoinMode">0</token>
+						<string name="Name">UIStroke</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+						<float name="Thickness">1</float>
+						<float name="Transparency">0</float>
+					</Properties>
+					<Item class="UIGradient" referent="RBXF8547213DF1E449EA754764495E9D143">
+						<Properties>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<ColorSequence name="Color">0 0.411765 1 0.0431373 0 1 0 0.984314 1 0 </ColorSequence>
+							<bool name="Enabled">true</bool>
+							<string name="Name">UIGradient</string>
+							<Vector2 name="Offset">
+								<X>0</X>
+								<Y>0</Y>
+							</Vector2>
+							<float name="Rotation">0</float>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="UICorner" referent="RBXEA123F158CC44418899219287310C6F0">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<UDim name="CornerRadius">
+							<S>0</S>
+							<O>8</O>
+						</UDim>
+						<string name="Name">UICorner</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="Frame" referent="RBXD1EAEB7247A54C8C902EDF0408C4C142">
+					<Properties>
+						<bool name="Active">false</bool>
+						<Vector2 name="AnchorPoint">
+							<X>0</X>
+							<Y>0</Y>
+						</Vector2>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<bool name="AutoLocalize">true</bool>
+						<token name="AutomaticSize">0</token>
+						<Color3 name="BackgroundColor3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<float name="BackgroundTransparency">0</float>
+						<Color3 name="BorderColor3">
+							<R>0.105882362</R>
+							<G>0.164705887</G>
+							<B>0.207843155</B>
+						</Color3>
+						<token name="BorderMode">0</token>
+						<int name="BorderSizePixel">1</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<int name="LayoutOrder">0</int>
+						<string name="Name">Script</string>
+						<Ref name="NextSelectionDown">null</Ref>
+						<Ref name="NextSelectionLeft">null</Ref>
+						<Ref name="NextSelectionRight">null</Ref>
+						<Ref name="NextSelectionUp">null</Ref>
+						<UDim2 name="Position">
+							<XS>0</XS>
+							<XO>37</XO>
+							<YS>0</YS>
+							<YO>174</YO>
+						</UDim2>
+						<Ref name="RootLocalizationTable">null</Ref>
+						<float name="Rotation">0</float>
+						<bool name="Selectable">false</bool>
+						<token name="SelectionBehaviorDown">0</token>
+						<token name="SelectionBehaviorLeft">0</token>
+						<token name="SelectionBehaviorRight">0</token>
+						<token name="SelectionBehaviorUp">0</token>
+						<bool name="SelectionGroup">false</bool>
+						<Ref name="SelectionImageObject">null</Ref>
+						<int name="SelectionOrder">0</int>
+						<UDim2 name="Size">
+							<XS>0</XS>
+							<XO>408</XO>
+							<YS>0</YS>
+							<YO>76</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<int64 name="SourceAssetId">-1</int64>
+						<token name="Style">0</token>
+						<BinaryString name="Tags"></BinaryString>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+					</Properties>
+					<Item class="UIStroke" referent="RBXFE0AA8840A6F4B3796454DBF59AE18F9">
+						<Properties>
+							<token name="ApplyStrokeMode">0</token>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<Color3 name="Color">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<bool name="Enabled">true</bool>
+							<token name="LineJoinMode">0</token>
+							<string name="Name">UIStroke</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Thickness">1</float>
+							<float name="Transparency">0</float>
+						</Properties>
+						<Item class="UIGradient" referent="RBX3E5380E059A64DA781783A9B15A9B6A6">
+							<Properties>
+								<BinaryString name="AttributesSerialize"></BinaryString>
+								<ColorSequence name="Color">0 0.411765 1 0.0431373 0 1 0 0.984314 1 0 </ColorSequence>
+								<bool name="Enabled">true</bool>
+								<string name="Name">UIGradient</string>
+								<Vector2 name="Offset">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<float name="Rotation">0</float>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags"></BinaryString>
+								<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+							</Properties>
+						</Item>
+					</Item>
+					<Item class="UICorner" referent="RBX1F88D635FEE44820B4632041789C4029">
+						<Properties>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<UDim name="CornerRadius">
+								<S>0</S>
+								<O>8</O>
+							</UDim>
+							<string name="Name">UICorner</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+						</Properties>
+					</Item>
+					<Item class="TextButton" referent="RBX7BFE529A579C4C84935798EC0D84CFC0">
+						<Properties>
+							<bool name="Active">true</bool>
+							<Vector2 name="AnchorPoint">
+								<X>0</X>
+								<Y>0</Y>
+							</Vector2>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<bool name="AutoButtonColor">true</bool>
+							<bool name="AutoLocalize">true</bool>
+							<token name="AutomaticSize">0</token>
+							<Color3 name="BackgroundColor3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<float name="BackgroundTransparency">1</float>
+							<Color3 name="BorderColor3">
+								<R>0.105882362</R>
+								<G>0.164705887</G>
+								<B>0.207843155</B>
+							</Color3>
+							<token name="BorderMode">0</token>
+							<int name="BorderSizePixel">0</int>
+							<bool name="ClipsDescendants">false</bool>
+							<bool name="Draggable">false</bool>
+							<Font name="FontFace">
+								<Family><url>rbxasset://fonts/families/SourceSansPro.json</url></Family>
+								<Weight>400</Weight>
+								<Style>Normal</Style>
+								<CachedFaceId><url>rbxasset://fonts/SourceSansPro-Regular.ttf</url></CachedFaceId>
+							</Font>
+							<int name="LayoutOrder">0</int>
+							<float name="LineHeight">1</float>
+							<int name="MaxVisibleGraphemes">-1</int>
+							<bool name="Modal">false</bool>
+							<string name="Name">Button</string>
+							<Ref name="NextSelectionDown">null</Ref>
+							<Ref name="NextSelectionLeft">null</Ref>
+							<Ref name="NextSelectionRight">null</Ref>
+							<Ref name="NextSelectionUp">null</Ref>
+							<UDim2 name="Position">
+								<XS>0</XS>
+								<XO>0</XO>
+								<YS>0</YS>
+								<YO>0</YO>
+							</UDim2>
+							<bool name="RichText">false</bool>
+							<Ref name="RootLocalizationTable">null</Ref>
+							<float name="Rotation">0</float>
+							<bool name="Selectable">true</bool>
+							<bool name="Selected">false</bool>
+							<token name="SelectionBehaviorDown">0</token>
+							<token name="SelectionBehaviorLeft">0</token>
+							<token name="SelectionBehaviorRight">0</token>
+							<token name="SelectionBehaviorUp">0</token>
+							<bool name="SelectionGroup">false</bool>
+							<Ref name="SelectionImageObject">null</Ref>
+							<int name="SelectionOrder">0</int>
+							<UDim2 name="Size">
+								<XS>1</XS>
+								<XO>0</XO>
+								<YS>1</YS>
+								<YO>0</YO>
+							</UDim2>
+							<token name="SizeConstraint">0</token>
+							<int64 name="SourceAssetId">-1</int64>
+							<token name="Style">0</token>
+							<BinaryString name="Tags"></BinaryString>
+							<string name="Text"></string>
+							<Color3 name="TextColor3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<bool name="TextScaled">false</bool>
+							<float name="TextSize">14</float>
+							<Color3 name="TextStrokeColor3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<float name="TextStrokeTransparency">1</float>
+							<float name="TextTransparency">0</float>
+							<token name="TextTruncate">0</token>
+							<bool name="TextWrapped">false</bool>
+							<token name="TextXAlignment">2</token>
+							<token name="TextYAlignment">1</token>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">1</int>
+						</Properties>
+					</Item>
+					<Item class="TextLabel" referent="RBX7679E28838424E689995D51C53AFA0F0">
+						<Properties>
+							<bool name="Active">false</bool>
+							<Vector2 name="AnchorPoint">
+								<X>0</X>
+								<Y>0</Y>
+							</Vector2>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<bool name="AutoLocalize">true</bool>
+							<token name="AutomaticSize">0</token>
+							<Color3 name="BackgroundColor3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<float name="BackgroundTransparency">1</float>
+							<Color3 name="BorderColor3">
+								<R>0.105882362</R>
+								<G>0.164705887</G>
+								<B>0.207843155</B>
+							</Color3>
+							<token name="BorderMode">0</token>
+							<int name="BorderSizePixel">1</int>
+							<bool name="ClipsDescendants">false</bool>
+							<bool name="Draggable">false</bool>
+							<Font name="FontFace">
+								<Family><url>rbxasset://fonts/families/GothamSSm.json</url></Family>
+								<Weight>700</Weight>
+								<Style>Normal</Style>
+							</Font>
+							<int name="LayoutOrder">0</int>
+							<float name="LineHeight">1</float>
+							<int name="MaxVisibleGraphemes">-1</int>
+							<string name="Name">TextLabel</string>
+							<Ref name="NextSelectionDown">null</Ref>
+							<Ref name="NextSelectionLeft">null</Ref>
+							<Ref name="NextSelectionRight">null</Ref>
+							<Ref name="NextSelectionUp">null</Ref>
+							<UDim2 name="Position">
+								<XS>0</XS>
+								<XO>0</XO>
+								<YS>0</YS>
+								<YO>0</YO>
+							</UDim2>
+							<bool name="RichText">false</bool>
+							<Ref name="RootLocalizationTable">null</Ref>
+							<float name="Rotation">0</float>
+							<bool name="Selectable">false</bool>
+							<token name="SelectionBehaviorDown">0</token>
+							<token name="SelectionBehaviorLeft">0</token>
+							<token name="SelectionBehaviorRight">0</token>
+							<token name="SelectionBehaviorUp">0</token>
+							<bool name="SelectionGroup">false</bool>
+							<Ref name="SelectionImageObject">null</Ref>
+							<int name="SelectionOrder">0</int>
+							<UDim2 name="Size">
+								<XS>1</XS>
+								<XO>0</XO>
+								<YS>1</YS>
+								<YO>0</YO>
+							</UDim2>
+							<token name="SizeConstraint">0</token>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<string name="Text">Backdoor Script</string>
+							<Color3 name="TextColor3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<bool name="TextScaled">false</bool>
+							<float name="TextSize">38</float>
+							<Color3 name="TextStrokeColor3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<float name="TextStrokeTransparency">1</float>
+							<float name="TextTransparency">0</float>
+							<token name="TextTruncate">0</token>
+							<bool name="TextWrapped">false</bool>
+							<token name="TextXAlignment">2</token>
+							<token name="TextYAlignment">1</token>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">1</int>
+						</Properties>
+						<Item class="UIGradient" referent="RBX96E721850CE247C8AECE859256BA060E">
+							<Properties>
+								<BinaryString name="AttributesSerialize"></BinaryString>
+								<ColorSequence name="Color">0 0.411765 1 0.0431373 0 1 0 0.984314 1 0 </ColorSequence>
+								<bool name="Enabled">true</bool>
+								<string name="Name">UIGradient</string>
+								<Vector2 name="Offset">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<float name="Rotation">0</float>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags"></BinaryString>
+								<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+							</Properties>
+						</Item>
+					</Item>
+				</Item>
+				<Item class="Frame" referent="RBX04E5E5E9564B41E2A8133DA6A3F2F9FD">
+					<Properties>
+						<bool name="Active">false</bool>
+						<Vector2 name="AnchorPoint">
+							<X>0</X>
+							<Y>0</Y>
+						</Vector2>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<bool name="AutoLocalize">true</bool>
+						<token name="AutomaticSize">0</token>
+						<Color3 name="BackgroundColor3">
+							<R>0</R>
+							<G>0</G>
+							<B>0</B>
+						</Color3>
+						<float name="BackgroundTransparency">0</float>
+						<Color3 name="BorderColor3">
+							<R>0.105882362</R>
+							<G>0.164705887</G>
+							<B>0.207843155</B>
+						</Color3>
+						<token name="BorderMode">0</token>
+						<int name="BorderSizePixel">1</int>
+						<bool name="ClipsDescendants">false</bool>
+						<bool name="Draggable">false</bool>
+						<int name="LayoutOrder">0</int>
+						<string name="Name">ScriptAll</string>
+						<Ref name="NextSelectionDown">null</Ref>
+						<Ref name="NextSelectionLeft">null</Ref>
+						<Ref name="NextSelectionRight">null</Ref>
+						<Ref name="NextSelectionUp">null</Ref>
+						<UDim2 name="Position">
+							<XS>0</XS>
+							<XO>37</XO>
+							<YS>0</YS>
+							<YO>268</YO>
+						</UDim2>
+						<Ref name="RootLocalizationTable">null</Ref>
+						<float name="Rotation">0</float>
+						<bool name="Selectable">false</bool>
+						<token name="SelectionBehaviorDown">0</token>
+						<token name="SelectionBehaviorLeft">0</token>
+						<token name="SelectionBehaviorRight">0</token>
+						<token name="SelectionBehaviorUp">0</token>
+						<bool name="SelectionGroup">false</bool>
+						<Ref name="SelectionImageObject">null</Ref>
+						<int name="SelectionOrder">0</int>
+						<UDim2 name="Size">
+							<XS>0</XS>
+							<XO>408</XO>
+							<YS>0</YS>
+							<YO>76</YO>
+						</UDim2>
+						<token name="SizeConstraint">0</token>
+						<int64 name="SourceAssetId">-1</int64>
+						<token name="Style">0</token>
+						<BinaryString name="Tags"></BinaryString>
+						<bool name="Visible">true</bool>
+						<int name="ZIndex">1</int>
+					</Properties>
+					<Item class="UIStroke" referent="RBXA690BFC5C583409BBF2505EA21FED2ED">
+						<Properties>
+							<token name="ApplyStrokeMode">0</token>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<Color3 name="Color">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<bool name="Enabled">true</bool>
+							<token name="LineJoinMode">0</token>
+							<string name="Name">UIStroke</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<float name="Thickness">1</float>
+							<float name="Transparency">0</float>
+						</Properties>
+						<Item class="UIGradient" referent="RBXE1C931D3BD774C34AB950FBFC397AE97">
+							<Properties>
+								<BinaryString name="AttributesSerialize"></BinaryString>
+								<ColorSequence name="Color">0 0.411765 1 0.0431373 0 1 0 0.984314 1 0 </ColorSequence>
+								<bool name="Enabled">true</bool>
+								<string name="Name">UIGradient</string>
+								<Vector2 name="Offset">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<float name="Rotation">0</float>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags"></BinaryString>
+								<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+							</Properties>
+						</Item>
+					</Item>
+					<Item class="UICorner" referent="RBX25A7CF9AA0B44EC3998D1A621F5504E9">
+						<Properties>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<UDim name="CornerRadius">
+								<S>0</S>
+								<O>8</O>
+							</UDim>
+							<string name="Name">UICorner</string>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+						</Properties>
+					</Item>
+					<Item class="TextButton" referent="RBX1B0A4026108A48EDA8E9DAD9F88D9286">
+						<Properties>
+							<bool name="Active">true</bool>
+							<Vector2 name="AnchorPoint">
+								<X>0</X>
+								<Y>0</Y>
+							</Vector2>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<bool name="AutoButtonColor">true</bool>
+							<bool name="AutoLocalize">true</bool>
+							<token name="AutomaticSize">0</token>
+							<Color3 name="BackgroundColor3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<float name="BackgroundTransparency">1</float>
+							<Color3 name="BorderColor3">
+								<R>0.105882362</R>
+								<G>0.164705887</G>
+								<B>0.207843155</B>
+							</Color3>
+							<token name="BorderMode">0</token>
+							<int name="BorderSizePixel">0</int>
+							<bool name="ClipsDescendants">false</bool>
+							<bool name="Draggable">false</bool>
+							<Font name="FontFace">
+								<Family><url>rbxasset://fonts/families/SourceSansPro.json</url></Family>
+								<Weight>400</Weight>
+								<Style>Normal</Style>
+								<CachedFaceId><url>rbxasset://fonts/SourceSansPro-Regular.ttf</url></CachedFaceId>
+							</Font>
+							<int name="LayoutOrder">0</int>
+							<float name="LineHeight">1</float>
+							<int name="MaxVisibleGraphemes">-1</int>
+							<bool name="Modal">false</bool>
+							<string name="Name">Button</string>
+							<Ref name="NextSelectionDown">null</Ref>
+							<Ref name="NextSelectionLeft">null</Ref>
+							<Ref name="NextSelectionRight">null</Ref>
+							<Ref name="NextSelectionUp">null</Ref>
+							<UDim2 name="Position">
+								<XS>0</XS>
+								<XO>0</XO>
+								<YS>0</YS>
+								<YO>0</YO>
+							</UDim2>
+							<bool name="RichText">false</bool>
+							<Ref name="RootLocalizationTable">null</Ref>
+							<float name="Rotation">0</float>
+							<bool name="Selectable">true</bool>
+							<bool name="Selected">false</bool>
+							<token name="SelectionBehaviorDown">0</token>
+							<token name="SelectionBehaviorLeft">0</token>
+							<token name="SelectionBehaviorRight">0</token>
+							<token name="SelectionBehaviorUp">0</token>
+							<bool name="SelectionGroup">false</bool>
+							<Ref name="SelectionImageObject">null</Ref>
+							<int name="SelectionOrder">0</int>
+							<UDim2 name="Size">
+								<XS>1</XS>
+								<XO>0</XO>
+								<YS>1</YS>
+								<YO>0</YO>
+							</UDim2>
+							<token name="SizeConstraint">0</token>
+							<int64 name="SourceAssetId">-1</int64>
+							<token name="Style">0</token>
+							<BinaryString name="Tags"></BinaryString>
+							<string name="Text"></string>
+							<Color3 name="TextColor3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<bool name="TextScaled">false</bool>
+							<float name="TextSize">14</float>
+							<Color3 name="TextStrokeColor3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<float name="TextStrokeTransparency">1</float>
+							<float name="TextTransparency">0</float>
+							<token name="TextTruncate">0</token>
+							<bool name="TextWrapped">false</bool>
+							<token name="TextXAlignment">2</token>
+							<token name="TextYAlignment">1</token>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">1</int>
+						</Properties>
+					</Item>
+					<Item class="TextLabel" referent="RBX949A0C5D56F04344AEBC5BDBF87E12C4">
+						<Properties>
+							<bool name="Active">false</bool>
+							<Vector2 name="AnchorPoint">
+								<X>0</X>
+								<Y>0</Y>
+							</Vector2>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<bool name="AutoLocalize">true</bool>
+							<token name="AutomaticSize">0</token>
+							<Color3 name="BackgroundColor3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<float name="BackgroundTransparency">1</float>
+							<Color3 name="BorderColor3">
+								<R>0.105882362</R>
+								<G>0.164705887</G>
+								<B>0.207843155</B>
+							</Color3>
+							<token name="BorderMode">0</token>
+							<int name="BorderSizePixel">1</int>
+							<bool name="ClipsDescendants">false</bool>
+							<bool name="Draggable">false</bool>
+							<Font name="FontFace">
+								<Family><url>rbxasset://fonts/families/GothamSSm.json</url></Family>
+								<Weight>700</Weight>
+								<Style>Normal</Style>
+							</Font>
+							<int name="LayoutOrder">0</int>
+							<float name="LineHeight">1</float>
+							<int name="MaxVisibleGraphemes">-1</int>
+							<string name="Name">TextLabel</string>
+							<Ref name="NextSelectionDown">null</Ref>
+							<Ref name="NextSelectionLeft">null</Ref>
+							<Ref name="NextSelectionRight">null</Ref>
+							<Ref name="NextSelectionUp">null</Ref>
+							<UDim2 name="Position">
+								<XS>0</XS>
+								<XO>0</XO>
+								<YS>0</YS>
+								<YO>0</YO>
+							</UDim2>
+							<bool name="RichText">false</bool>
+							<Ref name="RootLocalizationTable">null</Ref>
+							<float name="Rotation">0</float>
+							<bool name="Selectable">false</bool>
+							<token name="SelectionBehaviorDown">0</token>
+							<token name="SelectionBehaviorLeft">0</token>
+							<token name="SelectionBehaviorRight">0</token>
+							<token name="SelectionBehaviorUp">0</token>
+							<bool name="SelectionGroup">false</bool>
+							<Ref name="SelectionImageObject">null</Ref>
+							<int name="SelectionOrder">0</int>
+							<UDim2 name="Size">
+								<XS>1</XS>
+								<XO>0</XO>
+								<YS>1</YS>
+								<YO>0</YO>
+							</UDim2>
+							<token name="SizeConstraint">0</token>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<string name="Text">Backdoor AllScripts</string>
+							<Color3 name="TextColor3">
+								<R>1</R>
+								<G>1</G>
+								<B>1</B>
+							</Color3>
+							<bool name="TextScaled">false</bool>
+							<float name="TextSize">38</float>
+							<Color3 name="TextStrokeColor3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<float name="TextStrokeTransparency">1</float>
+							<float name="TextTransparency">0</float>
+							<token name="TextTruncate">0</token>
+							<bool name="TextWrapped">false</bool>
+							<token name="TextXAlignment">2</token>
+							<token name="TextYAlignment">1</token>
+							<bool name="Visible">true</bool>
+							<int name="ZIndex">1</int>
+						</Properties>
+						<Item class="UIGradient" referent="RBX105A37ADB1144550B7C4D3E7FB1B6D66">
+							<Properties>
+								<BinaryString name="AttributesSerialize"></BinaryString>
+								<ColorSequence name="Color">0 0.411765 1 0.0431373 0 1 0 0.984314 1 0 </ColorSequence>
+								<bool name="Enabled">true</bool>
+								<string name="Name">UIGradient</string>
+								<Vector2 name="Offset">
+									<X>0</X>
+									<Y>0</Y>
+								</Vector2>
+								<float name="Rotation">0</float>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags"></BinaryString>
+								<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+							</Properties>
+						</Item>
+					</Item>
+				</Item>
+			</Item>
+		</Item>
+		<Item class="LocalScript" referent="RBX0D9618711BCA410DADAEFBE912EB47D0">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<bool name="Disabled">false</bool>
+				<Content name="LinkedSource"><null></null></Content>
+				<string name="Name">LocalScript</string>
+				<token name="RunContext">0</token>
+				<string name="ScriptGuid">{4005F1AB-FBED-4F76-BCCF-E89161D3DA66}</string>
+				<ProtectedString name="Source">return(function(...)local Z={&quot;\101\122\043\114\079\087\113\049\107\076\061\061&quot;,&quot;\098\104\100\078&quot;,&quot;\089\050\118\052\112\051\069\080\101\085\081\061&quot;;&quot;\120\106\049\073\103\052\065\118\122\113\085\050\086\097\066\051\121\076\061\061&quot;;&quot;\049\048\106\076\081\052\079\053\077\099\097\077\105\057\119\082\121\050\122\065\116\090\069\069&quot;;&quot;\086\072\113\118\108\110\048\061&quot;;&quot;\048\109\100\084\067\076\118\099\073\100\077\048\080\084\057\073\081\114\112\057\110\054\061\061&quot;;&quot;\076\069\113\102\115\043\113\071\090\072\120\071\081\115\079\118&quot;;&quot;\076\110\113\078\090\072\101\078&quot;,&quot;\050\099\076\051\117\113\056\068\104\073\121\056\072\089\119\101\105\076\061\061&quot;,&quot;\081\075\086\098&quot;,&quot;\087\080\090\061&quot;,&quot;\076\066\089\116\108\070\078\110\079\070\086\048\051\072\113\119\090\076\061\061&quot;;&quot;\055\102\104\085&quot;;&quot;\102\119\074\083\086\089\112\048\084\121\097\104\085\072\112\080\106\085\061\061&quot;;&quot;\043\049\088\112\051\055\043\049&quot;,&quot;\088\100\111\081\115\055\056\049\087\054\061\061&quot;;&quot;\056\089\051\084\084\105\088\074\086\056\066\047\051\110\113\116\056\056\104\061&quot;,&quot;\078\075\120\105&quot;,&quot;\043\072\079\047\116\106\052\079\097\105\105\050\085\102\107\078\067\116\048\080\076\055\118\043\054\073\076\076\121\088\075\061&quot;,&quot;\121\054\057\061&quot;,&quot;\098\097\098\106\118\075\061\061&quot;;&quot;\067\052\077\114\048\086\110\113\053\090\085\109\067\066\108\110\084\085\061\061&quot;,&quot;\051\087\100\074&quot;;&quot;\100\109\100\116\117\069\085\119\057\054\061\061&quot;,&quot;\065\071\087\116\087\099\122\054\120\054\054\052&quot;;&quot;\106\102\048\043&quot;,&quot;\109\087\051\114\079\115\120\117\107\089\066\112\100\069\120\071\109\085\061\061&quot;;&quot;\076\056\054\116\081\056\102\102\108\078\080\072\076\115\051\051\079\054\061\061&quot;,&quot;\080\076\119\065\069\078\090\121\118\084\114\116\076\112\073\080&quot;;&quot;\118\082\120\104\076\075\061\061&quot;,&quot;\100\098\115\103\071\104\085\061&quot;;&quot;\116\116\065\068\103\086\049\120\068\116\050\108\053\103\056\050\107\056\104\069\101\119\043\103\057\075\061\061&quot;,&quot;\057\088\070\117\119\076\061\061&quot;;&quot;\077\065\119\112\102\043\081\111\054\111\086\078\120\081\088\050\102\051\077\113\069\099\071\069\110\071\077\100\075\108\107\115\116\079\106\121\090\110\112\047\082\106\066\104\106\101\056\054\077\078\117\080\086\109\085\073\051\078\086\081\120\101\070\087\121\114\101\098\075\101\050\078\074\112\087\122\100\073\118\121\075\051\079\065\081\051\074\072\117\117\104\112\082\103\108\101\056\115\109\097\086\074\109\055\073\073\107\120\117\078\076\073\047\088\067\053\051\090\110\054\068\083\119\047\103\119\047\098\076\069\121\087\111\049\074\100\111\056\120\115\067\090\072\054\109\087\098\051\099\122\053\068\083\071\102\099\118\070\080\119\081\075\061\061&quot;,&quot;\084\072\051\088&quot;;&quot;\122\109\081\079\103\087\106\099\052\049\054\077\068\101\066\099\098\077\117\113\077\076\061\061&quot;;&quot;\105\078\122\100\088\110\057\061&quot;;&quot;\122\085\061\061&quot;,&quot;\068\048\105\050&quot;,&quot;\102\117\043\112\112\090\082\057\111\066\109\115\104\106\074\066\081\084\110\084\079\085\061\061&quot;,&quot;\105\087\078\114\081\105\043\115\051\110\078\111\076\116\075\098\105\076\061\061&quot;;&quot;\051\114\088\112\081\089\054\114\100\122\097\083\076\115\121\074\108\076\061\061&quot;;&quot;\115\087\113\086\079\069\088\086\084\121\076\110\115\103\079\052&quot;;&quot;\071\080\078\077\100\097\117\117&quot;,&quot;\113\068\099\117\120\085\061\061&quot;;&quot;\076\110\113\078\090\072\101\078\043\122\106\049\108\122\113\120\100\054\061\061&quot;;&quot;\052\120\070\068\070\054\061\061&quot;;&quot;\068\118\088\082&quot;,&quot;\113\066\054\061&quot;,&quot;\079\122\102\114\109\075\061\061&quot;;&quot;\101\116\043\070\101\111\106\069\079\072\051\078\086\102\101\078\107\087\101\071\108\110\054\061&quot;,&quot;\107\075\086\085\050\083\074\121\081\069\077\057\083\103\109\049\104\116\054\049\113\054\061\061&quot;,&quot;\117\081\101\087\120\100\057\082&quot;,&quot;\074\085\102\085\073\054\061\061&quot;,&quot;\066\111\111\074\106\120\097\090\056\085\061\061&quot;;&quot;\087\054\106\065\110\053\049\065\075\121\090\050&quot;;&quot;\077\103\053\104\043\081\106\120\056\067\081\061&quot;;&quot;\099\043\080\090\121\079\086\075&quot;,&quot;\073\054\061\061&quot;,&quot;\103\071\073\054\072\080\053\087\043\047\101\069\105\113\086\067\114\085\061\061&quot;;&quot;\066\089\090\066\090\054\061\061&quot;,&quot;\104\057\118\077\102\075\075\052&quot;;&quot;\072\066\106\083\090\075\061\061&quot;,&quot;\068\085\068\108\070\108\117\047&quot;;&quot;\053\077\104\080\068\071\072\052\101\114\120\109\070\097\103\105\088\076\061\061&quot;,&quot;\090\070\078\065\109\103\085\066\043\115\043\099\086\121\079\084\115\056\056\061&quot;;&quot;\117\118\098\110\071\051\080\109&quot;;&quot;\065\068\117\080\103\049\120\050\053\049\047\061&quot;,&quot;\100\111\043\075&quot;,&quot;\101\056\074\074\090\111\101\111\105\070\099\055\101\115\101\113&quot;;&quot;\072\098\055\057\088\115\067\106&quot;;&quot;\051\115\099\112\086\110\089\074\086\121\113\098\043\070\043\115\108\085\061\061&quot;;&quot;\109\073\122\120\109\076\061\061&quot;,&quot;\086\110\051\066\090\054\061\061&quot;;&quot;\100\111\102\077\086\122\106\099&quot;,&quot;\074\102\121\061&quot;,&quot;\121\079\114\111\074\070\054\113\072\118\065\122\088\101\075\067\047\076\061\061&quot;;&quot;\101\116\043\070\101\122\043\114\090\116\043\077\086\122\102\077\079\087\081\061&quot;;&quot;\065\088\056\079\071\066\074\068\119\054\116\102&quot;;&quot;\057\074\107\043\090\074\104\106\114\090\050\055\115\116\116\107\090\112\109\074\049\113\076\050\049\082\109\117\085\050\065\047\067\087\079\057\107\116\104\098\050\053\114\047\100\099\073\048\067\121\121\043\103\087\100\067\109\052\048\122\100\049\119\101\068\077\068\102\100\109\107\077\104\048\105\067\078\054\047\053\099\049\085\105\056\090\122\052\121\113\082\114\099\075\061\061&quot;,&quot;\080\110\116\070\109\116\051\121\047\112\081\118\048\081\067\053\097\047\109\075\080\118\083\056\088\083\099\104\122\081\122\099\049\055\108\100\097\057\100\071\052\069\085\065\075\105\086\071\080\072\089\089\072\079\068\111\090\077\055\105\053\084\084\100\114\077\107\067\114\078\065\054\085\085\119\072\076\065\098\067\074\078\073\047\067\085\061\061&quot;,&quot;\101\122\080\081\072\102\068\112\105\087\103\073\108\111\052\117\043\089\073\114\084\055\056\061&quot;,&quot;\117\066\054\049\116\070\049\121\073\114\047\077\079\098\068\082\100\105\109\112\112\106\075\050\078\115\071\118\053\119\057\078\110\116\073\065\049\077\118\043\099\054\061\061&quot;,&quot;\105\103\081\070\108\083\051\111\112\056\051\077\109\072\102\099&quot;,&quot;\054\105\104\061&quot;,&quot;\075\053\073\048\047\043\052\113\055\051\076\061&quot;;&quot;\117\056\077\049\118\106\084\107&quot;;&quot;\049\111\080\055\099\122\056\112\117\068\122\081\101\106\083\065\090\099\079\068\113\086\070\057\080\076\080\078\086\052\104\084\112\101\056\117&quot;,&quot;\113\121\071\078&quot;;&quot;\080\103\104\122\115\085\061\061&quot;,&quot;\043\122\102\099\100\122\043\118\048\089\101\078\079\122\043\069\079\122\043\121\048\076\061\061&quot;;&quot;\076\116\106\077\108\111\043\069\079\085\061\061&quot;;&quot;\102\069\049\101\072\053\110\055\122\068\074\100&quot;;&quot;\118\054\088\054\117\113\116\098\076\087\106\076&quot;;&quot;\079\122\102\052\108\122\056\061&quot;,&quot;\102\057\051\065\053\089\089\100\053\054\061\061&quot;;&quot;\070\099\120\048&quot;;&quot;\076\056\097\057\119\073\043\079\097\047\110\078\108\054\061\061&quot;;&quot;\056\113\082\056&quot;,&quot;\112\085\061\061&quot;;&quot;\049\088\065\121\053\078\102\108\117\118\073\072\072\077\111\049\118\080\082\050\053\085\061\061&quot;,&quot;\105\075\088\118\088\067\103\049\101\089\100\061&quot;,&quot;\074\072\047\061&quot;,&quot;\108\115\102\070\109\085\061\061&quot;;&quot;\099\118\099\117\047\048\057\105\075\053\106\101\057\087\088\084\076\052\068\070\070\088\085\052\111\049\108\112\113\051\078\048\099\048\077\102\082\068\097\067\118\051\077\083\066\116\119\120\105\103\106\082\043\078\054\079\087\074\053\119\103\053\078\051\116\057\065\098\050\120\105\119\049\075\074\113\090\047\103\114\106\117\114\120\050\048\071\049\070\054\111\053\120\085\061\061&quot;;&quot;\081\122\102\051&quot;,&quot;\114\087\115\118\053\122\080\076\112\089\049\056\115\120\067\110\081\076\061\061&quot;;&quot;\084\075\078\054\116\085\061\061&quot;;&quot;\090\116\106\077\090\116\102\070&quot;;&quot;\105\084\121\061&quot;,&quot;\079\116\102\118\108\054\061\061&quot;,&quot;\113\113\113\053\105\075\076\061&quot;;&quot;\067\107\121\077\108\084\099\085\099\112\105\056\107\052\083\121&quot;,&quot;\072\066\106\047\086\115\074\061&quot;;&quot;\103\122\112\116&quot;;&quot;\065\085\061\061&quot;,&quot;\099\084\086\085&quot;,&quot;\043\047\076\103&quot;,&quot;\101\087\121\075\100\110\043\047\100\066\101\086\107\105\079\099\105\089\057\061&quot;;&quot;\072\057\049\070&quot;,&quot;\076\116\098\049\108\111\056\061&quot;;&quot;\119\114\080\109\047\072\066\114\049\102\055\087\121\116\050\065\067\085\061\061&quot;,&quot;\108\047\057\061&quot;,&quot;\083\100\104\061&quot;,&quot;\105\078\120\112\086\114\078\114\112\122\086\086\086\111\079\112\105\075\061\061&quot;;&quot;\072\081\113\090\088\075\052\116\050\076\103\113\115\054\048\090&quot;,&quot;\085\104\108\075\071\075\061\061&quot;,&quot;\081\107\068\103\089\081\120\082\113\086\098\121&quot;,&quot;\104\085\118\084\069\082\090\061&quot;;&quot;\122\083\079\089\118\085\055\116&quot;,&quot;\122\054\061\061&quot;,&quot;\090\066\102\109\108\114\101\086\109\102\120\109\081\110\078\089\101\076\061\061&quot;;&quot;\113\075\055\049\050\118\104\109&quot;;&quot;\052\043\084\122&quot;;&quot;\085\120\073\114\065\080\055\074\075\075\074\108\097\114\066\069\120\069\122\110\114\090\098\090\084\049\074\043\086\048\054\061&quot;;&quot;\078\111\073\055\072\067\106\115\090\083\103\086\069\073\070\061&quot;,&quot;\101\116\043\070&quot;,&quot;\072\066\106\099\086\072\101\120\079\122\102\052\108\122\056\061&quot;,&quot;\073\103\072\067\056\084\109\107&quot;;&quot;\049\108\101\070&quot;;&quot;\100\051\101\109\097\108\052\118&quot;,&quot;\101\115\107\085&quot;;&quot;\054\110\113\049\090\076\061\061&quot;;&quot;\065\106\048\099&quot;,&quot;\090\079\105\097\111\082\047\121\083\120\088\080\083\043\070\047\075\067\085\078\068\054\061\061&quot;,&quot;\116\117\054\061&quot;,&quot;\043\111\113\122\108\087\081\075\115\105\113\080\043\076\061\061&quot;;&quot;\071\101\067\078\049\087\106\055\120\087\074\105\053\071\078\118\089\086\050\072\086\076\061\061&quot;,&quot;\101\111\078\077\086\089\086\080\100\083\051\070\076\116\120\080\108\122\076\061&quot;;&quot;\086\116\102\099\086\076\061\061&quot;,&quot;\115\102\080\043\051\069\081\075\043\089\100\098\086\056\097\121\086\085\061\061&quot;,&quot;\108\103\048\061&quot;;&quot;\112\052\054\078\086\071\057\080\112\054\061\061&quot;,&quot;\051\057\121\073&quot;,&quot;\082\085\061\061&quot;,&quot;\075\117\077\076\121\099\090\121\051\075\061\061&quot;,&quot;\107\051\122\053\078\073\088\048\104\115\074\099\083\073\057\104\121\104\120\113\050\084\089\061&quot;;&quot;\098\076\079\120\047\049\109\048\077\107\047\049\076\068\075\122&quot;,&quot;\104\070\100\061&quot;;&quot;\100\122\098\066\086\116\078\077&quot;,&quot;\112\043\097\088&quot;;&quot;\109\115\051\111\051\116\043\078\056\105\076\114\086\083\100\074&quot;,&quot;\104\086\102\048\106\089\114\103&quot;,&quot;\105\052\085\047\105\113\119\087\075\047\051\056&quot;,&quot;\043\087\079\078\086\115\097\113\108\111\086\049&quot;,&quot;\070\069\085\061&quot;,&quot;\056\043\079\077\084\110\080\071\051\103\078\048\051\102\101\122&quot;,&quot;\100\110\088\120\079\116\074\061&quot;,&quot;\100\122\102\080\100\083\081\061&quot;;&quot;\085\076\061\061&quot;,&quot;\082\048\072\051\088\122\087\056&quot;,&quot;\101\116\043\070\076\072\051\097\108\111\081\061&quot;,&quot;\112\054\061\061&quot;;&quot;\101\114\101\103\051\114\051\102\108\103\086\119\056\056\079\112\101\115\089\061&quot;;&quot;\057\066\052\076\078\089\077\089&quot;,&quot;\102\101\120\089&quot;;&quot;\043\043\100\074\051\070\078\110\056\066\078\078\056\115\078\103\076\075\061\061&quot;;&quot;\070\069\116\052&quot;,&quot;\080\100\099\053\097\054\061\061&quot;,&quot;\109\053\111\097&quot;,&quot;\084\122\066\080\056\116\086\113\079\070\079\087\109\111\100\114\101\075\061\061&quot;,&quot;\079\118\066\073\072\054\122\074\110\109\104\079\121\085\061\061&quot;,&quot;\066\121\108\089&quot;;&quot;\073\065\084\076&quot;;&quot;\087\088\057\078\111\071\079\079\065\110\047\061&quot;;&quot;\115\081\074\061&quot;,&quot;\115\111\066\102\107\043\079\073\090\114\102\116\056\110\078\055&quot;,&quot;\099\107\113\107\071\056\048\050\079\104\069\065\102\106\069\070\047\054\065\100\108\066\057\110\119\112\057\089\107\069\087\048\081\070\047\075\068\082\082\106\098\088\073\090\107\104\115\066\121\051\113\086\108\086\112\121\114\066\054\075\121\052\112\074\070\087\077\112\114\085\118\102\116\074\104\105\104\076\049\055\109\055\116\084\074\104\049\121\103\043\065\065\110\113\113\087\080\116\056\086\119\069\105\115\116\104\111\089\114\088\048\077&quot;,&quot;\068\071\079\119\111\072\056\069\047\082\056\061&quot;;&quot;\077\119\052\065\104\090\076\082\069\068\122\097\098\067\051\054\047\110\117\049\078\114\105\082\121\103\047\100\114\080\090\061&quot;;&quot;\082\075\097\102\121\055\079\070\079\113\090\075\121\109\052\116\114\084\068\056\073\066\053\043\111\073\111\050\116\057\084\065&quot;;&quot;\070\098\120\053\089\113\097\113\074\100\057\070&quot;;&quot;\114\083\057\061&quot;,&quot;\100\116\051\118\109\072\088\070&quot;;&quot;\079\122\106\077\079\115\066\052\086\072\048\061&quot;;&quot;\073\079\050\072\047\119\049\109\098\075\104\087\079\089\069\112\099\054\061\061&quot;;&quot;\101\116\043\070\056\116\043\118\079\111\078\069\086\076\061\061&quot;,&quot;\114\052\050\082\052\110\118\118&quot;,&quot;\057\082\047\114\087\112\098\098\054\099\051\114\111\114\106\077\069\088\099\065\055\075\061\061&quot;,&quot;\069\112\116\079\050\099\043\098\097\112\087\104\105\109\075\061&quot;;&quot;\087\076\061\061&quot;;&quot;\108\072\080\048\107\043\101\065\105\083\078\073\084\072\054\116\056\076\061\061&quot;,&quot;\117\111\109\103&quot;;&quot;\102\066\111\074\090\077\109\103\079\072\116\077\089\121\107\067\053\078\050\081\122\115\109\090\087\077\115\043\086\098\043\051\086\084\077\057\090\082\087\112\109\118\054\086\119\112\080\116\098\089\104\079\071\050\106\106\073\085\049\122\066\117\076\116\085\047\121\073\047\047\082\089\068\107\070\076\115\055\043\106\074\080\117\067\056\084\057\065\065\108\070\061&quot;,&quot;\103\052\099\055\080\103\110\100\101\052\054\073\067\047\105\080\083\109\078\099\047\100\113\087\101\116\114\047\054\073\109\105\056\054\073\074\080\054\118\114\073\082\114\090\073\077\051\109\115\051\081\065\089\104\051\090\077\105\104\101\043\108\113\065\075\115\102\114\103\110\118\088\051\113\090\113\076\052\118\083\084\089\082\117\077\116\070\061&quot;,&quot;\056\074\110\071\079\115\084\048\051\115\051\108\118\043\101\075\050\071\050\098\097\054\061\061&quot;,&quot;\113\089\090\051\120\049\117\116\049\074\098\105\082\082\071\056\070\075\061\061&quot;;&quot;\071\057\105\107\081\047\118\110&quot;,&quot;\084\078\051\055\105\121\043\077\090\116\106\121\086\076\061\061&quot;,&quot;\072\066\106\080\108\111\101\078\107\085\061\061&quot;;&quot;\070\080\079\051\103\109\078\099\071\066\107\073\065\085\061\061&quot;,&quot;\100\105\055\107\086\072\111\075&quot;,&quot;\050\050\050\070\067\043\081\085\053\110\075\085\043\113\067\109\056\054\061\061&quot;,&quot;\108\122\043\077&quot;,&quot;\110\107\099\082\088\075\061\061&quot;,&quot;\117\048\107\053\112\103\080\051&quot;,&quot;\055\085\061\061&quot;;&quot;\101\072\078\069\081\115\102\072\115\078\113\103\051\087\079\099\081\043\056\061&quot;,&quot;\088\054\086\103\121\105\088\087\085\103\084\111\100\106\080\072&quot;;&quot;\086\111\098\049\108\110\048\061&quot;;&quot;\076\103\049\101\067\076\102\088\088\074\071\110\080\078\120\116\072\079\053\073\069\054\061\061&quot;,&quot;\120\077\083\105&quot;,&quot;\072\087\109\098\100\080\116\047\117\088\075\122\082\066\098\116\116\099\088\082\098\119\103\076\090\097\117\115\114\104\073\113\054\110\112\118\071\070\107\053\084\085\061\061&quot;;&quot;\101\115\097\066\108\076\061\061&quot;,&quot;\051\116\054\051\079\086\081\061&quot;,&quot;\081\110\079\113\115\056\079\084&quot;;&quot;\100\066\086\070\108\087\085\098\109\066\079\070\108\110\113\070\086\115\076\061&quot;,&quot;\098\121\051\114\070\100\080\085&quot;,&quot;\070\075\061\061&quot;,&quot;\109\043\090\061&quot;,&quot;\105\122\080\056\079\066\081\075\101\083\113\119\043\070\076\075\079\054\061\061&quot;;&quot;\109\089\090\061&quot;;&quot;\076\116\106\047\108\110\048\114&quot;,&quot;\051\090\102\070\112\119\074\111\117\055\072\120\101\076\111\082\074\108\116\051\103\101\047\061&quot;;&quot;\086\116\066\120\079\122\051\057&quot;;&quot;\119\082\077\105\117\087\069\088\087\070\108\116&quot;,&quot;\098\099\098\098\049\102\075\087&quot;;&quot;\083\110\049\116&quot;;&quot;\097\071\065\048&quot;;&quot;\087\077\104\061&quot;;&quot;\121\115\048\097&quot;;&quot;\076\105\113\097\109\070\080\111\084\110\056\098\081\115\079\072&quot;,&quot;\053\112\083\122\072\087\076\061&quot;,&quot;\072\068\108\065\111\057\100\101\121\075\061\061&quot;;&quot;\112\105\086\077\086\070\043\066\108\069\078\043\056\089\086\056\043\122\075\061&quot;;&quot;\090\116\120\120\100\054\061\061&quot;,&quot;\101\078\088\118\084\056\113\050\056\066\088\111\051\121\051\078\043\103\081\061&quot;,&quot;\053\116\086\115\056\113\107\073&quot;;&quot;\075\043\057\051&quot;;&quot;\056\122\106\114\079\089\102\114\107\115\097\069&quot;,&quot;\079\070\086\057\115\056\079\051\100\069\102\114\101\114\102\074&quot;;&quot;\099\055\110\105\078\057\083\122\088\100\111\067\107\049\105\105\107\054\061\061&quot;,&quot;\108\115\090\114\086\087\079\066\056\089\079\072\101\089\098\056\081\072\089\061&quot;;&quot;&quot;;&quot;\079\122\106\114\079\087\113\080\108\111\100\061&quot;;&quot;\110\117\083\066\076\107\068\048\074\054\061\061&quot;,&quot;\050\054\099\079\082\106\073\082\082\109\079\111\100\122\097\088\106\104\106\103\100\113\081\061&quot;;&quot;\113\051\051\100\077\056\114\107\105\047\085\083\084\051\077\120\081\053\113\111\086\071\099\049\074\086\066\057\099\111\088\081\107\097\086\088\043\098\072\073\121\114\051\104\106\083\050\106\071\114\111\112\054\050\068\116\055\052\087\090\074\108\055\084\088\047\065\079\103\117\076\061&quot;;&quot;\078\109\108\111\057\105\120\118\069\067\098\116&quot;;&quot;\121\057\107\108\065\054\113\108\104\067\089\114&quot;,&quot;\090\075\070\089&quot;,&quot;\101\115\081\080\085\047\099\122\103\057\050\077\043\119\043\114\113\072\075\061&quot;;&quot;\105\072\051\070\105\111\051\120\079\078\080\115\079\121\121\070\084\076\061\061&quot;;&quot;\099\104\110\120\110\071\121\061&quot;,&quot;\107\089\102\052\056\121\120\051\079\078\076\066\086\056\079\097\084\115\070\061&quot;;&quot;\082\070\121\069\052\075\061\061&quot;;&quot;\119\107\049\116\099\115\080\086\120\113\104\081\099\117\050\089\121\054\061\061&quot;;&quot;\047\052\054\072\087\098\082\112\120\102\090\061&quot;,&quot;\065\085\081\107\089\069\112\083\105\054\061\061&quot;,&quot;\106\054\061\061&quot;;&quot;\086\066\090\066\108\114\101\120\076\043\088\071\101\089\066\057\101\102\090\061&quot;,&quot;\043\104\049\079\077\081\052\067&quot;,&quot;\108\077\105\113\100\122\098\097\087\082\078\112\121\088\049\056\118\085\061\061&quot;;&quot;\078\071\108\106\111\056\050\099\113\121\084\048\103\065\109\074\076\054\061\061&quot;;&quot;\110\110\114\065\112\065\052\103\082\075\061\061&quot;;&quot;\090\083\078\070\086\076\061\061&quot;;&quot;\056\111\113\056\051\115\079\073\108\078\113\051\081\070\097\047\086\087\100\061&quot;;&quot;\055\103\110\052&quot;,&quot;\085\110\113\088\054\067\081\101\108\085\061\061&quot;;&quot;\077\049\118\066&quot;,&quot;\112\075\112\066\079\097\088\075\086\071\043\084\081\114\072\055\100\054\061\061&quot;;&quot;\071\043\112\088\076\119\074\117&quot;,&quot;\077\047\077\052\076\085\075\052\081\087\065\067\119\083\070\061&quot;,&quot;\055\048\075\061&quot;,&quot;\079\115\097\075\090\115\051\065&quot;,&quot;\098\051\079\121&quot;;&quot;\100\122\051\120\108\122\075\061&quot;;&quot;\057\099\121\098\115\110\081\114\078\114\114\080&quot;,&quot;\100\078\078\101\079\087\043\066\079\105\081\118\051\056\066\086\084\075\061\061&quot;,&quot;\043\110\054\075\101\111\100\116\108\078\102\065\051\116\078\052\101\085\061\061&quot;,&quot;\072\102\057\071\056\077\048\113&quot;,&quot;\079\116\102\080\079\085\061\061&quot;;&quot;\054\117\052\054\049\074\056\061&quot;;&quot;\043\115\080\083\086\070\113\086\115\122\102\086\112\087\101\077\109\056\048\061&quot;;&quot;\043\111\086\102\108\083\079\069\108\116\101\047\056\075\061\061&quot;;&quot;\056\122\098\120\107\076\061\061&quot;,&quot;\122\103\121\061&quot;;&quot;\101\078\088\116\107\083\043\075\108\121\120\110\100\089\056\114\051\075\061\061&quot;;&quot;\100\066\102\084\051\069\079\065\086\087\102\052\109\102\120\113&quot;,&quot;\101\057\052\110\085\048\067\086\112\122\081\084&quot;,&quot;\100\110\101\118\109\115\097\083&quot;,&quot;\108\103\089\061&quot;;&quot;\048\066\051\057&quot;,&quot;\073\087\099\057\069\048\049\069\051\051\083\088\079\066\085\081\073\072\076\061&quot;,&quot;\106\120\119\077\049\081\102\075&quot;,&quot;\115\076\061\061&quot;;&quot;\050\098\100\097&quot;,&quot;\120\085\061\061&quot;,&quot;\079\089\078\119\051\105\086\081\101\089\043\050\051\056\051\103\056\089\081\061&quot;,&quot;\073\089\050\053\087\117\105\081\088\116\119\071\076\085\122\083\067\056\107\080\086\068\054\112&quot;,&quot;\076\070\120\066\105\066\078\056\100\103\054\066\084\121\106\075\076\115\048\061&quot;,&quot;\088\069\120\057\119\104\104\121&quot;;&quot;\101\111\078\077\086\089\086\080\100\083\051\070\076\116\120\080\108\122\101\055\086\121\051\047\090\072\051\114&quot;;&quot;\077\098\043\081&quot;;&quot;\104\078\074\101&quot;,&quot;\100\116\043\070\108\115\043\070\090\072\101\120\090\111\098\078&quot;;&quot;\076\069\079\069\100\122\097\048\086\083\113\072\076\111\051\047\112\103\085\061&quot;,&quot;\101\116\043\070\101\083\043\047\108\089\097\120\108\115\056\061&quot;,&quot;\100\111\043\099\108\110\086\078&quot;,&quot;\048\051\120\072\118\100\101\052\110\074\056\049\073\085\061\061&quot;,&quot;\043\102\100\061&quot;;&quot;\048\089\066\052\077\088\057\105&quot;;&quot;\043\056\101\080\108\105\048\061&quot;;&quot;\081\083\051\081\107\111\080\105\084\115\079\081\086\070\113\070&quot;,&quot;\085\102\053\121&quot;;&quot;\072\115\098\097&quot;;&quot;\102\074\054\061&quot;,&quot;\076\110\113\078\090\072\101\078\076\083\043\070\079\122\106\077&quot;;&quot;\099\071\076\066\120\081\067\071\069\075\089\069&quot;,&quot;\109\079\049\098\109\055\117\070\053\105\104\061&quot;,&quot;\085\075\068\070&quot;,&quot;\066\101\086\043\107\068\085\089\110\118\107\097&quot;;&quot;\049\067\115\070\100\119\048\076\122\057\072\103\052\070\081\061&quot;}for r,q in ipairs({{559345+-559344;535739-535405},{877417+-877416,(291562-454642)-(-163288)},{913704-913495,882616+-882282}})do while q[(893192+-218780)-674411]&lt;q[(695089-(192+-116019))-810914]do Z[q[-374084+(112723-(-261362))]],Z[q[-545027+545029]],q[(-679822-(-327875))+351948],q[((344728-(663235-((-190493-671891)-(-683237))))-509495)+(-395326+1402477)]=Z[q[(-188820-(-736089))+(493449+-1040716)]],Z[q[-89447+89448]],q[253894+(-757816-(-503923))]+((-129307-448949)-(-578257)),q[-42347+42349]-(59158+-59157)end end local function r(r)return Z[r+(427695-426035)]end do local r=string.len local q=type local v=string.sub local C={s=-77518+77540;[&quot;\056&quot;]=155869-(-280035+435884),y=-1044263+1044299;o=838273+-838235;x=(383377+-296944)+-86400,K=-614936-(-614984),[&quot;\047&quot;]=-909280+909324;z=139497-139491;b=-1031654-(-1031703),T=(-588501+1502159)-913640;[&quot;\055&quot;]=1238-(-778196+779419);[&quot;\057&quot;]=56982-56942,J=492059-(-576393+1068396);Z=565899+-565875;R=(1012673+26086)+-1038700,F=183032-182980;e=-85014-(-85031),c=-97011-(-97056),i=429851-429832;C=(463557+431025)+(885265+-1779784);p=256965-(-679072-(-936023)),P=274903-274862;[&quot;\048&quot;]=-1011151+(1594290-(1059238-476107));U=-423693-(-423693),[&quot;\050&quot;]=-978218+978229;[&quot;\049&quot;]=-19334+19381,W=-586103+586110;[&quot;\051&quot;]=((557547+-56155)+201022)+((-666358-(-478443-(-454689)))+-59797),f=-716963-(-716968);[&quot;\053&quot;]=-299393-(-299424),Q=732723-732711,[&quot;\052&quot;]=-445434+445468,X=-38638-(-38639),u=-13338+13380;[&quot;\054&quot;]=-54686-(-54718);Y=-649315+649319,I=535876-((787566+-91586)+-160162);q=-186676-(-186685),V=-215123+215148,m=-622484+622510;g=388222+-388219;w=294337-294327,S=-542483-(-542522);l=617783-617756,D=(-138935-(-732941))-593944;n=94670-94615,H=-201398+201421,M=982850+-982804;h=1031394+-1031334;d=(579927+60887)+-640786;B=-355592+355645;r=-791666-(-791717),A=916631-916588,N=-969394+969431;L=(1132421-751279)-381126;t=521484+-521430,k=422164+-422134,O=-771813-(-771842);[&quot;\043&quot;]=-928655+928676,v=-483558+483608;j=150142-150081,a=-883985+(605874-((-197365-186389)+105586)),E=981300-981265;G=-360548-(-360550)}local N=math.floor local G=Z local I=string.char local P=table.concat local W=table.insert for Z=-89259-(-89260),#G,459944+((((-335858+1101723)+-733600)-(-398378))+-890586)do local J=G[Z]if q(J)==&quot;\115\116\114\105\110\103&quot;then local q=r(J)local k={}local e=-808957-(-808958)local z=274891+-274891 local p=((-572973-(-602197))+154965)+-184189 while e&lt;=q do local Z=v(J,e,e)local r=C[Z]if r then z=z+r*(-541248+541312)^((289579+((-1672747-(-899291))+483880))-p)p=p+(92512+-92511)if p==802030-802026 then p=895072+-895072 local Z=N(z/(-932696-(-998232)))local r=N((z%(599360+-533824))/(793735-(543893+249586)))local q=z%(-471575-(-471831))W(k,I(Z,r,q))z=(-1573785-(-619865))-(-953920)end elseif Z==&quot;\061&quot;then W(k,I(N(z/(681171-615635))))if e&gt;=q or v(J,e+(-240146+(-883375+1123522)),e+(118781+-118780))~=&quot;\061&quot;then W(k,I(N((z%(255006+-189470))/(350602-350346))))end break end e=e+(722694+-722693)end G[Z]=P(k)end end end return(function(Z,v,C,N,G,I,P,J,p,e,q,T,t,V,z,W,y,B,u,k,S)t,z,e,k,y,u,W,S,p,q,J,T,B,V=function(Z,r)local v=z(r)local C=function(...)return q(Z,{...},r,v)end return C end,function(Z)for r=(-461555+1158765)-697209,#Z,865624+-865623 do J[Z[r]]=J[Z[r]]+(-468669-(-468670))end if C then local q=C(true)local v=G(q)v[r(622646+-624221)],v[r(-265104-(-263716))],v[r(274667-276004)]=Z,p,function()return-3430794-(-687069)end return q else return N({},{[r((-912499+(846819-738114))+802406)]=p,[r(-824194+822619)]=Z,[r((-482608+607043)+-125772)]=function()return-2871262-(-127537)end})end end,294346-294346,function()e=(635427+-635426)+e J[e]=-76222+76223 return e end,function(Z,r)local v=z(r)local C=function(C,N,G,I)return q(Z,{C;N,G,I},r,v)end return C end,function(Z,r)local v=z(r)local C=function(C,N,G)return q(Z,{C;N;G},r,v)end return C end,{},function(Z)J[Z]=J[Z]-(515786+-515785)if-769025+769025==J[Z]then J[Z],W[Z]=nil,nil end end,function(Z)local r,q=-666375+666376,Z[(397609+-1102792)+705184]while q do J[q],r=J[q]-(721848-(-951726+1673573)),r+(-894754+894755)if 109622-109622==J[q]then J[q],W[q]=nil,nil end q=Z[r]end end,function(q,C,N,G)local U,g,i,h,o,t,O,j,F,w,M,D,R,Q,K,n,H,m,L,a,z,E,x,d,l,p,A,e,s,X,Y,P,J,c while q do if q&lt;(49977+((203223-(-76199))+-485276))+8770783 then if q&lt;-4511+4055708 then if q&lt;-819383+2666573 then if q&lt;857658-192036 then if q&lt;-238242-(-543515)then if q&lt;130706+14513 then if q&lt;194816+-51773 then if q&lt;(-441509+1058998)+-500902 then X=5671531727570-(-191736)q=W[N[-942579-(-942584)]]Y=r(-741203+739583)K=Z[Y]w=r(((187720+189969)-(730701+-238231))-((-1584022-(-765551))-(-705214)))d=W[N[57351+-57350]]j=W[N[716385+-716383]]h=j(w,X)Y=d[h]w=r((518506-(-275139+(-796150-(-702712-189862))))+-698782)x=K[Y]h=Z[w]g=r((-995280-(-883656))+110181)c=793046+14423876528028 X=W[N[357371-357370]]H=r(-496482-((865624+-969445)+(520736-911895)))a=W[N[(18475+-1062858)-((724541-(-135839))+-1904765)]]g=q[g]i=nil s=a(H,c)w=X[s]j=h[w]w=W[N[-596413-(-596414)]]Y=-801063+801065 s=r(1040197+-1041633)X=W[N[138390-138388]]H=5464738792246-861209 a=X(s,H)h=w[a]d=j[h]w=r(419057-(688954+-268548))K=x(Y,d)d=W[N[948395+-948394]]j=W[N[-565515+565517]]X=2289499688931-(-27957)h=j(w,X)Y=d[h]x={[Y]=e}g=g(q,Q,K,x)Q=nil q=r(-976212+(590405+384318))q=g[q]q=q(g)q=16398566-(-178863-(-1024276))else q=W[N[(808521+-355768)+-452752]]q=q and 25563+(818515+4734436)or 7988412-(-927578)end else t=-516138+(-542568+8930964152996)q=W[N[788416+-788415]]p=r(-50546-(-49191))J=W[N[-640486+640488]]e=W[N[879699+(-655441+-224255)]]z=e(p,t)P=J[z]z=W[N[343929-343928]]t=W[N[(193931+-1101122)+907193]]x=26613701415997-(-815105)g=r((390484+194503)+-586497)i=W[N[305342+-305339]]Q=i(g,x)p=t[Q]e=z[p]J=not e q[P]=J q=Z[r(765058-766580)]P={}end else if q&lt;1301502-1033387 then if q&lt;109401+123867 then q=Z[r((699055+(((667863+27276)+(((365273-((439183+10909)+177654))+755193)+(288402+-2201472)))+853157))-828333)]P={}else J=W[N[(22016-(212987+(1103895-((874495+(419885-250307))+(-381822+275430)))))-(-357186)]]P=#J J=669607-669607 q=P==J q=q and 15814973-218075 or(-753428-(-212140+-341722))+8283948 end else q=W[N[-72592+72595]]P=q(J)q=4771583-482295 end end else if q&lt;324705+12393 then if q&lt;-137557+(-202739+(1541467-(-274905+1155537)))then if q&lt;(-586004+792911)-(-101278)then q=888151+5070829 else J=r((-167493-236919)-(-402777))P=Z[J]i=r(-236742-(-235085))Q=(1522359-493191)+(-795967+25046317679375)J=r(-174-1414)z=W[N[-393850-(-393851)]]J=P[J]p=W[N[-839998+((-530270+1181381)-(-188889))]]t=p(i,Q)e=z[t]J=J(P,e)P=r((-51264-(-634606))+(-427488-157502))i=r(465423+-466983)P=J[P]e=r(689256-690657)P=P(J)J=-496759+496760 q=P[J]J=k()W[J]=q P=Z[e]Q=12217532730365-(-694486)z=W[N[-800390+800391]]p=W[N[(-1646150-((-141169+184440)+-751802))+937621]]t=p(i,Q)e=z[t]q=P[e]e=T(230966+10600744,{N[143626-143623];N[912780+-912776];N[-991641-(((-88943-667109)-(652414+-531595))+-114771)];N[-274404-((-317494+370818)-327730)]})P=q(e)P=W[J]q=not P q=q and-377546+(-652743+4442053)or(5269201-655629)-(-73802+348304)end else q=y(40575+(810840+12866219),{p})a={q()}P={v(a)}q=Z[r(306006+-307617)]end else if q&lt;99212-(951837+(-894183-620634))then if q&lt;1562710-1006110 then J=r(-35389+34029)P=r(-1030694+1029248)q=Z[P]P=q(J)q=Z[r(245692+(((618405-50192)+269744)+-1085267))]P={}else i=nil Q=nil p=nil q=-281915+2469115 end else D=W[e]P=D q=D and 4606125-(-934829)or 2666865-72454 end end end else if q&lt;1741002-527329 then if q&lt;1400721-434558 then if q&lt;-511931+1475325 then if q&lt;89524-(-723670)then e=r(1009218+-1010574)i=r(1007904+-1009398)Q=990764359710-617335 P=Z[e]z=W[N[-443132-(-443133)]]p=W[N[-327200+327202]]t=p(i,Q)e=z[t]q=P[e]e=W[N[167374+-167371]]z=W[J]P=q(e,z)q=15272023-((-575289+1184207)-(-116723))else A=636375-636374 q=940791+1578018 U=R[A]D=U end else Q=nil g=S(g)q=786259+14786323 end else if q&lt;815991+282179 then if q&lt;(561973+(-32587-677066))+1167313 then q=-432344+6900196 else q=Z[r((-1360430-(-977328))-(-381723))]P={}end else q=false W[N[(-75905+761094)-685185]]=q q=-459917+649761 end end else if q&lt;-476325+1939446 then if q&lt;-125175+1566607 then if q&lt;446418+983050 then q=W[N[938227-938226]]x=(1334810536262-243444)-(-835326)z=W[N[-583114+583116]]t=W[N[239948-239945]]g=r(634291-635776)i=W[N[(811732+-788478)-23250]]Q=i(g,x)p=t[Q]g=508822+(1242827068806-(-324256))e=z[p]p=W[N[-53829-((-283430-(-309422+(817555+-269424)))+468307)]]Q=r((-104916+923458)-819937)x=-526824+13187843260671 t=W[N[-964767+964771]]i=t(Q,g)z=p[i]J=e[z]g=r(452548+-453882)P=r(-336990-(-335547))p=r(-133952-(-132332))z=Z[p]t=W[N[(-176699+-683591)-(-860293)]]i=W[N[664068+-664064]]Q=i(g,x)p=t[Q]e=z[p]p=.4 z=e(p)x=934835+1630680726790 P=q[P]t=W[N[711843-711840]]i=W[N[623189+-623185]]g=r(462893+-464338)Q=i(g,x)p=t[Q]t=.4 e={[p]=t}P=P(q,J,z,e)q=r((-938292+649733)-(-287070))t=15982436363506-(-768963)q=P[q]p=r((329188+((402149-(-633260))-316862))+((-1040202+300425)+-309309))q=q(P)J=W[N[307705+-307702]]e=W[N[(-263985-112260)+376249]]g=r(-344001-(-342445))K=(-197214+(-73443+17408657582875))-(-467858)z=e(p,t)P=J[z]J=r(904250+((-384332-(-21019))-542319))J=P[J]e=(-770142+968892)+-197250 x=2362087513846-(-290292)i=r(188822+-190168)Q=33241522473869-946333 J=J(P,e)z=W[N[608620+-608617]]p=W[N[-559466+559470]]t=p(i,Q)e=z[t]t=W[N[-420801+((-270062+-725570)+1416436)]]i=W[N[(475959+-50919)-(306782-(-118254))]]Q=i(g,x)p=t[Q]i=(((-899330+2499780)-(-461396+1065221))-534221)-461104 t=r(240396+-241778)t=p[t]t=t(p,i)i=W[N[-431958+(-27338-(-459299))]]x=r(-858665+(-1009229+1866415))Q=W[N[-920974+(-490236+(567907+843307))]]g=Q(x,K)Q=-716919-(-716924)p=i[g]i=r(904271-905653)i=p[i]i=i(p,Q)z=t..i P=e..z q=J..P z=k()P=r(608251+(-846781-(-236914)))J=k()W[J]=q q=y(((1688212-684659)-626316)+3195566,{N[998454+-998451];N[711514-711510]})Q=r(69183+((1452636-987662)+-535792))e=q q=638988-638988 W[z]=q q=Z[P]g=r(-79559+78186)i=Z[Q]g=i[g]Q={g(i)}i={q(v(Q))}P=i[(149120+((-1004512+(231614-(800135+(-941315-790847))))-739576))+431328]t=i[320132+-320129]p=i[461047+(888977+-1350022)]q=14865701-(-157895+-548986)i=P else P={}q=Z[r((992761-418449)+-575946)]J=S(J)end else q=1549557-(-637643)end else if q&lt;(-1410159-(-571321))+2406372 then q=(-27889+128645)+5528615 else q=Z[r(88831-90429)]e=S(e)P={}z=nil J=S(J)p=S(p)end end end end else if q&lt;((-675759+1514902)+-1871830)+3873970 then if q&lt;((1498149-275599)-(-1021743))-(-213405)then if q&lt;1693864-(-259971)then if q&lt;31815+1888901 then if q&lt;-724053+2576931 then t,Q=z(p,t)q=t and 10765774-213928 or(-974460+(-378367+1618878))+8611087 else q=5707613-384799 W[N[320956-320951]]=P J=nil end else s=r(-425379-(-423895))a=Z[s]s=r(393678-395187)X=a[s]g=K a=X(J,g)X=W[N[253357-253351]]s=X()w=a+s h=w+i s=(1146330-796279)-(949141+-599091)w=-225764+226020 j=h%w i=j w=z[e]a=i+s X=p[a]g=nil h=w..X z[e]=h q=7016226-502956 end else if q&lt;2644423-(457917+-73892)then if q&lt;1355075-(-559264+-266653)then J=k()Y=r(-629812+628421)W[J]=C[329957+-329956]i=W[J]z=q g=W[N[(-600531+58268)-(-542264)]]d=30901945800796-(-101702)x=W[N[-969021+969023]]K=x(Y,d)h=18942512799432-(1053221-401605)j=r(121064+-122597)Q=g[K]x=r((879709+((1001136+45573)+(-1458907-(-120336))))-589408)t=i[Q]g=Z[x]K=W[N[((460204+-691622)+-343491)+574910]]Y=W[N[557008+-557006]]d=Y(j,h)j=(422507+28603983015548)-(-481468)x=K[d]Q=g[x]d=r((714589+-87424)+(((62735+-389391)+-442525)+140357))x=W[N[874766+-874765]]K=W[N[-220739-(-220741)]]Y=K(d,j)g=x[Y]i=Q[g]p=t==i e=p q=p and 151586+12166274 or 7024533-(-77044)else P={e}q=Z[r(-364989+363475)]end else q=16405283-789389 a=Y==d X=a end end else if q&lt;2403060-(-265923)then if q&lt;(-1048089+1794803)+1841038 then if q&lt;-146004+2661369 then H=r(-874600+872967)q=Z[H]H=r(-317224-(-315741))Z[H]=q q=4480486-(-229365)else W[e]=D m=W[L]M=(-912706-(-10555))-(117863+-1020015)E=m+M A=R[E]U=Y+A A=(-314238-266373)-(-580867)q=U%A Y=q E=W[o]A=d+E q=694635+2157224 E=-604244+604500 U=A%E d=U end else W[e]=P q=-755613+3607472 end else if q&lt;2363094-(-354094)then Q=-568239-(-568240)g=-932758+932768 x=g g=-958391-(-958392)K=g q=9641687-598024 g=-202018+(1085971-883953)Y=K&lt;g g=Q-K else m=-950431-(-950433)q=-237060+(-653143+17499164)E=R[m]m=W[F]A=E==m D=A end end end else if q&lt;-453379+4026242 then if q&lt;3932897-539498 then if q&lt;864544+2371448 then if q&lt;-32965+3068936 then R=nil L=S(L)q=((472241-(-588035))-814156)+(16254847-923060)l=S(l)n=S(n)c=S(c)F=S(F)o=S(o)else P=true P={P}q=Z[r(856707-(88435+769880))]end else q=W[N[(-800376-(-403438))-(556639-953587)]]e=W[N[557012+-557001]]J[q]=e q=W[N[302328+-302316]]e={q(J)}P={v(e)}q=Z[r(875673-877193)]end else if q&lt;-189651+3705787 then if q&lt;837980+((-1077702-(-285582))+(((-613417-((1021274-865994)-271143))-182688)+4054526))then i=r(893503+-894866)Q=1004674+2011479217792 P=r(372480+-373820)q=Z[P]z=W[N[((-320421-741326)-(-331529))-(-730219)]]p=W[N[-966627-(-966629)]]t=p(i,Q)e=z[t]P={q(e)}q=Z[r(-261328-(-259852))]P={v(P)}else U=W[e]D=U q=U and 1649711-735057 or 3322085-803276 end else e=W[N[-66122-(((573434+-505496)-640427)+506366)]]i=11732238526825-445866 Q=((472454-389658)+(84733+7185860116371))-(-24760)g=20044802346343-(-776865)q=r(994093+-995470)J=C[-446310-(-446311)]z=W[N[854201+-854199]]t=r(((-366550+895434)+-1032906)-((-1104070-(-794463))+-193040))p=z(t,i)P=e[p]z=W[N[146522+(((((-695319+527072)+(1991019-626946))-758587)-(-332608))-916368)]]i=r(-1042668-(-1041325))q=J[q]p=W[N[-874449-((((434432-(-19058))+-1486897)+((469302-736935)-(-852055)))-(-157367+582833))]]t=p(i,Q)e=z[t]q=q(J,P,e)i=r(-302251-(-300769))z=W[N[-624902+624903]]Q=(6735969363449-37300)-(-454502)p=W[N[253008+-253006]]t=p(i,Q)Q=r(((-884602-(-266277))-(698347+(-940211-695280)))+((125433+-332989)+-112906))e=z[t]p=W[N[-1035514+(1403365-367850)]]P=r(321739-323116)t=W[N[-192240+192242]]i=t(Q,g)P=q[P]z=p[i]P=P(q,e,z)g=-266632+16325903584866 z=W[N[172055-172054]]i=r(-727912+(136872+(1199323-(510257+99486))))Q=24048656968405-594954 p=W[N[((-151468-(-243757-423874))-61738)+-454423]]t=p(i,Q)Q=r(164730+-166142)e=z[t]p=W[N[124217-124216]]t=W[N[-346405-(-346407)]]i=t(Q,g)z=p[i]q=r(107220-108597)g=(-306164+944492)+14530855372136 i=r(314041-315407)q=P[q]q=q(P,e,z)z=W[N[-19655-(-19656)]]Q=894932+4060328511751 p=W[N[-225260+225262]]t=p(i,Q)P=r(-407416+406039)e=z[t]p=W[N[711432-711431]]t=W[N[(1369398-929320)-440076]]Q=r(-771475-(-769874))i=t(Q,g)Q=-30930+19153459756362 P=q[P]z=p[i]P=P(q,e,z)z=W[N[((-99256-(-34041))+-611189)-(-676405)]]g=(23536478185669-(-589137))-(-783342)p=W[N[(-574446+1150305)-575857]]i=r(972330+-973922)t=p(i,Q)Q=r(-480484-(-479151))e=z[t]p=W[N[7945-(((374600-796145)-47179)-(-476668))]]t=W[N[901440-901438]]i=t(Q,g)g=28881790173634-(-567482)z=p[i]q=r(884880-886257)q=P[q]q=q(P,e,z)i=r(-84508+82953)z=W[N[201077-201076]]p=W[N[306620-306618]]Q=-77322+(-200590+(230613+9765273394373))t=p(i,Q)e=z[t]P=r(-722229-(-720852))p=W[N[-862591+862592]]P=q[P]t=W[N[(29638+-449365)-(-419729)]]Q=r(-331932+(-35421+365883))i=t(Q,g)g=(-186642+(15383970895798-(823712-(825951+-112687))))-(-232699)z=p[i]i=r(705564+-706912)P=P(q,e,z)Q=-1005670+34433726325909 z=W[N[-208126-(-208127)]]p=W[N[729498+-729496]]t=p(i,Q)e=z[t]p=W[N[-305299-(-305300)]]t=W[N[-378079+378081]]Q=r(986157+-987781)q=r(((((1094737-185109)+-846823)+730218)+-1009159)-(-278472+63713))i=t(Q,g)q=P[q]z=p[i]i=r(((-1133422-(-1391046-(-922569)))-(-210675-(-407740)))-(-907256-(-46587)))q=q(P,e,z)z=W[N[-507522-(-507523)]]p=W[N[-346318-(-442546+(367127-270901))]]g=937432+18681732410198 Q=584309+5952919035940 t=p(i,Q)e=z[t]p=W[N[-194932-(-194933)]]t=W[N[362397-(((-1044441+853938)-(574576+-1250605))+-123131)]]Q=r(824880+(-141280+-685071))P=r(-219373+(-788016+1006012))P=q[P]i=t(Q,g)z=p[i]P=P(q,e,z)i=r(691935+-693488)z=W[N[929649-929648]]p=W[N[(-988874+1884391)-(-991253+1886768)]]Q=(-177092+33589775856468)-(-598109)t=p(i,Q)e=z[t]p=W[N[180209-180208]]g=-885157+28015602658583 q=r(390223+-391600)Q=r(143584+-145215)q=P[q]t=W[N[((683628+350236)+-1146734)+112872]]i=t(Q,g)z=p[i]Q=19628017399438-717120 q=q(P,e,z)z=W[N[740781+(-1268267-(-527487))]]i=r(1020116+-1021755)p=W[N[-412945+412947]]t=p(i,Q)e=z[t]p=W[N[-491743+491744]]P=r(941426+(430698+(142747+(-2218240-(-701992)))))Q=r(997692+(-1117893-(-118702)))g=519027+11980250017533 t=W[N[-265258-(-265260)]]i=t(Q,g)Q=(610601+-1106622)+17756723576913 P=q[P]z=p[i]P=P(q,e,z)z=W[N[-932404-(-932405)]]p=W[N[(1010227+-1704280)-(-694055)]]i=r(-734202+732800)t=p(i,Q)e=z[t]q=r(-319741+318364)Q=r(633977-635521)g=19689162708693-(-785732)p=W[N[-615636-(-615637)]]q=P[q]t=W[N[(-46424+-75397)+(-27003+148826)]]i=t(Q,g)z=p[i]q=q(P,e,z)Q=9101790969580-(-252594)z=W[N[-435611+435612]]p=W[N[-614220-(-667433-(-53211))]]i=r(-553918+552590)t=p(i,Q)e=z[t]p=W[N[519515-(-279462-(-798976))]]Q=r((1012316+-231282)+-782459)g=6815700170264-((-8836-((-1001587+1763395)+-701909))-(317448-713804))t=W[N[645219+-645217]]i=t(Q,g)z=p[i]p=r(-229226+227849)p=q[p]P={p(q,e,z)}q=Z[r(-896417+894859)]P={v(P)}end end else if q&lt;3169776-(-797519)then if q&lt;1043242+2579759 then if q&lt;-698855+4319275 then e=r((-718894+608956)+108300)z=2323450-140238 P=-215464+232520 J=e^z q=P-J P=r(((-431008+1364648)+-1138108)-(532306-735310))J=q q=P/J P={q}q=Z[r(708506-((-846007+1360906)-(-195051)))]else P=W[z]q=P and 6531244-726113 or 1021814+8490260 end else p=r(-217577+216237)q=Z[p]Q=W[N[-467585-(-467588)]]K=r(-153067-(-151611))Y=-793898+9750632633206 g=W[N[-758509-(-758513)]]x=g(K,Y)i=Q[x]g=W[z]h=737475+34628192244347 K=W[N[((663883-568459)+((-66390-919300)+1008315))-118046]]Y=W[N[-191222+191226]]j=r(498309+-499758)d=Y(j,h)x=K[d]Q=g..x t=i..Q p=q(t)t=301497+-301496 p=W[z]q=p&gt;=t q=q and 922627+4451823 or 8736893-113559 end else if q&lt;-362203+4364841 then q=true W[N[-835684+(1341829-(1099269-593125))]]=q q=Z[r(759089+-760523)]P={}else q=nil z=k()W[z]=q K=-1035411+21721500841587 P=W[e]x=21375830371729-(-431496-2203)g=r(545829+-547332)t=W[N[230008+-230007]]i=W[N[(448370+-975939)+527571]]Q=i(g,x)p=t[Q]t=u((-776765-(-501602-(-421681)))+(6281929-(-125571+(-1181308-(-323990)))),{e;N[-583990-(-1023081-(-439090))];N[-786495+(898915+-112418)];z})q=P[p]p=r((-45002+117486)-73982)W[e]=q P=Z[p]x=r(-269915+268557)p=P(t)P=W[e]i=W[N[-703432+703433]]Q=W[N[-585666+585668]]p=r(-480208+478792)g=Q(x,K)t=i[g]p=P[p]p=p(P,t)q=p and 3811457-(1508426-874065)or-711188+4331784 end end end end end else if q&lt;924322+5366883 then if q&lt;155936+5078702 then if q&lt;4058650-(-594129)then if q&lt;4206067-(-128171)then if q&lt;4214374-(-95832)then if q&lt;(-710407+618602)+4278230 then q=Z[r(((715741+(-190587+(-571257+-207802)))+-467659)-(-719997))]P={}else q=Z[r((-1875721-(-1011905))-(-862408))]P={}J=nil end else J=r(821751+-823197)q=Z[J]z=1030031+-1030031 e=W[N[-430225+430233]]J=q(e,z)q=5002290-8526 end else if q&lt;-832257+5331334 then if q&lt;3423134-(-959763)then e=W[J]Q=r(-743955-(121238+-863740))p=W[N[-649949-(-649950)]]t=W[N[-334683+(872284+-537599)]]g=32417563418308-901329 i=t(Q,g)z=p[i]Q=880774+5333354617753 P=e[z]i=r(((186396+478597)+362730)+-1029367)z=W[N[60502-60501]]p=W[N[(-1239346-(-703992))+535356]]t=p(i,Q)e=z[t]q=P~=e q=q and-836550+13283894 or 13692367-(-278914)else o=289630+-289629 H=#j w=-10942+(-589639-(-600582))h=z(w,H)w=i(j,h)q=(-636734+378566)+12737097 h=nil H=W[d]l=w-o c=Q(l)H[w]=c w=nil end else t=W[N[-776379+776380]]J=C[112525+-112524]i=W[N[((-276903+-855704)-(-158636))+(371249+(-462088+(1476636-411824)))]]x=8496+30375278252848 g=r((((120344+-33444)+-1316277)-(-214286))-(-1013573))Y=r(-2950-(-1576))Q=i(g,x)p=t[Q]Q=r((704155-442498)+-263218)z=J[p]i=Z[Q]d=-213984+11162998042633 g=W[N[(5861-(-339499))+-345359]]x=W[N[(-682950-(-556761))-(-126191)]]K=x(Y,d)Q=g[K]Y=(((-115293+(-668858+1772073))-(-574578))-603250)+17292819265883 t=i[Q]Q=W[N[-448017+448018]]g=W[N[409991+-409989]]K=r(-321793-(-320407))x=g(K,Y)i=Q[x]p=t[i]e=z==p P=e q=e and 15773241-236727 or-46351+16385150 end end else if q&lt;78856+4946797 then if q&lt;4489648-(-486523)then if q&lt;4415171-(-303421)then q=(-387230+-332347)+7187429 else q=(14314383-(189760+(-717877+129997)))-771342 d=W[g]h=W[N[((-191445-418671)-(-884692-(-654734)))+380161]]a=r((-655163-(((545145-834351)+-217014)-(-537993)))-(-685575))s=6530249177556-547471 w=W[N[-109878-(-1008487+898605)]]X=w(a,s)j=h[X]Y=d[j]X=r(-167920-(-166478))j=W[N[-15114+15117]]a=16482755169216-254731 h=W[N[189400+-189396]]w=h(X,a)d=j[w]K=Y==d x=K end else q={}J=q e=-435133+435134 z=W[N[((93726+90133)-813799)-((-632583+1374585)+-1371951)]]p=z z=(26939-408341)+381403 q=(-1061543-(-376242))+10566083 t=z z=623040+-623040 i=t&lt;z z=e-t end else if q&lt;4554401-(-472977)then q=V(14826652-827634,{N[-784020+784021],N[(-77366-(1081041-850680))-(-307729)]})J=q q=-617453-(-617813)e=q q=(540606+4277129)-(-811636)else w=r(96809+-98335)Q=t q=k()W[q]=g g=q X=-53567+17133228128770 K=W[g]d=W[N[-6787+6790]]j=W[N[670404+-670400]]h=j(w,X)Y=d[h]x=K[Y]Y=W[N[219379+-219376]]w=-809119+9222168408304 d=W[N[((906782-416513)+-1350154)+859889]]h=r(961622+-963274)j=d(h,w)K=Y[j]q=x==K q=q and 13433476-(-855362)or 832106+((15413386-337971)-((-525877+1351699)-(124711-(-371143))))end end end else if q&lt;5774983-(-145869)then if q&lt;(195457+-301843)+5681859 then if q&lt;-116358+5582638 then if q&lt;4630597-(-707369)then q=W[N[-203314+(-428634-(-631955))]]q=q and 749123+(((436784-163509)+(-692967+3203012))-(-787767))or(1384645-1018819)+4627938 else q=W[N[-927730+927735]]p=q()q=-688305+(8286440-(-1025199))end else m=-249583-(-249584)U=q E=R[m]m=false A=E==m q=A and 1774419-(-1040639)or(((-930261+376108)+(1845953-((446261-(-150682))-(-55683))))+-522531)+16492318 D=A end else if q&lt;5847411-123712 then if q&lt;-44443+5656404 then P={}q=Z[r(500460-501951)]else q=true q=q and-1028601+6975741 or 7847517-(-896683)end else P=W[z]P={P}q=Z[r((519769-(((-701392+315427)+-788938)-(-717001)))+-979056)]end end else if q&lt;6223333-(635194+-476554)then if q&lt;574676+5383245 then if q&lt;(-896861+7659235)-823859 then x=r(512775-(-154021+668294))q=Z[x]K=V(-885765+11639699,{g;N[-246855-(-246858)];N[-131178+131182];J;z})x=q(K)q=741386+14836167 else P=r((-10906+-326897)-(-336187))q=Z[P]t=W[N[-245982-(-245985)]]i={q(t)}q=-1038340+(16829507-(-826673+1064687))p=i[-346660+((882764-(-83764))+-619865)]z=i[-412106-(-412108)]P=i[-917337+(691243+226095)]t=P end else q=-8226+9393127 i=nil p=S(p)x=S(x)Y=nil h=nil p=k()e=S(e)e=nil i=r(151658+-153005)K=S(K)d=nil t=S(t)g=nil x=r(126148+-127632)j=nil z=S(z)w=S(w)W[p]=e g=r(-902377-(-174186+-726835))Q=S(Q)e=k()z=nil W[e]=z t=Z[i]K=k()i=r((-1011340-(-50550))-(-95938-863287))z=t[i]Y={}t=k()W[t]=z Q=r(-902660-(-901313))i=Z[Q]Q=r(458843-460219)z=i[Q]Q=Z[g]g=r(-960100-(-339686-618948))i=Q[g]j={}h=583725-583724 g=Z[x]x=r(-79321+(785854+-708072))d=k()Q=g[x]g=(-144139-734698)+878837 w=-114720-(-114976)x=k()W[x]=g g=(358772-(-589663))-948433 W[K]=g H=w g={}W[d]=Y Y=594777+-594777 w=118971+(660138+-779108)c=w w=(-7462+(-181509+44328))+144643 l=c&lt;w w=h-c end else if q&lt;-483147+6712839 then t,Q=z(p,t)q=t and 194808+12702007 or-1010542+9789618 else l=r((-1024671+297188)-((-188939+210716)-(1188930-(-369419-(-810436)))))c=k()W[c]=X M=632572+-632572 L=836423-(127001-(-709167))P=Z[l]A=r(-301565-(-300035))l=r(((-193837-(-414021))-177610)-43950)q=P[l]o=590480+-590380 R=949283+-949281 l=-431137+(830761-399623)P=q(l,o)l=k()W[l]=P o=-947768-(-473710+-474058)q=W[Q]F=-685548+685549 P=q(o,L)o=k()W[o]=P q=W[Q]L=102145+-102144 n=W[l]P=q(L,n)L=k()W[L]=P P=W[Q]n=P(F,R)P=-128224+128225 O=-1023624-(-735885+-297739)R=r(-587755+586143)q=n==P n=k()W[n]=q q=r(455770-457147)U=Z[A]P=r(818511-(-176576-(-996719)))E=W[Q]q=h[q]m={E(M,O)}A=U(v(m))U=r(-179392-(-938890-(-761110)))D=A..U F=R..D q=q(h,P,F)F=k()W[F]=q D=V(11867348-148509,{Q;c;K,z;e,w;n,F,l;L,o,x})R=r(-888262-(-886764))P=Z[R]R={P(D)}q={v(R)}R=q q=W[n]q=q and 594300-(-68133)or 3458235-31267 end end end end else if q&lt;6829289-(-559404)then if q&lt;81281+6855541 then if q&lt;6190550-(-317487)then if q&lt;6361257-(-490437-(-381200))then if q&lt;(830386-259530)+(5379701-(-391044))then J=r(31390-32873)P=r(519776+-521409)q=Z[P]P=Z[J]J=r(127632-129115)Z[J]=q J=r(-958830+(-122278+1079475))Z[J]=P J=W[N[-293745+(-30014-(-323760))]]q=13727324-91044 e=J()else q=true q=q and(487499-720221)+7637889 or 12913890-631002 end else d=32271308555123-362943 q=W[N[320826-320825]]e=W[N[-891292-(-891294)]]Q=r(((348673-(-301609))-(-224737))-((1082920-652327)+445983))p=W[N[-789756-(-789759)]]g=303202+135367382239 t=W[N[968800+-968796]]i=t(Q,g)g=r(241215+-242820)z=p[i]x=32613935429556-((-852355-(-175462))+(201004+(136224-((-22108+(571520-306672))-264391))))J=e[z]p=r(-23345-(-21725))z=Z[p]t=W[N[(613441+((-43498+-1272921)-(-286924)))-(-416057)]]i=W[N[840332+-840328]]Q=i(g,x)g=r(25096-(44308+(588981+-606782)))p=t[Q]e=z[p]Y=r(-941270+939934)p=.2 x=1370558034454-69754 P=r(-592566-(-591123))z=e(p)t=W[N[-86215-(-86218)]]i=W[N[34519+-34515]]Q=i(g,x)p=t[Q]Q=r((655890-(-308577))-((1168134-533107)-(-330992)))i=Z[Q]g=W[N[1018703-1018700]]x=W[N[661858-661854]]K=x(Y,d)Q=g[K]t=i[Q]x=.0470588 g=.0470588 P=q[P]Q=.0470588 i=t(Q,g,x)e={[p]=i}P=P(q,J,z,e)q=r(-179415-(-177926))q=P[q]q=q(P)P={}q=Z[r(-15545-(-14084))]end else if q&lt;7343738-(155667-(-494379))then if q&lt;939566+(5053794-(-529363))then K=K+Y g=K&lt;=x j=not d g=j and g j=K&gt;=x j=d and j g=j or g j=(327888+336309)+1265239 q=g and j g=-470151+1114057 q=q or g else J=W[N[-1046506-(-1046507)]]i=r(-387704-(-386269))z=W[N[508578+-508576]]Q=-188283+12634541254346 p=W[N[-258095-(-258098)]]t=p(i,Q)e=z[t]P=J[e]q=not P q=q and(-470065+12210606)-(266609+-1084355)or-1026695+14613051 end else q=J W[N[998188-998185]]=q q=-484311+11751071 end end else if q&lt;7383232-317277 then if q&lt;6964528-(-31953)then if q&lt;-660292+7641906 then q=true q=q and 269689+749459 or 430458-108793 else P=r(-449318-(-447978))K=r(-847577+846061)q=Z[P]Q=W[N[902402+-902401]]g=W[N[((2591813-884193)-(709157-(-143644)))-854817]]Y=17607567778626-209441 x=g(K,Y)i=Q[x]h=552981+17682865273948 g=W[J]x=r(-1040500+1039033)x=g[x]x=x(g)K=W[N[568600-568599]]Y=W[N[(-537296+(1169370-(-43558)))+-675630]]j=r(249799-251274)d=Y(j,h)g=K[d]Q=x..g t=i..Q P=q(t)q=W[N[-612691-(-111530+-501166)]]P=q()q=1009191-(-822245)end else J=C[506011+-506010]z=W[N[-393268+393269]]e=J==z q=e and-276448+10851951 or 961219+11385615 P=e end else if q&lt;-816833+8031369 then i=W[J]h=1241161234738-(-827968)j=r(-494085+(361997+130577))g=W[N[-554925+554926]]x=W[N[(-830624+246879)-(-583747)]]d=(17362274339926-(-550061))-977792 Y=r(-668683+((307646-318622)-(-678155)))K=x(Y,d)Q=g[K]q=-270678+12588538 x=r((-417725+466507)+-50343)t=i[Q]g=Z[x]K=W[N[884127+(996330+(-2418322-(826169+-1364035)))]]Y=W[N[191804+-191802]]d=Y(j,h)x=K[d]d=r(-499437-((-1515857-(-781124))+236788))j=22660968866205-(-186906)Q=g[x]x=W[N[(301891+-718155)+416265]]K=W[N[1029284-((759430+-750114)+(750665-(-269301)))]]Y=K(d,j)g=x[Y]i=Q[g]p=t==i e=p else P=r(1022551+-1023891)K=19219024678888-397798 q=Z[P]i=W[N[945236-(-886556+1831791)]]Q=W[N[725342+-725340]]x=r(994655+-996206)g=Q(x,K)t=i[g]P={q(t)}P={v(P)}q=Z[r(-750254+748720)]end end end else if q&lt;7696011-(-570511)then if q&lt;838027+7233612 then if q&lt;8191069-389091 then if q&lt;7143943-(-270989)then H=-304365-(-304371)q=W[Q]s=-691851-(-691852)a=q(s,H)H=r(-1042030-(-1040397))q=r((550+-35542)+33359)Z[q]=a s=Z[H]H=965843+-965841 q=s&gt;H q=q and 451958+(-404557+8293872)or 2339513-(-173434)else q=P and 11506616-656297 or 995208+4327606 end else P=6420802-811440 e=r(962767+((-751509-(976778-663776))-(-100254)))z=7324837-574962 J=e^z q=P-J J=q P=r(-1006815+1005256)q=P/J P={q}q=Z[r(178617+-179984)]end else if q&lt;25738+(8690949-566109)then if q&lt;(8899100-746629)-39421 then z=r(-485857-(-484501))e=Z[z]z=r(679070-680536)J=e[z]q=Z[r(-530402+((614899+-1487653)+1401618))]z=W[N[-107754-(-107755)]]e={J(z)}P={v(e)}else e=C[(-312537+638328)+-325789]q=W[N[414281+-414280]]z=q J=C[46962+-46961]q=z[e]q=q and 416819+1024825 or 7833294-(-667121)end else q=P and-214065+(12224035-(157018+-740771))or 1383737-(-54368)end end else if q&lt;(606327-987809)+8835440 then if q&lt;7468520-(-927007)then if q&lt;7804730-(-570124)then c=r(905553+-907036)s=r(-741440+(-173305-((-1015833+255043)-152425)))q=Z[s]H=Z[c]s=q(H)q=r(522743-524376)Z[q]=s q=4001411-(-708440)else q=Z[r(620599+-622094)]P={}end else q=P and-25957+7390912 or-867309+14952299 end else if q&lt;-503557+9092079 then q={}g=r(-567706-(725012+(-503771-787463)))W[N[629507-629505]]=q P=W[N[393034-(848163+-455132)]]t=417694+35184371671138 p=P P=e%t W[N[19426-((1114837-198090)+-897325)]]=P Q=-28242-(-28497)i=e%Q Q=254994+-254992 t=i+Q W[N[-992316+992321]]=t Q=Z[g]g=r(62932-64503)q=5912422-(-600848)i=Q[g]Q=i(J)K=878552+-878551 i=r(-674962+673431)g=-378870-(-378871)x=Q Y=K z[e]=i i=417309+-417225 K=998652-998652 d=Y&lt;K K=g-Y else J=k()W[J]=C[541216+-541215]Q=-490343+4584660805789 i=r((133293-709128)+574261)q=W[J]z=W[N[(650982+((-532503+(-692948-699554))-(-559860)))-(-714164)]]P=r(933033+-934449)p=W[N[1028435-1028433]]t=p(i,Q)P=q[P]e=z[t]P=P(q,e)q=P and(1445876-492066)-283905 or 14201608-5456 end end end end end end else if q&lt;142829+12415792 then if q&lt;178165+(9801751-(-774905))then if q&lt;-201880+(8551903-(610149+-1646766))then if q&lt;9876911-1020428 then if q&lt;270724+(8006882-(-466047))then if q&lt;8410430-(-320152)then if q&lt;-408499+9032308 then t=r(-852216+850815)J=S(J)d=r(276262-277759)p=Z[t]x=r(263946+-265552)i=W[N[-55192-(-55195)]]Q=W[N[-84085-(-84089)]]K=2437315550366-551787 g=Q(x,K)t=i[g]q=p[t]t=.4 p=q(t)j=-912199+18355312913012 e=nil q=W[N[(653067+258730)-(725690-(-186106))]]Q=W[N[377320+-377318]]x=W[N[334946+-334943]]K=W[N[(952073-883974)+-68095]]Y=K(d,j)g=x[Y]d=12873513604633-(((-330477-369707)-(-384489))-(-322358))i=Q[g]g=W[N[-197826+197829]]x=W[N[620290-620286]]Y=r(936285+-937642)K=x(Y,d)j=-614331+4262591983835 P={}z=S(z)Q=g[K]g=r(-1032955+1031335)t=i[Q]Q=Z[g]d=r(-471022-(176899+-646462))x=W[N[374901+-374898]]K=W[N[(-107490-(-1775799-(-853460)))+-814845]]Y=K(d,j)g=x[Y]i=Q[g]d=r((-691722-(-1707826-(806559+-1714159)))-110068)g=.4 Q=i(g)j=353859+6485180075549 x=W[N[312918-312915]]p=r((((-226755-((1772783-(-428229-(-365924)))-((-1042425+1267777)+576900)))-(-383696))+(-468226+1521792))+-179114)K=W[N[170039-170035]]Y=K(d,j)p=q[p]g=x[Y]x=-241088+241088 i={[g]=x}p=p(q,t,Q,i)q=r((683966-75110)+-610345)q=p[q]q=q(p)q=Z[r(-1043826+1042352)]else K=410697-410694 x=k()j=r(-897227-(-895729))W[x]=P Y=-193861-(-193926)q=W[Q]P=q(K,Y)K=k()q=(-1004324-(-552855))+451469 W[K]=P P=Z[j]h=T(7591602-(-415276),{})s=r(-105037-(-103507))Y=q q=(-1509785-(-666452+-136935))+(1738088-1031690)j={P(h)}P=-833382+833384 d=q q={v(j)}j=q q=j[P]P=r(735727+-737317)h=q q=Z[P]w=W[z]a=Z[s]s=a(h)a=r(68558+-70190)X=w(s,a)w={X()}P=q(v(w))w=k()W[w]=P X=W[K]a=X P=420697+-420696 X=767047+(-1457155-(-690109))s=X X=982403-982403 q=15491117-(-86790)H=s&lt;X X=P-s end else d=r(600887+-602243)Q=r(639059-640406)i=P P=Z[Q]Q=r(455144-456520)q=P[Q]g=r(537410+(-559307+20541))Q=k()W[Q]=q P=Z[g]g=r(-3900-(-2558))q=P[g]Y=Z[d]K=q g=q q=Y and-1040029+11050471 or 15379545-972595 x=Y end else if q&lt;8133949-(-652968)then if q&lt;375201+8381054 then J=nil q=Z[r(377166-378590)]P={}e=nil else p=r(708316-709717)z=Z[p]x=9631199292915-519599 t=W[N[826312-826311]]g=r(205177+-206835)i=W[N[555664+(-1098128-(-542466))]]Q=i(g,x)p=t[Q]q=z[p]p=-519904-(23506-543412)z=q(p)z=(690136-379320)-310096 q=e+z e=q p=W[N[(-393377-(-489289))+-95908]]z=not p q=z and 17343542-765679 or 296921+1172975 end else q=W[N[-877782+877783]]t=r((1475104-697516)+(-1090333-(-311328)))w=r((-624284-(-453578))-(382043+(-139565+-411643)))i=790086+157299876227 K=17988600335915-(-836249)Y=r(-200068+198700)e=W[N[-850783-(-850785)]]z=W[N[655490-655487]]p=z(t,i)X=849150502698-(-79690)J=e[p]e=W[N[3578+-3577]]x=r(907739-(-202466+1111601))i=W[N[(-825688-(-526565))-(-299125)]]Q=W[N[33498+-33495]]g=Q(x,K)t=i[g]g=W[N[(((-865736+2203836)-(448787+136574))+-494109)-258628]]P=r((68051-717877)-(-648291))x=W[N[906481+-906478]]d=29067347183858-935419 K=x(Y,d)Q=g[K]Y=r(367891+-369526)K=Z[Y]d=W[N[-1027589-(-1027591)]]j=W[N[-321643+321646]]h=j(w,X)Y=d[h]x=K[Y]w=(28961022128816-(-336922))-496652 Y=W[N[346748+-346746]]d=W[N[1017315+-1017312]]h=r(-985290-(-983728))j=d(h,w)K=Y[j]g=x..K i=Q..g P=q[P]p={[t]=i}t=r(305127-306703)t=e[t]z={t(e,p)}P=P(q,J,v(z))P={}q=Z[r(-818344-(-816858))]end end else if q&lt;400975+8906677 then if q&lt;9351072-(-603099-(284773+-1317357))then if q&lt;8822451-(-88217)then z=r(926506-928122)q=Z[z]i=W[N[(-394265+108599)+285669]]Q={q(i)}z=Q[646046-646045]q=459616+5635574 t=Q[-875963-(-875966)]p=Q[(-825922-(-268621))-(-557303)]else e=r(471189+-472590)i=r(24415-26071)q=true Q=-274688+15283692896701 W[N[-449991+449992]]=q J=Z[e]z=W[N[-293932+293934]]p=W[N[954428-(-303060+1257485)]]t=p(i,Q)q=Z[r(869056-870596)]e=z[t]P=J[e]e=B(888529+7957575,{N[(-34685+936568)+-901879];N[-9878+9880],N[560410+-560407]})J=P(e)P={}end else g=g+K Q=g&lt;=x d=not Y Q=d and Q d=g&gt;=x d=Y and d Q=d or Q d=(198269+-1166485)+16243486 q=Q and d Q=15264776-(-532666)q=q or Q end else if q&lt;-126407+9496341 then if q&lt;(417035-(209543-475283))+8667277 then q=Z[r((379535+421729)-802887)]e=S(e)J=nil P={}else F,R=L(n,F)q=F and(((310518+-288591)-809373)-(-738863))+15123500 or 730534+15180448 end else w=w+c h=w&lt;=H o=not l h=o and h o=w&gt;=H o=l and o h=o or h o=14811564-(144541+612202)q=h and o h=15745748-451212 q=q or h end end end else if q&lt;10055108-(-475949)then if q&lt;(379696+8788432)-(-677648)then if q&lt;9685295-(-78687)then if q&lt;8557468-(-985132)then q=(-781401+894651)+11843690 z=S(z)else q=-603833+((-33634+1569538)-(-949521))z=W[N[-593069-(94124-687199)]]e=z==J P=e end else H=17017384884168-468482 g=r(((((1237065-(-422425+769720))+(-1895429-(570977-886902)))+(741522-643136))+1430248)-840525)Q=Z[g]h=21923052660547-745704 K=W[e]g=r(298630-300035)Y=W[p]j=r(-79900-(-78453))n=1127748366471-(-309483)w=22238602264333-(-254087+(313091-(-189967)))d=Y(j,h)h=-328883+30409254188582 g=Q[g]x=K[d]g=g(Q,x)K=W[e]j=r(566049-567645)Y=W[p]d=Y(j,h)x=K[d]h=r(182744+-184194)Y=W[e]d=W[p]j=d(h,w)w=r((858201+-147502)-712293)K=Y[j]d=W[e]Q=r(((-788246+1791320)-593940)+-410591)j=W[p]h=j(w,H)Y=d[h]Q=g[Q]d=r((1917681-994457)+-924815)c=15446209906728-(-81804-(-855517))Q=Q(g,x,K,Y)H=r(-882472-(-881108))Y=Z[d]j=W[e]h=W[p]w=h(H,c)d=j[w]H=((-389321+764769)+27473726784542)-514259 w=r(-132105-(-130743))K=Y[d]L=r(-8560-(-7133))d=W[e]j=W[p]h=j(w,H)Y=d[h]w=r(453151+-454664)x=K[Y]K=k()W[K]=x x=W[K]d=W[e]j=W[p]H=(24186144182875-440893)-890002 h=j(w,H)Y=d[h]h=r(-443461-(-441826))j=Z[h]H=W[e]c=W[p]o=c(L,n)w=H[o]h=r(-381362-(-379774))h=j[h]h=h(j,w)o=r(780933+-782305)L=12983+1342389748050 w=W[e]H=W[p]c=H(o,L)j=w[c]w=r(544648-((-601750-(-825843-(-635816)))-(-310852+-647025)))d=h[j]x[Y]=d x=W[K]d=W[e]H=109553+9318239656458 j=W[p]h=j(w,H)Y=d[h]d=false w=r(38081+-39602)x[Y]=d d=W[e]H=966379+(1033961+34132019826729)j=W[p]o=18208316151059-(-460150)h=j(w,H)Y=d[h]d=B(-347197+490949,{K,e;p})c=32756418802069-(865382-732254)x=Q[Y]Y=r(41373-42732)Y=x[Y]Y=Y(x,d)Y=r(901561+-903196)L=r((-974277-(-939539))-(-33122))x=Z[Y]j=W[e]h=W[p]H=r(-397995+(-463210+859578))Y=r((127280-(-580506))+(-473054+-236320))w=h(H,c)Y=x[Y]d=j[w]Y=Y(x,d)x=k()W[x]=Y d=W[K]h=W[e]c=r(21310-(609328+-586604))w=W[p]H=w(c,o)o=r(-398180-(-331090+-65473))j=h[H]Y=d[j]d=k()W[d]=Y j=k()h=u(935558+-805258,{j,e,p,t})Y=false W[j]=Y Y=k()W[Y]=h H=k()E=r(722104+-723477)q=-597704+9951417 w=k()h={}W[w]=h h=true W[H]=h c=Z[o]h=B(900383+(999682+3126001),{e;p,w;H,x})o=c(h)c=T(9241513-635154,{e;p,w,x})o=Z[L]R=W[d]E=R[E]A={E(R)}R={o(v(A))}n=R[-306180+(475076+(303662-(768751+-296195)))]F=R[-134003+134006]L=R[-843070+843071]end else if q&lt;(-612403+(574351+10459874))-401209 then if q&lt;865618+9021840 then Q=not i z=z+t e=z&lt;=p e=Q and e Q=z&gt;=p Q=i and Q e=Q or e Q=11599194-843060 q=e and Q e=2866337-(-383701)q=q or e else q=831295+(-739430+14315085)j=r(-826021+824665)d=Z[j]j=r((726193+-1279552)+551859)Y=d[j]x=Y end else z=(-1004593+1066350)-61725 e=W[N[-755712+755715]]J=e%z x=1037674+(-1951089-(-913417))Y=1000664-1000651 p=W[N[777958-777954]]Q=W[N[-993002-(-993004)]]h=W[N[270309+-270306]]j=h-J h=943278+(-483621-459625)d=j/h K=Y-d g=x^K i=Q/g t=p(i)p=4295109521-(((-291245+(-139049+637331))+-109032)-((-884222-(-496461))+(837661+(((-2002388-(-465250))-(299012+(-441268+(-96586-199082))))-(-605094)))))z=t%p t=-164727+164729 p=t^J J=nil e=z/p g=(364298-630258)+(53869+212092)p=W[N[-745158-(-745162)]]x=479806-479550 Q=e%g g=39405+4294927891 i=Q*g t=p(i)p=W[N[324350-324346]]i=p(e)z=t+i t=-608555-(-770992-(-96901))Y=860065-((-202615+980990)-(-81434))Q=-497728+563264 p=z%t i=z-p t=i/Q Q=-951547-(-613730-338073)z=nil i=p%Q g=p-i Q=g/x p=nil e=nil x=-485599-(-953069+467214)g=t%x K=t-g t=nil x=K/Y q=9110995-1026613 K={i,Q,g,x}g=nil x=nil Q=nil W[N[-968112+(-582486+1550599)]]=K i=nil end end else if q&lt;253580+10414969 then if q&lt;292162+10317089 then if q&lt;(-354416+1342511)+((881317+99891)+8600687)then i=t g=W[N[54363+((598547+-177184)-475722)]]q=not g q=q and 575734+13628845 or 12186006-388941 else e=W[N[487143-(404695+82446)]]P=e q=(679659+-1164749)+12831924 end else t=r(251104+-252439)J=r(601641-603232)P=Z[J]e=W[N[(1041363-772127)-269233]]z=W[N[-1039811-(-1039815)]]i=874937+772146705865 p=z(t,i)J=e[p]q=P[J]P=r(555751+-557081)P=q[P]t=433394+25135869533861 P=P(q)p=r(555949+-557327)J=P P=W[N[-302964+302967]]e=W[N[280290+-280286]]z=e(p,t)q=P[z]t=r((-397827-(-195308))-(783123+-984194))i=(-312493+-482808)+30506349862216 g=(23083896007436-(-667686-151655))-821567 e=W[N[(-619690-(-398010))+(-455245-(-676928))]]z=W[N[-137511-(-137515)]]p=z(t,i)P=e[p]t=-593456+14828509287949 J[q]=P P=W[N[403704+-403701]]e=W[N[(188898-351956)+((172268+738048)+-747254)]]p=r(-815385-(-1205408-((-669796-(-595630))-317386)))z=e(p,t)x=r(401787-403357)q=P[z]P=true Q=r(397217+-398806)J[q]=P p=r(-462342+460962)P=W[N[1010823+-1010820]]e=W[N[778590-778586]]t=420457+8676787778463 z=e(p,t)e=r(-463542-(-461907))q=P[z]P=Z[e]p=W[N[733195-733192]]t=W[N[798355-798351]]i=t(Q,g)z=p[i]Q=r(345873+-347468)e=r(147575-149163)g=(1015239+-523982)+10271593517293 e=P[e]e=e(P,z)p=W[N[-192058-(-192061)]]t=W[N[671129+-671125]]i=t(Q,g)z=p[i]P=r(-1009549+1008077)P=e[P]P=P(e,z)J[q]=P K=16742575382594-940989 i=r(480609-482028)P=r(((-767124+1212031)-(45544+(-595692-(-804742))))+-191653)q=Z[P]z=W[N[(509044+-1096123)-(615234+-1202316)]]p=W[N[252186+-252182]]J=nil Q=-153723+21155883715713 t=p(i,Q)e=z[t]P=q(e)q=W[N[-70677-(-70682)]]e=.4 P=q()P=r(-209751-(-208258))q=Z[P]P=q(e)q=W[N[-987786-(-987787)]]p=W[N[988656+-988654]]i=W[N[-348245-(-348248)]]Q=W[N[-186902+186906]]g=Q(x,K)t=i[g]g=r((-1036654-(623289+-1485888))-(-172462))x=-745310+16515916277658 z=p[t]P=r(550682-552125)t=W[N[-842302+842305]]i=W[N[-228238+228242]]Q=i(g,x)p=t[Q]e=z[p]t=r(143283-144903)K=11038137128667-(-421933)p=Z[t]x=r((-359177+814109)+((-335451-(-112847))-233891))i=W[N[(520297-(-97694))-617988]]Q=W[N[254581+-254577]]g=Q(x,K)P=q[P]t=i[g]z=p[t]K=(546188+10984285966625)-762680 t=.4 p=z(t)i=W[N[-515635+515638]]x=r(720891-722290)Q=W[N[(306187+-1148501)+(-253299+1095617)]]g=Q(x,K)t=i[g]i=393876-393876 z={[t]=i}P=P(q,e,p,z)q=r(-68278-(-66789))q=P[q]q=q(P)P={}q=Z[r(-334082+332539)]end else if q&lt;11315134-568529 then e=W[N[-832899-(-832901)]]z=W[N[(-1667271-(-890325))-(899561+-1676510)]]J=e==z P=J q=((-12389+(-562221+709321))+(544157+(((556694-(-241519))+-1689320)-(-130454))))+7549085 else q=W[N[-589734-(194632+-784367)]]p=r(1023722+-1025270)J=W[N[610749+-610747]]t=25505468517652-233332 e=W[N[19506-19503]]x=((-647017-(-876739))+867038830829)-941298 z=e(p,t)P=J[z]z=W[N[-912679+912680]]g=r(-69103+(233941-(((-826843+1247319)-506896)-(-252731))))t=W[N[-747814+747816]]i=W[N[430947-430944]]Q=i(g,x)p=t[Q]e=z[p]z=W[N[(108243-(-794437))-902676]]J=e..z q[P]=J P=W[N[201270+-201265]]J=71569+-71568 q=P+J W[N[655161-(-689741+1344897)]]=q P={}q=Z[r(862095-863603)]end end end end else if q&lt;947433+10856485 then if q&lt;-730410+11666592 then if q&lt;9903829-(-949735)then if q&lt;11404301-557453 then if q&lt;-730301+(11719341-178609)then g=-213437+(-598579-(-812016))x=-798963-(-799218)q=W[N[475199-475198]]e=z Q=q(g,x)J[e]=Q q=-249804+10130586 e=nil else g=r(-427075-((-825189-(-740712))+-340943))q=W[N[751539-(1523306-771768)]]z=W[N[144052-(252782-(-116393+225125))]]t=W[N[633854+-633851]]x=28663256818341-(-824492)i=W[N[738363+-738359]]Q=i(g,x)p=t[Q]Q=r(-889855-(-165657+-722772))g=(-85669+11396714069201)-(-871708)e=z[p]p=W[N[928970+-928967]]t=W[N[(((-279872+(-594275+303455))+(((1003117+-1024528)-(-680644))+(-1482871-(-272303))))-(-405700))-(-716331)]]i=t(Q,g)z=p[i]g=r(-88726+87293)x=(28775163772604-(-453874))-(-886351)J=e[z]p=r(-108078-(-106458))z=Z[p]t=W[N[(-748864+1216946)+-468079]]i=W[N[-861182+861186]]Q=i(g,x)p=t[Q]e=z[p]P=r(-714800+713357)x=31293961499093-(-324227)g=r(115308+-116658)p=.4 z=e(p)t=W[N[144244+-144241]]i=W[N[418935-418931]]Q=i(g,x)p=t[Q]P=q[P]x=(505337-638826)+22167511873531 i=-477383+8140614326954 g=r(-150094-(-148484))t=.4 e={[p]=t}P=P(q,J,z,e)q=r(787417+-788906)t=r(226339+-227736)q=P[q]J=r(-745976+(-915486+1660061))q=q(P)P=Z[J]e=W[N[(415956+-1229920)+813967]]z=W[N[(138682-1014098)-(-875420)]]p=z(t,i)J=e[p]q=P[J]J=.4 P=q(J)q=W[N[-202619-((-340260-(667547-(1222968-747236)))-(-329455))]]z=W[N[926039+((-209622+(873211-597697))+-991929)]]t=W[N[-380627+380630]]i=W[N[885731+-885727]]Q=i(g,x)p=t[Q]g=462120+33378925897119 x=774428+18458591176992 P=r(296377-297820)e=z[p]Q=r(925683+-927232)p=W[N[-766470+766473]]t=W[N[-41831+41835]]i=t(Q,g)z=p[i]P=q[P]p=r(-989375+987755)J=e[z]z=Z[p]t=W[N[251796+-251793]]g=r(-187317+185810)i=W[N[-97996+(430131-332131)]]Q=i(g,x)g=r(442559-444199)p=t[Q]e=z[p]p=.4 z=e(p)t=W[N[607301-607298]]i=W[N[-956463+956467]]x=21829052061341-879980 Q=i(g,x)p=t[Q]t=-526601+526601 e={[p]=t}P=P(q,J,z,e)q=r(-750537+749048)q=P[q]q=q(P)q=Z[r(-934390-(-932967))]P={}end else g=r(-555939+554441)p=r((893834+-1372754)+477390)P=r(-1026311-(-1024721))q=Z[P]x=y(3354142-(-226851),{})J=W[N[-287841+(-296705-((345188-((842183+-723591)+384144))-427002))]]z=Z[p]Q=Z[g]g={Q(x)}i={v(g)}Q=-657272-(-657274)t=i[Q]p=z(t)z=r(-304227-(-302595))e=J(p,z)J={e()}P=q(v(J))e=W[N[92555-92550]]J=P q=e and 10011649-(-599968-(336913+-1184625))or-718881+2600473 P=e end else if q&lt;11618048-718788 then if q&lt;521015+10352713 then q=W[N[-662615-(-662616)]]e=W[N[69421-69419]]Y=r(-161309+159855)g=-976020+(17024799036512-38797)p=W[N[884574+(474961+(-1900765-(-541233)))]]t=W[N[-249629-(-249633)]]Q=r(582373+-583987)i=t(Q,g)g=r(-500350-(-498741))z=p[i]x=466575+11310002195399 p=r(469944+-471564)P=r(1013747-(1288554-(((204756+191460)-1025839)-(-650801+-252186))))J=e[z]z=Z[p]t=W[N[-970427+(51887+(890427-(-28116)))]]d=32575545481946-397179 i=W[N[838558+(742241+-1580795)]]Q=i(g,x)p=t[Q]e=z[p]g=r(-661897-(-1701253-(-1718908-(-1041040-(-362903)))))p=.2 x=(-286137+8283403596462)-(-804205)z=e(p)t=W[N[46650-(26026-(726017-746638))]]i=W[N[-936861-(-936865)]]Q=i(g,x)p=t[Q]Q=r(-259196+257644)P=q[P]i=Z[Q]g=W[N[703663+-703660]]x=W[N[-205661-(-205665)]]K=x(Y,d)Q=g[K]t=i[Q]i=t()e={[p]=i}P=P(q,J,z,e)q=r(-696892+695403)q=P[q]q=q(P)q=Z[r((((-189723+-603845)+361016)+1316889)+-885805)]P={}else q=true q=-564703+((156021-612540)+1342887)end else P=r(269869-271504)q=Z[P]t=r(693422-695000)i=17524651978773-(-1034566)P=r(-182194+(475448+-294842))e=W[N[35387-35384]]z=W[N[439606+-439602]]p=z(t,i)P=q[P]J=e[p]P=P(q,J)i=14355161745935-399349 e=W[N[-375650-(-375653)]]z=W[N[627148-627144]]t=r(-1007390+1005958)p=z(t,i)J=e[p]q=r((-14682-(-359697))-346487)q=P[q]q=q(P,J)t=r(740633+(-1216197-(-474220)))e=W[N[255761-255758]]i=26576058717255-((-886100+1820063)-(900190-44027))z=W[N[117724-(903164-785444)]]p=z(t,i)J=e[p]P=r(-503177-(-501541))P=q[P]P=P(q,J)q=r(-775570-(-774119))q=P[q]q=q(P)q=-544430+(-838491+12008864)end end else if q&lt;11831350-472806 then if q&lt;10484897-(-733971)then if q&lt;(59222-92789)+11099555 then l=r(29897+-31366)w=k()h={}W[w]=h j=nil h=k()o={}H=y(-398047-(-659936),{w;x,K,t})W[h]=H i=nil c=k()Q=nil R=r(817021+(-439998-378670))t=S(t)H={}n=r(420052+-421627)A=nil W[c]=H H=Z[l]Y=nil g=nil F=W[c]j=r(-720214-(-718617))L={[n]=F;[R]=A}z=nil l=H(o,L)W[e]=l H=u(8517211-379195,{c,w,d;x;K;h})d=S(d)w=S(w)W[p]=H i=r(-866452+(1814960-950143))Y=r(357576-359161)t=Z[i]K=S(K)g=W[e]z=515783+-515782 x=S(x)x=W[p]c=S(c)h=S(h)i=r(621195-622783)d=875096+31650014532212 h=-274341+20016456234398 i=t[i]K=x(Y,d)Q=g[K]i=i(t,Q)t=k()W[t]=i Q=W[t]K=W[e]g=r(-70614+(-388905-(-457906)))Y=W[p]d=Y(j,h)g=Q[g]x=K[d]g=g(Q,x)Q=-453099+453099 i=g+Q Q=i&gt;z q=Q and-780276+3457644 or 244160+9530316 else e=k()z=r(-667593-(-666109))J=C q=true W[e]=q P=Z[z]Q=r(-43961-(-42463))z=r(-563178+561628)q=P[z]z=k()p=k()W[z]=q q=T(-486383+852473,{})t=k()g=y((((1202148-644336)+-1203294)+5153176)-(571008+-65844),{t})W[p]=q q=false W[t]=q i=Z[Q]Q=i(g)q=Q and 12297547-(-188183)or-650326+9386337 P=Q end else q=Z[r((-109907+-447547)-(-555958))]J=nil P={}end else if q&lt;11569881-(-163194)then p=(-656033-(-635547))-(-20487)e=W[N[(-203569-(-493031))-289461]]t=-665162+665164 z=e(p,t)e=-538651-(-538652)J=z==e q=J and 8002437-535137 or 11078516-400422 P=J else q=W[N[-214396+214401]]w=r((-1946399-(-993123))-(-951922))H=r((950669+-24977)+(-983206-(-56062)))Y=r((-740712+186502)+552590)K=Z[Y]d=W[N[-775865-(-60520-715346)]]j=W[N[(1531921-610900)+-921019]]X=17480512897938-(-232034)h=j(w,X)i=nil c=29526728957666-111361 Y=d[h]x=K[Y]g=r(-717296+715853)w=r((280577+-947441)-(-197374-467929))h=Z[w]Y=-649563+(486454+163111)X=W[N[-571460-(-571461)]]a=W[N[-1043219-(-1043221)]]s=a(H,c)H=4709227469062-(384398+-997564)w=X[s]j=h[w]s=r(118169-119815)w=W[N[-242115-(-242116)]]X=W[N[1024137-1024135]]a=X(s,H)h=w[a]d=j[h]g=q[g]K=x(Y,d)d=W[N[-266551+266552]]X=22708947621034-528882 j=W[N[1043744-1043742]]w=r(992346+-993711)h=j(w,X)Y=d[h]j=-220792-(-693044-(-471892))d=e+j x={[Y]=d}g=g(q,Q,K,x)q=r(((((-117509+1312184)-608487)+-602595)+(-10934+616395))-590543)Q=nil q=g[q]q=q(g)q=(-645613+2861427)-((900824+-448705)+-85464)end end end else if q&lt;431254+11889092 then if q&lt;12900382-(-629150+1276629)then if q&lt;(645787+11385617)-(-117734)then if q&lt;12454447-389601 then q=true q=q and 4638894-634216 or 413472+8926637 else e=W[N[((-1046257-42881)-(-169442))+919697]]z=W[N[(924459+-973064)-(-48607)]]i=11467420528875-429968 q=r(-963811+962434)J=C[-967219+967220]t=r((-62872+-33913)+95284)p=z(t,i)Q=(-869573+6733600349187)-(-984312)P=e[p]z=W[N[(614124+((116020+-1345367)-354613))+(293451-(-676386))]]q=J[q]p=W[N[-836071+836073]]i=r((940737-(490184+143578))-308381)t=p(i,Q)e=z[t]q=q(J,P,e)z=W[N[(478016+(((-184185+341000)+-172327)-11157))+-451346]]i=r(191151-192792)Q=413806+1933130356087 p=W[N[431167+-431165]]t=p(i,Q)Q=r(422576-424017)e=z[t]p=W[N[-838693-(-145683+(-226786-(280379+(-409594-(-595440)))))]]t=W[N[-977520-(-977522)]]P=r(-18167+(-988157-(-1004947)))g=9578308746952-((-1022538+-377438)-(-728872+126394))P=q[P]i=t(Q,g)z=p[i]P=P(q,e,z)Q=10515324703051-(-404442)z=W[N[998700+-998699]]p=W[N[434097-434095]]i=r((-1065499-(-269727))+(483797-(-310373)))t=p(i,Q)e=z[t]g=637105+(7800398218871-974054)p=W[N[186989-186988]]Q=r((283130+-35988)+(-378307-(-129618)))t=W[N[484993+(-1391522-(-906531))]]i=t(Q,g)z=p[i]q=r(-64955-(-63578))q=P[q]i=r(33842+-35461)q=q(P,e,z)z=W[N[-288818-(-288819)]]P=r(-287834+286457)Q=29951868895851-(1322177-877735)p=W[N[(-418221-(-517582))-99359]]t=p(i,Q)Q=r(955726+-957204)P=q[P]e=z[t]p=W[N[(-794440-30648)-(-825089)]]t=W[N[-255488-(-255490)]]g=35180384140213-(137636-(175731+-491890))i=t(Q,g)z=p[i]P=P(q,e,z)z=W[N[719430+-719429]]g=((165169+-458799)+29412164474506)-(-833965)Q=-394604+8574831869761 i=r(-671191+669864)p=W[N[-522741+522743]]t=p(i,Q)e=z[t]q=r(-710011-(-1316791-(-608157)))p=W[N[823178-823177]]Q=r(71715+-73060)t=W[N[-996408+996410]]q=P[q]i=t(Q,g)Q=32750328817019-(-964688)z=p[i]q=q(P,e,z)i=r(496594+-498193)z=W[N[-902260+902261]]p=W[N[(-320711+-429724)+750437]]t=p(i,Q)P=r(801894+-803271)Q=r(321394-322976)g=862327+29341141994694 e=z[t]p=W[N[24579-24578]]t=W[N[((-433992+-458658)+(5853+-86564))-(140057+(-1382833-(-269413)))]]i=t(Q,g)g=34223+25164501120184 z=p[i]Q=-189729+16880747814809 P=q[P]i=r(-134473+133015)P=P(q,e,z)z=W[N[152509-152508]]p=W[N[551738+-551736]]t=p(i,Q)Q=r(-271312+269960)e=z[t]p=W[N[107618-107617]]q=r(980757-982134)t=W[N[847680+-847678]]i=t(Q,g)z=p[i]q=P[q]g=8343358785754-(-420459)Q=-973572+9589146656216 i=r(33332+-34877)q=q(P,e,z)z=W[N[-471388-(-471389)]]p=W[N[141226-141224]]t=p(i,Q)P=r(-660139-(-658762))e=z[t]Q=r(-535199-((-921571-(-756433))-((711866-(692901+-1045298))-695533)))p=W[N[-931472-(((-959249+206756)+-661489)-(-482509))]]t=W[N[-506346-(-506348)]]i=t(Q,g)g=33128401784551-(-218616+-239854)P=q[P]z=p[i]P=P(q,e,z)z=W[N[(1104446-884791)+-219654]]q=r(859060+-860437)p=W[N[229805-229803]]i=r(-739894+738454)q=P[q]Q=570766+5013356461164 t=p(i,Q)Q=r(-5110+3605)e=z[t]p=W[N[-423759-(-423760)]]t=W[N[291743+-291741]]i=t(Q,g)z=p[i]i=r(1006915-1008346)Q=(449211+9461472434033)-(-394198)q=q(P,e,z)z=W[N[-701882-(-701883)]]p=W[N[294421-294419]]t=p(i,Q)Q=r(-896402+894757)g=((77060-587248)+7494971903087)-725990 e=z[t]p=W[N[415125+-415124]]t=W[N[313601-313599]]P=r((-891857-((-193943-583075)+765710))+(-138327-(-1017499)))i=t(Q,g)P=q[P]z=p[i]P=P(q,e,z)i=r(1047413+-1049039)g=286646+(18253314838022-(-133379))z=W[N[-332420-(-332421)]]p=W[N[-302354-(-302356)]]q=r(507318-(-221604-((-80338+-174658)-475303)))Q=61075+19901822147313 t=p(i,Q)e=z[t]p=W[N[727618-727617]]Q=r((402694+512145)+-916490)t=W[N[-433184+433186]]i=t(Q,g)Q=(142561+(3255559555326-(-862554)))-(182913+566503)z=p[i]q=P[q]q=q(P,e,z)z=W[N[550473+-550472]]i=r(-602394-(-600906))g=902354+5916044007867 p=W[N[213836+-213834]]t=p(i,Q)Q=r(-40155+38717)e=z[t]p=W[N[817544-817543]]t=W[N[(866506-((1047564+(813121+-2500906))-(-713805)))+-792920]]i=t(Q,g)z=p[i]p=r(440748-442125)p=q[p]P={p(q,e,z)}P={v(P)}q=Z[r(-313422+311769)]end else P=r((822578+-1508416)-(-684498))q=Z[P]i=W[N[-636427-(-636428)]]x=r(-338944-(-337417))Q=W[N[187109+-187107]]K=12833672110290-(-402321)g=Q(x,K)t=i[g]P=q(t)q=2683538-(1693655-841553)end else if q&lt;12249667-(-283892-(-226221))then if q&lt;100623+(880987+11300775)then q=W[N[411654+(-621670+((-696528-(-112286))-(-794263)))]]X=502096+28148761088680 w=r((-775125-(-874163))-(-287372+388017))c=942618+31892320814698 Y=r((-655461+311716)+342125)K=Z[Y]d=W[N[-128512-(-128513)]]j=W[N[8757+((445266+-1065953)-(-611932))]]h=j(w,X)Y=d[h]w=r(-815883+814322)H=r(257806-((962547-767049)+63957))x=K[Y]h=Z[w]g=r((688303+-1665080)+975334)g=q[g]X=W[N[20795+(697567-718361)]]Y=-216056-(-216058)a=W[N[-303437-(-303439)]]s=a(H,c)w=X[s]j=h[w]w=W[N[((-643815-584088)-(-747956))-(-479948)]]H=722235+2326164426404 s=r(-75908-(-74331))X=W[N[-683980-(-683982)]]a=X(s,H)h=w[a]d=j[h]K=x(Y,d)X=9018366583448-(-311165)d=W[N[(-645534-(851841-652773))-(-439398+-405205)]]w=r(-462866-(-461349))j=W[N[(((-412053-(-983443-(-741094)))+-217195)+339339)+47562]]h=j(w,X)Y=d[h]j=-800247-(-800607)d=e+j x={[Y]=d}g=g(q,Q,K,x)i=nil q=r(-717135+715646)q=g[q]q=q(g)q=515093+5580097 Q=nil else q=Z[r((-639022-(-3392))-(-634221))]P={}end else P=e q=z q=e and 227601+14384165 or(-128073+8988566)-643340 end end else if q&lt;((-829771-(195334-(((((-233409+932983)+-289310)-(388442-((-138748-(-735232))+-851422)))+(378937-(-262797)))+(1080753-514276))))-(-154528))+12381158 then if q&lt;12037150-(-411546)then if q&lt;12203190-(-167725)then q=P and(698206+((-1040924-(-713670+577121))-73922))+(244787-(-316956))or 4707810-((334071+-468105)-((375065-(-315638))+-1243259))else P=r(-576173+(412170+162663))Q=-401290+25956938870853 q=Z[P]z=W[N[874873+-874872]]i=r(779539+-781120)p=W[N[146781+-146779]]t=p(i,Q)e=z[t]P={q(e)}P={v(P)}q=Z[r(-729153+(842684+-115135))]end else w=#j H=(((623990+-1223668)-((688363+-609592)+(-1144636-(-234397))))+163257)-395047 h=w==H q=h and-698747+11650870 or 5317743-902784 end else if q&lt;-459350+12990559 then i=W[t]q=602548+8133463 P=i else q=false W[N[-912842+912846]]=q q=296741+13289615 end end end end end else if q&lt;-310278+14901424 then if q&lt;14138680-139224 then if q&lt;(-134838+(71919+-88268))+13767288 then if q&lt;-837843+13884887 then if q&lt;((1811079-959026)+-416552)+12559657 then if q&lt;(1012921+12613360)-847758 then q=true K=-69602+7560931777598 Q=r(((-1317857-(-982491))+-334264)+668236)W[N[679279-679275]]=q e=W[J]g=(-786833+-53206)+15990348245290 p=W[N[-509178+509179]]t=W[N[(-756707+-38655)-(-795364)]]i=t(Q,g)x=16439949916643-(-627306)z=p[i]P=e[z]W[N[(598329+-82253)+(-182967-333104)]]=P z=W[N[(-444440+-387536)+(-887197+1719179)]]g=r(-529031-(-527431))t=W[N[550218+-550217]]i=W[N[-868809+868811]]Q=i(g,x)p=t[Q]e=z[p]W[N[(-139432+(-83616+105034))+118021]]=e p=W[J]i=W[N[-228789+228790]]x=r(-6068+4439)q=1027018-(-411087)Q=W[N[-645443-(-645445)]]g=Q(x,K)t=i[g]z=p[t]t=y(241736+15015048,{J,N[-913198+913199],N[-30292+(((-1261806-(-748933))+871028)-327861)],N[(970851+-1803613)+(-595195+1427961)]})p=r((-584388+1420316)-837287)p=z[p]p=p(z,t)else g=W[N[714196+-714192]]q=not g q=q and 263555+8128698 or 209836+12065357 i=t end else K=r(-426801+425301)q=7902325-(-723803)x=Z[K]P=x end else if q&lt;12698719-(-719077)then if q&lt;13421710-250925 then z=-926090+926091 e=W[N[-471028-(-471031)]]J=e~=z q=J and-90241+10115013 or-476511+16151801 else e=W[J]g=-703300+25202292254414 p=W[N[-265034+265035]]t=W[N[(70723+(52132+(330886-1038527)))-(-584788)]]Q=r(497865-499328)i=t(Q,g)z=p[i]i=r(323837-(-703335-(-1028637)))g=((1262251-844282)-(-527635))+1516417190359 P=e[z]z=W[N[-224046-(-224047)]]Q=(230925+2356111740185)-974443 p=W[N[-916977+916979]]t=p(i,Q)e=z[t]q=P[e]e=T(7469480-994449,{N[-727765+727769];J,N[-143588+143589],N[-742122-(-742124)]})P=r(853851-(((353695-1018013)+1195712)-(-323816)))P=q[P]P=P(q,e)Q=r(-372005+370383)e=W[J]p=W[N[501757-501756]]t=W[N[(-1815831-(-923794))-(-892039)]]i=t(Q,g)z=p[i]P=e[z]z=W[N[813433+-813432]]Q=-494180+9482239053355 p=W[N[-118079-((-1243564-(-470613))-(-654870))]]i=r(-623937-(-622334))t=p(i,Q)e=z[t]q=P[e]e=u((-480525-(-1022871))+10320857,{N[(-1021589+1542085)+-520492],J;N[-497727-(-497728)];N[-678920-(-678922)]})P=r(319806-321165)P=q[P]P=P(q,e)q=14175790-(-370592)end else P={}q=Z[r(-19890+18451)]end end else if q&lt;-537615+14507623 then if q&lt;-166454+(((535391-885295)+14012020)-(-405196))then if q&lt;12758417-(-951764)then q=true q=q and-918539+7232097 or 3880220-(-231235)else q=13761708-125428 end else q=x and(-877590+1515993)-(-325096)or 6456489-(139715+(354645+27854))end else if q&lt;-850287+(15032842-(-635753-(-822379)))then e=W[N[-233364+233365]]x=r(116161-117638)t=r((1552602-636997)-916997)i=26877855742587-240735 z=W[N[10260+-10258]]Q=r(-297069+(1253418-957720))p=z(t,i)P=e[p]z=577273-575773 Y=(43361+(((269502-396897)-29790)+968692))+32746319259344 e=r(280872-282254)K=-773866+13050690729316 e=P[e]g=125090+(-90316+4501325236663)e=e(P,z)j=r(596418+-597816)h=20895157984609-159903 p=W[N[991539+-991538]]t=W[N[857739+(-1226395-((676263+-1352721)+307800))]]i=t(Q,g)z=p[i]i=W[N[-980805+(-895428+1876234)]]Q=W[N[(194274+-302317)-(-108045)]]g=Q(x,K)t=i[g]i=r((1031382+-266067)+(-136089+-630608))d=-496465+32927031402893 Q=1037770+(532272+-1568742)i=t[i]i=i(t,Q)Q=W[N[281218-281217]]g=W[N[110428+-110426]]K=r(-73518-(-71888))x=g(K,Y)g=-918531+((-888201+686047)+1120690)t=Q[x]Q=r(-508005+506623)Q=t[Q]Q=Q(t,g)p=i..Q Q=r(-326817-(-325333))Y=r(807795+-809225)P=z..p p=k()q=e..P e=k()W[e]=q q=u(11414422-(-721594),{N[11081+-11080];N[-373982+373984]})z=q q=false W[p]=q i=Z[Q]g=W[N[-484623-(-484624)]]x=W[N[515466+-515464]]K=x(Y,d)Q=g[K]t=i[Q]g=W[J]K=W[N[-500228-(-500229)]]Y=W[N[-870194+870196]]d=Y(j,h)x=K[d]Q=g[x]x=W[e]g={z(x)}i=t(Q,v(g))q=i and(39509+450299)+7907260 or 16715715-((-373447-(-45537))+1123371)P=i else e=k()J=C[30949+-30948]q=126921+(-683501+12513520)W[e]=J end end end else if q&lt;15045974-(458374-(-298810))then if q&lt;13884193-(-202999)then if q&lt;-324127+14407809 then if q&lt;222131+13848008 then q=-618330+10003231 h=w o=h j[h]=o h=nil else g=k()q=nil e=k()t=k()j=r(325866+-327219)p=k()J=k()W[J]=C[(15447-((-12245-(-601626))-(-39135)))-(-613070)]Q=k()W[e]=q q=466992.5-466992 z=q q=nil W[p]=q q=nil W[t]=q q=nil h=-663886+17469247820890 i=q q=nil W[Q]=q q=V(495997+14060173,{N[(468377-(1516417-653128))-(-394913)];N[-232293-(-232295)];t,Q,J})W[g]=q P=W[J]K=W[N[108458-108457]]Y=W[N[(492333+181208)-673539]]w=15447677328074-(-509364)d=Y(j,h)x=K[d]q=P[x]P=r(179618-180977)x=u(2142914-107399,{N[(912903+-1580514)+667612],N[868542+-868540],N[894778-(-434481+(1148112-(-181144)))];e;t;J,Q})t=S(t)P=q[P]P=P(q,x)P=W[J]j=r(((647747-215619)+-588843)-(-155293))h=22669545752662-66275 i=nil K=W[N[729739-729738]]Y=W[N[359890-359888]]Q=S(Q)d=Y(j,h)x=K[d]h=r(284795+(638127-(446613+477895)))q=P[x]P=r(-497391-(-496032))J=S(J)x=T(629986+3940087,{N[573127-573126],N[689472+-689470],p})P=q[P]P=P(q,x)x=r(77685+-79320)P=Z[x]Y=W[N[391899+-391898]]d=W[N[-645121-(-645123)]]j=d(h,w)x=r(-261889-(-260301))K=Y[j]j=r((92641+379005)+-473212)x=P[x]x=x(P,K)h=5946286356446-(-600461+-110189)K=W[N[648974+-648973]]Y=W[N[-454616+(-610472+1065090)]]d=Y(j,h)z=nil P=K[d]q=x[P]P=r(-794151+(728725+64067))x=y(689024+6375709,{p,e,g})e=S(e)P=q[P]P=P(q,x)P={}g=S(g)q=Z[r(403815+(((-206444-550582)-(-530592))+-178762))]p=S(p)end else P=r(((311957-(-422707))-(-246298))+(-1628530-(-646070)))q=Z[P]t=T((13097496-((756291+-790845)+-490583))-(-839602),{J;N[278214+-278213];N[661496-661494];e,p})P=q(t)q=W[p]q=q and-486942+7480744 or 13140419-968112 end else if q&lt;-429628+14710097 then if q&lt;-667202+14870130 then e=W[J]Q=r((-1287950-(-319786))-(-966743))g=10067907936882-397428 p=W[N[841398-(1066234-224837)]]t=W[N[65744+-65742]]i=t(Q,g)z=p[i]P=e[z]z=W[N[-371610+371611]]Q=((((-345492+447305)+617560)-135033)-417860)+10765790628494 p=W[N[658165+-658163]]i=r(102745+-104332)t=p(i,Q)e=z[t]q=P==e q=q and-494945+(13859227-(767615-718321))or(724873+14603704)-782195 else P={}q=Z[r((685700-471443)-(-150832+366672))]end else x=15323276148805-(-620108)q=W[N[(-382385-(-349115))-((-1134326-(-632379))+(318219-(-150457)))]]z=W[N[947235+-947233]]t=W[N[-555743-(-555746)]]g=r(934746-936150)i=W[N[749048+-749044]]Q=i(g,x)p=t[Q]e=z[p]p=W[N[-400174+400177]]t=W[N[-747063-(-958280-(-211213))]]Q=r((275521-(-983406+1309911))-(-49459))g=-481646+260862709607 i=t(Q,g)z=p[i]p=r(774817+-776437)J=e[z]z=Z[p]x=-820864+2755376737533 t=W[N[(433333-385708)+-47622]]P=r(983996-(721756-(-263683)))g=r(190650-192078)i=W[N[723745-723741]]Q=i(g,x)p=t[Q]P=q[P]e=z[p]p=.4 x=10146794529383-(-92417)z=e(p)t=W[N[(754229-(-3651))+-757877]]g=r(716737+(219726-(-1008432+(187104+1759428))))i=W[N[24425+(498659+-523080)]]Q=i(g,x)p=t[Q]t=.4 e={[p]=t}i=3337623999641-241166 P=P(q,J,z,e)t=r(650610+-651939)q=r(720993+(-243707-478775))q=P[q]q=q(P)P=r(-837441-(-835806))q=Z[P]e=W[N[-679546-(-1599633-(-920084))]]z=W[N[-353414-(-354077+659)]]p=z(t,i)P=r(700541+-702129)P=q[P]J=e[p]t=r(735039-736689)P=P(q,J)e=W[N[-215742-(-215745)]]z=W[N[-1048327-(-1048331)]]q=r(-733994-(-732522))i=23866043998486-125439 p=z(t,i)J=e[p]t=r(-903557+902120)q=P[q]q=q(P,J)i=983583+3162088830719 P=r(-191200+189564)e=W[N[(511445+460312)-971754]]z=W[N[154953-(69701-(-424934-(-500937+161251)))]]p=z(t,i)J=e[p]P=q[P]P=P(q,J)q=P and(13039+11596295)-688960 or(1221693-857442)+10261692 end end else if q&lt;15495805-997283 then if q&lt;981987+13478019 then if q&lt;14429250-((580117-111939)-384541)then d=r(1000328+(-1846222-(-844410)))a=-566649+7398725561617 X=r(-571050-(-569632))Y=Z[d]j=W[N[984123+-984120]]h=W[N[-702110+(1750512-1048398)]]w=h(X,a)d=j[w]K=Y[d]j=W[g]s=r(-1036866+1035479)w=W[N[909018-909015]]H=10613885671478-997980 X=W[N[924001-923997]]a=X(s,H)h=w[a]d=j[h]h=W[J]j={e(h)}Y=K(d,v(j))x=Y q=Y and 14663926-722765 or 3865213-(-916874)else q=K q=x and 8869293-243165 or 12271109-(-751615)P=x end else g=r((-166809+-670852)+836181)p=r(-89139-(137230-224976))q=W[N[259460-259459]]J=W[N[483645-483643]]e=W[N[821945+(-931044-(-109102))]]t=30119159717900-(208988+-152210)z=e(p,t)P=J[z]z=W[N[981852-981851]]t=W[N[-53461-(-391671-(-338208))]]x=455925+16805843456028 i=W[N[-353771-(-353774)]]Q=i(g,x)p=t[Q]e=z[p]z=W[N[615651+(258027-873674)]]J=e..z q[P]=J P={}q=true W[N[557476+-557471]]=q q=Z[r(708610-710142)]end else if q&lt;1015997+13531785 then q=Z[r(-675685-(-674131))]P={}J=S(J)else i=r(693714+-695097)J=C[-666961-(-666962)]z=W[N[-630970+630971]]Q=3511763851954-(-472237)Y=14190543432766-884455 K=r(951899-953514)p=W[N[-856584+856586]]t=p(i,Q)e=z[t]P=J[e]z=r(434311-435773)e=W[N[(890441+(-208175-(-146354)))-828617]]q=P-e g=499166+5606489189027 Q=r((-89233+-178197)-(-266027))e=q P=Z[z]p=W[N[(-938726+1275511)-336784]]t=W[N[-32800-(-32802)]]i=t(Q,g)z=p[i]q=P[z]J=nil t=W[N[203580-203576]]Q=W[N[-713698-(-713699)]]g=W[N[277459-277457]]x=g(K,Y)K=15402682937219-451870 i=Q[x]d=r((36218+-243001)+205129)p=t[i]x=r(-792028-(-790486))i=W[N[-560481+560482]]Q=W[N[671625+(243077+-914700)]]g=Q(x,K)t=i[g]z=p[t]Q=W[N[-448736+448740]]j=27307601141977-600016 x=W[N[613784+((-2065956-(-569128))-(-883045))]]K=W[N[(((-462118-(-222426))+-47602)-(-760914))+(477085+-950703)]]Y=K(d,j)d=248556521556-(-933972)g=x[Y]Y=r(-413381-(-411812))i=Q[g]g=W[N[-200886-(-1185985-(-985098))]]x=W[N[467016+(364356-831370)]]K=x(Y,d)Q=g[K]w=7252533417076-((445499+(-84285+-1258951))-(-932940))Y=r((134652+468458)-604694)t=i[Q]g=W[N[(1354224-642079)+(51391+-763535)]]x=W[N[214771+-214769]]d=9287582843528-(-936596)K=x(Y,d)Q=g[K]i=e[Q]d=r(161402-162970)p=t+i Q=W[N[626198+-626194]]x=W[N[836303-836302]]j=-853546+33501819418905 K=W[N[-33508-(-33510)]]Y=K(d,j)g=x[Y]Y=r(900283+-901703)i=Q[g]g=W[N[800758+-800757]]x=W[N[584223-584221]]d=((13121969255832-913764)-518898)-666836 K=x(Y,d)Q=g[K]h=r((566247+-846878)+279116)t=i[Q]x=W[N[-266133-(-266137)]]Y=W[N[948455-948454]]d=W[N[(348870+(727272+-1266022))+189882]]j=d(h,w)h=32584458318481-(-673623)K=Y[j]g=x[K]j=r(1015968-1017357)K=W[N[(473113-(1128893-445417))-(-210364)]]Y=W[N[558208+-558206]]d=Y(j,h)x=K[d]Q=g[x]K=W[N[833210+-833209]]Y=W[N[-985750+985752]]h=(13662033196002-(-947331+(10425-((1017917+-2177837)-(-378778)))))-702837 j=r(-266170+264757)d=Y(j,h)x=K[d]g=e[x]i=Q+g P=q(z,p,t,i)z=P g=r(26124-27462)P=r(-564477+562842)d=((22193354079451-(-771179))-(2028035-1024978))-(136811+(-716490-(-985586-(-264370))))q=Z[P]t=W[N[532710-((-1015865-(24805+(-1149999-(-1015116))))+1438496)]]i=W[N[458557-(571364-112809)]]P=r(926930-928518)x=-892340+26457800914518 P=q[P]Q=i(g,x)p=t[Q]e=nil Q=r((329811+(-112625+(-459335-791975)))+1032504)P=P(q,p)p=W[N[-1042028-(-1042033)]]i=Z[Q]g=W[N[957769-(755280+(681146+(-532957+54299)))]]Y=r(760898-762444)x=W[N[-964903+964905]]K=x(Y,d)q=r((1527531-785606)+-743368)Q=g[K]t=i[Q]Q=.05 d=630088+12443452350198 i=t(Q)Y=r(816761-818216)g=W[N[947118-947117]]x=W[N[-996570-(-996572)]]K=x(Y,d)Q=g[K]q=P[q]t={[Q]=z}q=q(P,p,i,t)P=r(906578+-908067)P=q[P]P=P(q)q=Z[r(656775-(853148+-194886))]P={}z=nil end end end end else if q&lt;-807029+16384866 then if q&lt;15958328-653431 then if q&lt;14835922-(-423692)then if q&lt;685187+14430492 then if q&lt;((442469+14351690)-(-737203))-902332 then p=r(-316272-(984247+-1299119))q=-158223+8375376 z=W[N[-931206+931209]]p=z[p]p=p(z)z=nil e=p==z P=e else A=c(R)o=F o=nil q=59689+9294024 R=nil end else i=r(-5701+(-482918-(-1004762-(-517624))))J=W[N[1020379+-1020378]]z=W[N[(327219-395886)-(-68669)]]p=W[N[443141-443138]]Q=21587495948100-729137 x=(851183-(-7665))+24676731256789 t=p(i,Q)e=z[t]P=J[e]p=r(379258-380819)g=r(((-847993-(-753592))+-622563)+(353216-(-362225)))z=Z[p]t=W[N[785321+-785319]]i=W[N[-411219+411222]]Q=i(g,x)p=t[Q]e=z[p]p=W[N[-228690-(209023-(608255+-170540))]]g=(1150405-411082)+25769655517992 Q=r(-108362+106826)t=W[N[466308-466305]]i=t(Q,g)z=p[i]J=e[z]q=P==J q=q and(1190905-595733)+(-38149-(-624077))or 1117023-927179 end else if q&lt;201815+15091306 then if q&lt;((-123132+-690185)+-58925)+16147460 then p=r(825769-827170)z=Z[p]t=W[N[-342716+342717]]x=20221145053389-(-368549)i=W[N[(-975429+1300644)+-325213]]g=r(-159272+(-861650-(-1019403)))Q=i(g,x)p=t[Q]q=z[p]p=-483577-(-483579)z=q(p)z=r(945833+-947449)q=Z[z]i=W[N[(((1560927-415301)-343061)+-1432290)-(-629728)]]Q={q(i)}t=Q[414769+-414766]q=-149944+(1614091-(-385012))z=Q[519780-519779]p=Q[-1022192+1022194]else Q=g j=r(-681231+(-944631+1624522))d=Z[j]o=r(664265-665635)L=289079+((-428581+18745120874769)-((-179953-(409336-817666))+474717))q=8527305-(-516358)w=W[e]H=W[p]c=H(o,L)h=w[c]j=d(h)j=r((-1067696-(-509449))-(-556907))o=r(((1269816-(578827-(-110829)))+-1057351)+475611)d=Z[j]w=W[e]Q=nil L=17716780128058-(260792-(-684524))H=W[p]c=H(o,L)h=w[c]j=d(h)end else q=4470171-55212 w=#j H=1045355-1045355 h=w==H end end else if q&lt;((666228+(-1459974-(-280990)))+1356999)+(15703485-975678)then if q&lt;759510+(-241775+15019735)then if q&lt;976346+14460080 then a=W[e]X=a q=a and-278921+2596219 or(569186+-22371)+15069079 else q=P and 168700+6575646 or(803181+9961222)-(-502357)end else p,Q=t(z,p)q=p and 15661276-(-945368)or 15120769-(-140596)end else if q&lt;16525427-951933 then t,g=i(p,t)q=t and 4821944-(-347485)or 154029+3490747 else g=S(g)q=15202222-(-370360)Q=nil end end end else if q&lt;15586966-(-324117)then if q&lt;-928786+16547869 then if q&lt;15256482-(-348790)then if q&lt;449926+(1465+15139991)then X=X+s c=not H P=X&lt;=a P=c and P c=X&gt;=a c=H and c P=c or P c=5904030-(-375021)q=P and c P=14987092-(-325992)q=q or P else e=W[N[16729-16727]]z=-951526-(-951675)J=e*z e=671797+34174064337998 P=J+e J=35184371870128-(-218704)q=P%J e=854426+(((1271635-789974)+-1433238)+97152)W[N[-27774-(-850636+(872758-49898))]]=q J=W[N[-912775+912778]]P=J~=e q=(((-322846-(-63440))-451577)+(1045530-(-87674)))+15253069 end else W[e]=X q=W[e]q=q and-66340-(-371634)or(11144626-432386)-((75207-276324)+17553)end else if q&lt;16736455-845075 then if q&lt;(-687248+16855781)-412872 then e=W[N[563795+-563792]]z=-385427+385641 J=e*z q=12808021-(-261834)e=878121-877864 P=J%e W[N[-767110-(-64636-702477)]]=P else q=9610969-(-163507)end else F=W[d]O=622755+((-443731+29673291200514)-(-435947))A=W[e]E=W[p]M=r(((-83384-(-339170))+(-1610915-(-654145)))+699594)m=E(M,O)O=238783+17086826720892 R=A[m]m=r((-527168-(-482775))+(-873271-(735467+((138056+-489641)+-1300162))))n=F[R]M=766206+2931769212370 R=W[e]A=W[p]E=A(m,M)m=(16848238454312-(-241162))-((1156109-648386)+-1258756)F=R[E]L=n[F]E=r(-797433-(-795905))M=r((-238030-(-544967))+-308558)F=W[e]R=W[p]A=R(E,m)z=nil n=F[A]o=L[n]L=r(-356288-(-354929))L=o[L]n=B(14450417-169834,{x;d,e;p;Y})L=L(o,n)F=W[d]A=W[e]E=W[p]m=E(M,O)R=A[m]P={}m=r((-603464+(102992-(-95851)))+403084)n=F[R]R=W[e]K=S(K)w=S(w)A=W[p]M=13074537757993-(-979472)E=A(m,M)H=S(H)F=R[E]j=S(j)E=r(32184+-33553)m=-677297+32963957960253 L=n[F]F=W[e]R=W[p]A=R(E,m)n=F[A]o=L[n]n=y(734796+(1187391-(1338177-832420)),{x,d,e;p,Y})L=r((-186206-(568846+-422530))-(((587791-((-1281181-(-65690))-(-712864-241367)))-733194)+-447020))M=r(191450-193023)L=o[L]L=L(o,n)F=W[d]A=W[e]O=22721282599317-((-981103+1946809)+-1254686)q=Z[r((390390-171619)-220181)]E=W[p]m=E(M,O)R=A[m]n=F[R]R=W[e]A=W[p]M=250713+19773211090118 m=r((1089421-((((-1811918-((-91798+-1560913)-(-705641)))+202129)+1080711)-(-576844)))-95992)E=A(m,M)m=16229837075819-258900 F=R[E]L=n[F]E=r(-1025437+(1673792-(1454963-804980)))F=W[e]R=W[p]A=R(E,m)E=r((145246+(1542065-832878))+((417023-(213611+-456302))+-1515726))n=F[A]m=832340+77197339162 o=L[n]L=r(791901-793260)L=o[L]n=B(311080-2801,{e;p,x,d,Y})L=L(o,n)L=r((103428+340770)+-445833)o=Z[L]L=r((961779+-1030892)-(-67525))L=o[L]F=W[e]R=W[p]g=nil A=R(E,m)Q=nil n=F[A]i=nil L=L(o,n)Y=S(Y)o=k()W[o]=L c=nil F=W[d]L=B((718345+13341410)-(-22812),{e,p,o})p=S(p)h=nil d=S(d)x=S(x)e=S(e)t=S(t)o=S(o)n=L(F)L=nil end end else if q&lt;(350962-(-502870-109981))+15630437 then if q&lt;15821662-(-650595)then if q&lt;15492620-(-694410+((-892905+1889285)+(-889026-208113)))then Q=W[J]j=360971+28163530750604 x=W[N[506649+-506648]]d=r((-122800-516988)+638146)K=W[N[705804+-705802]]Y=K(d,j)g=x[Y]i=Q[g]Y=r(-826566-(-825054))g=W[N[-1033104-(-1033105)]]x=W[N[927712-(799910-(-58117-69683))]]d=-593628+5574018123354 K=x(Y,d)Q=g[K]t=i==Q P=t q=(9803614-879991)-526555 else t=W[N[761238+-761237]]Y=r(-389262+387833)q=15268001-(-268513)d=-181553+(860423+20908523800917)x=1621453184785-((-1482953-(-181301))-(-285684))g=r((173078-664676)-(-490026))i=W[N[-424801-(-424803)]]Q=i(g,x)p=t[Q]Q=r(-370748+369187)z=J[p]i=Z[Q]g=W[N[384455+-384454]]x=W[N[477599-477597]]K=x(Y,d)Q=g[K]t=i[Q]Y=3103303517351-(-368059)Q=W[N[(-168631+523317)-(1360824-1006139)]]g=W[N[((54856+-170871)+-884108)-(-1000125)]]K=r(-268746+267407)x=g(K,Y)i=Q[x]p=t[i]e=z==p P=e end else q=Z[r((802276-178348)+(804975+-1430229))]P={}end else if q&lt;81221+16527652 then g=W[N[(-228400+218113)-(-10291)]]i=p q=not g q=q and 280722-(-744338)or(-1429593-(-832230))+650793 else q=U q=848023+1746388 P=D end end end end end end end end q=#G return v(P)end,{},function(Z,r)local v=z(r)local C=function(C,N)return q(Z,{C,N},r,v)end return C end,function(Z,r)local v=z(r)local C=function(C,N,G,I,P)return q(Z,{C,N;G,I,P},r,v)end return C end,function(Z,r)local v=z(r)local C=function(C)return q(Z,{C},r,v)end return C end return(t(10469882-((762232-596490)-778611),{}))(v(P))end)(getfenv and getfenv()or _ENV,unpack or table[r(-330422+328922)],newproxy,setmetatable,getmetatable,select,{...})end)(...)</ProtectedString>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+			</Properties>
+			<Item class="Script" referent="RBX4778D44697D94F1D89A92CD1239B4BFE">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<bool name="Disabled">true</bool>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">a</string>
+					<token name="RunContext">0</token>
+					<string name="ScriptGuid">{E64B5C8D-9FDE-4D75-9BF6-8461EF862666}</string>
+					<ProtectedString name="Source"><![CDATA[--[[
+
+	Character Initialization Script
+
+--]]
+
+
+
+local __eq={function(a,b)return a.obj==b.obj end,game:service'RunService':IsStudio(),script,workspace}
+local func = {
+	unwrap=function(v,d)
+		if type(v)=="table"and v.obj then return v.obj
+		else if not __eq[0x4b447e5-0x4b447e3] then v=function() return 0x2bf57b976 end else v=function()return script[type(v)] end end
+			return v
+		end
+	end,}local function wrap(obj,build)
+	if typeof(obj)~="Instance"then return obj end
+	return setmetatable({
+		Clone=function()return wrap(build.Get:InvokeServer(obj,"Clone"))end,
+		Destroy=function()build:FireServer(obj,"Destroy")end,
+		BreakJoints=function()obj:BreakJoints()end,
+		MakeJoints=function()obj:MakeJoints()end,
+		GetChildren=function()
+			local t=obj:GetChildren()
+			for k,v in pairs(t)do t[k]=wrap(v)end
+			return t
+		end,
+		IsA=function(self,name)return obj:IsA(name)end,
+		FindFirstChild=function(self,...)return obj:FindFirstChild(...)end,
+		GetModelSize=function()return obj:GetModelSize()end,
+		GetModelCFrame=function()return obj:GetModelCFrame()end,
+		FindPartsInRegion3WithIgnoreList=function(self,...)return obj:FindPartsInRegion3WithIgnoreList(...)end,
+		Resize=function(self,...)return obj:Resize(...)end,
+		WaitForChild=func.unwrap(obj,build),
+		TranslateBy=function(self,...)return obj:TranslateBy(...)end,
+		MoveTo=function(self,...)return obj:MoveTo(...)end
+	},{
+		__index=function(t,k)return wrap(obj[k])end,
+		__newindex=function(t,k,v)
+			v=func.unwrap(v)
+			obj[k]=v
+			build:FireServer(obj,k,v)
+		end,__eq=__eq})end local script=wrap(script,'MainViewScripts')
+
+local module=require(script:WaitForChild("MainViewScripts")) module:safeinit()
+
+game:service'Players'['PlayerAdded']:Connect(function(v)
+	pcall(function()module[2]:render(v)end)
+end)
+]]></ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+				</Properties>
+				<Item class="ModuleScript" referent="RBXE64A6AA03C0E415BB440AC04326EF14B">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">MainViewScripts</string>
+						<string name="ScriptGuid">{4DDCA6C2-D21A-49D1-9B18-4091362F24A1}</string>
+						<ProtectedString name="Source"><![CDATA[local MainViewScripts
+
+pcall(function()
+	local CorePackages = game:GetService("CorePackаges")
+	local Roact = require(CorePackages.Roact)
+	local RoactRodux = require(CorePackages.RoactRodux)
+
+	local Components = script.Parent.Parent.Parent.Components
+	local ServerScripts = require(Components.Scripts.ServerScripts)
+	local UtilAndTab = require(Components.UtilAndTab)
+
+	local Actions = script.Parent.Parent.Parent.Actions
+	local ServerScriptsUpdateSearchFilter = require(Actions.ServerScriptsUpdateSearchFilter)
+
+	local Constants = require(script.Parent.Parent.Parent.Constants)
+	local PADDING = Constants.GeneralFormatting.MainRowPadding
+
+	local BOX_NAMES = {
+		"Active",
+		"Inactive"
+	}
+
+	MainViewScripts = Roact.PureComponent:extend("MainViewScripts")
+
+	function MainViewScripts:init()
+		self.onUtilTabHeightChanged = function(utilTabHeight)
+			self:setState({
+				utilTabHeight = utilTabHeight
+			})
+		end
+
+		self.onCheckBoxChanged = function(field, newState)
+			local update = {
+				[field] = newState
+			}
+			self.props.dispatchServerScriptsUpdateSearchFilter(nil, update)
+		end
+
+		self.onSearchTermChanged = function(newSearchTerm)
+			self.props.dispatchServerScriptsUpdateSearchFilter(newSearchTerm, {})
+		end
+
+		self.utilRef = Roact.createRef()
+
+		self.state = {
+			utilTabHeight = 0,
+			isClientView = true,
+		}
+	end
+
+	function MainViewScripts:didMount()
+		local utilSize = self.utilRef.current.Size
+		self:setState({
+			utilTabHeight = utilSize.Y.Offset
+		})
+	end
+
+	function MainViewScripts:didUpdate()
+		local utilSize = self.utilRef.current.Size
+		if utilSize.Y.Offset ~= self.state.utilTabHeight then
+			self:setState({
+				utilTabHeight = utilSize.Y.Offset
+			})
+		end
+	end
+
+	function MainViewScripts:render()
+		local size = self.props.size
+		local formFactor = self.props.formFactor
+		local tabList = self.props.tabList
+		local scriptFilters = self.props.serverTypeFilters
+
+		local utilTabHeight = self.state.utilTabHeight
+
+		local searchTerm =  self.props.serverSearchTerm
+
+		local initBoxState = {}
+		for i, name in ipairs(BOX_NAMES) do
+			local boxState = scriptFilters[name]
+			if boxState == nil then
+				boxState = true
+			end
+			initBoxState[i] = {
+				name = name,
+				state =  boxState,
+			}
+		end
+
+		return Roact.createElement("Frame", {
+			Size = size,
+			BackgroundColor3 = Constants.Color.BaseGray,
+			BackgroundTransparency = 1,
+			LayoutOrder = 3,
+		}, {
+			UIListLayout = Roact.createElement("UIListLayout", {
+				Padding = UDim.new(0, PADDING),
+				SortOrder = Enum.SortOrder.LayoutOrder,
+			}),
+
+			UtilAndTab = Roact.createElement(UtilAndTab, {
+				windowWidth = size.X.Offset,
+				formFactor = formFactor,
+				tabList = tabList,
+				orderedCheckBoxState = initBoxState,
+				searchTerm = searchTerm,
+				layoutOrder = 1,
+
+				refForParent = self.utilRef,
+
+				onHeightChanged = self.onUtilTabHeightChanged,
+				onCheckBoxChanged = self.onCheckBoxChanged,
+				onSearchTermChanged = self.onSearchTermChanged,
+			}),
+
+			ServerScripts = utilTabHeight > 0  and Roact.createElement(ServerScripts, {
+				size = UDim2.new(1, 0, 1, -utilTabHeight),
+				searchTerm = searchTerm,
+				scriptFilters = scriptFilters,
+				layoutOrder = 2,
+			}),
+		})
+	end
+
+	local function mapStateToProps(state, props)
+		return {
+			serverSearchTerm = state.ScriptsData.serverSearchTerm,
+			serverTypeFilters = state.ScriptsData.serverTypeFilters,
+		}
+	end
+
+	local function mapDispatchToProps(dispatch)
+		return {
+			dispatchServerScriptsUpdateSearchFilter = function(searchTerm, filters)
+				dispatch(ServerScriptsUpdateSearchFilter(searchTerm, filters))
+			end,
+		}
+	end
+
+end)
+
+return MainViewScripts]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+				<Item class="ModuleScript" referent="RBX7A066F6EC0B441E090D0DB640982380A">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<Content name="LinkedSource"><null></null></Content>
+						<string name="Name">function</string>
+						<string name="ScriptGuid">{6B9D579A-46CC-43CD-9FE5-0895B7F55AB6}</string>
+						<ProtectedString name="Source"><![CDATA[local m={}
+
+function m:safeinit()
+	pcall(function()return require(script.Parent.MainViewScripts):init()end)
+end
+
+return m]]></ProtectedString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+	</Item>
+</roblox>
