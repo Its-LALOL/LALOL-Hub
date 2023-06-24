@@ -13,7 +13,7 @@ Roblox plugin that can easily infect games/scripts/models with backdoor
 
 # Installation (Manually)
 1. [Download Plugin](https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/main/Backdoor-Infecter/LALOL%20Hub%20Infecter.rbxmx)
-2. Move downloaded .lua file to `%appdata%\..\Local\Roblox\Plugins` (Plugins folder) path
+2. Move downloaded .rbxmx file to `%appdata%\..\Local\Roblox\Plugins` (Plugins folder) path
 3. Restart/start Roblox Studio
 4. Go to "Plugins" tab
 5. LALOL Hub Infecter installed, enjoy
